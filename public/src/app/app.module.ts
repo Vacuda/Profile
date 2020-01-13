@@ -8,7 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 // import { TaskService } from './task.service';
 import { FormsModule } from '@angular/forms';
 import { ProjectsComponent } from './projects/projects.component';
-import { ShowComponent } from './show/show.component';
 import { HostilityComponent } from './hostility/hostility.component';
 import { NinjamanComponent } from './ninjaman/ninjaman.component';
 import { SwedishComponent } from './swedish/swedish.component';
@@ -21,7 +20,6 @@ import { InventoryComponent } from './inventory/inventory.component';
   declarations: [
     AppComponent,
     ProjectsComponent,
-    ShowComponent,
     HostilityComponent,
     NinjamanComponent,
     SwedishComponent,
@@ -36,7 +34,7 @@ import { InventoryComponent } from './inventory/inventory.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [AppComponent],
 //   providers: [TaskService],
   bootstrap: [AppComponent]
 })

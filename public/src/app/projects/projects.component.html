@@ -1,12 +1,16 @@
 
+<p *ngIf="elevator==true">Focused developer looking to become a vital part of the team. Great balance between coding skill and soft skills. Effective communicator and teacher. Eager to learn deeply and be coached. Eager to build quality software and write beautiful code. Strong ability to see both the big and the small and how important the one is to the other. I lean towards back-end, but I have a background in film/visuals/videogames, so I know why things should look and feel good too.</p>
+
+<div *ngIf="elevator==true" class="division"></div>
+
+
 <div class="inner">
     <div class="card">
         <div class="card-header">Inventory Shelf</div>  
         <img src="assets/images/inventory_shelf/screenshot.png" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Manage Inventory, Make Purchases</p>
-            <button class="btn btn-success" [routerLink]="['/inventory']">Check Me Out</button>
-            <!-- <button class="btn btn-success" [routerLink]="['/show/inventory_shelf']">Check Me Out</a> -->
+            <button class="btn btn-success" [routerLink]="['/inventory']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 
@@ -15,7 +19,7 @@
         <img src="assets/images/swedish_mountain_manicure/screenshot.png" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Platformer Video Game</p>
-            <button class="btn btn-success" [routerLink]="['/swedish']">Check Me Out</button>
+            <button class="btn btn-success" [routerLink]="['/swedish']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 
@@ -24,7 +28,7 @@
         <img src="assets/images/sacred_coins/screenshot.png" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Vast Choose-Your-Own-Adventure</p>
-            <button class="btn btn-success" [routerLink]="['/sacred']">Check Me Out</button>
+            <button class="btn btn-success" [routerLink]="['/sacred']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 
@@ -33,7 +37,7 @@
         <img src="assets/images/jigsaw_registry/screenshot.png" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Jigsaw Puzzle Hobby Organizer</p>
-            <button class="btn btn-success" [routerLink]="['/jigsaw']">Check Me Out</button>
+            <button class="btn btn-success" [routerLink]="['/jigsaw']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 
@@ -42,7 +46,7 @@
         <img src="assets/images/hostility_skirmish/screenshot.png" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Online Multiplayer Battle Game</p>
-            <button class="btn btn-success" [routerLink]="['/hostility']">Check Me Out</button>
+            <button class="btn btn-success" [routerLink]="['/hostility']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 
@@ -51,7 +55,7 @@
         <img src="assets/images/ninjaman/screenshot.png" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Pacman Clone</p>
-            <button class="btn btn-success" [routerLink]="['/ninjaman']">Check Me Out</button>
+            <button class="btn btn-success" [routerLink]="['/ninjaman']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 </div>

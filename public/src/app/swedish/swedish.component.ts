@@ -12,4 +12,8 @@ export class SwedishComponent implements OnInit {
   ngOnInit() {
   }
 
+  toTop(){
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+
 }
