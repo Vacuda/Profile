@@ -19,23 +19,28 @@
     background-color: rgb(160, 163, 154);
 }
 
-img {
+/* img {
     width: 300px;
     height: auto;
     border: 1px solid black;
     display: block;
 
+} */
+
+router-outlet {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
-
-
 .division {
-    background-color: rgb(49, 72, 173);
-    height: 2px;
+    background-color: rgb(216, 216, 216);
+    height: 5px;
     width: 80%;
     margin: 20px auto 20px auto;
-    box-shadow: 0px 0px 3px darkblue;
+    box-shadow: 0px 0px 3px rgb(216, 216, 216);
     display: block;
+    border-radius: 10px;
 }
 
 
