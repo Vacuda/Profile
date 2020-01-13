@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 // import { TaskService } from './task.service';
 import { FormsModule } from '@angular/forms';
+import { ProjectsComponent } from './projects/projects.component';
+import { ShowComponent } from './show/show.component';
 // import { ShowComponent } from './show/show.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ProjectsComponent,
+    ShowComponent,
     // ShowComponent
   ],
   imports: [
