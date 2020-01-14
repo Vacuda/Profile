@@ -67,6 +67,7 @@ p {
         width: 100%;
         height: auto;
         margin: 20px;
+        font-size: 35px;
         /* height: 800px; */
         display: inline-block;
     }
@@ -74,6 +75,14 @@ p {
     img {
         width: 60%;
         margin: 5px auto;
+    }
+
+    .elevator {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 30px;
     }
  
     
