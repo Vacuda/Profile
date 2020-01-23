@@ -8,7 +8,13 @@ import { SwedishComponent } from './swedish/swedish.component';
 import { SacredComponent } from './sacred/sacred.component';
 import { JigsawComponent } from './jigsaw/jigsaw.component';
 import { InventoryComponent } from './inventory/inventory.component';
-// import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BooksComponent } from './books/books.component';
+import { ProdCatComponent } from './prod-cat/prod-cat.component';
+import { GoldComponent } from './gold/gold.component';
+import { WeddingComponent } from './wedding/wedding.component';
+import { CakesComponent } from './cakes/cakes.component';
+import { ProdManComponent } from './prod-man/prod-man.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -20,10 +26,13 @@ const routes: Routes = [
     { path: 'sacred',component: SacredComponent },
     { path: 'jigsaw',component: JigsawComponent },
     { path: 'inventory',component: InventoryComponent },
-//   { path: '####/new',component: NewComponent },
-//   { path: '####/edit/:id', component: EditComponent },
-//   { path: '', pathMatch: 'full', redirectTo: '/' },
-//   { path: '**', component: PageNotFoundComponent }
+    { path: 'books_authors',component: BooksComponent },
+    { path: 'products_categories',component: ProdCatComponent },
+    { path: 'gold_getter',component: GoldComponent },
+    { path: 'wedding_planner',component: WeddingComponent },
+    { path: 'rate_my_cakes',component: CakesComponent },
+    { path: 'product_manager',component: ProdManComponent },
+    { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

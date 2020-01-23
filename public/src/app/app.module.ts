@@ -14,6 +14,13 @@ import { SwedishComponent } from './swedish/swedish.component';
 import { SacredComponent } from './sacred/sacred.component';
 import { JigsawComponent } from './jigsaw/jigsaw.component';
 import { InventoryComponent } from './inventory/inventory.component';
+import { BooksComponent } from './books/books.component';
+import { GoldComponent } from './gold/gold.component';
+import { WeddingComponent } from './wedding/wedding.component';
+import { CakesComponent } from './cakes/cakes.component';
+import { ProdCatComponent } from './prod-cat/prod-cat.component';
+import { ProdManComponent } from './prod-man/prod-man.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // import { ShowComponent } from './show/show.component';
 
 @NgModule({
@@ -26,6 +33,13 @@ import { InventoryComponent } from './inventory/inventory.component';
     SacredComponent,
     JigsawComponent,
     InventoryComponent,
+    BooksComponent,
+    GoldComponent,
+    WeddingComponent,
+    CakesComponent,
+    ProdCatComponent,
+    ProdManComponent,
+    PageNotFoundComponent,
     // ShowComponent
   ],
   imports: [
