@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CakesComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
+
+    toTop(){
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
 
 }
