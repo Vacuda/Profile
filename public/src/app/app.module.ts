@@ -21,6 +21,8 @@ import { CakesComponent } from './cakes/cakes.component';
 import { ProdCatComponent } from './prod-cat/prod-cat.component';
 import { ProdManComponent } from './prod-man/prod-man.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FetchComponent } from './fetch/fetch.component';
+import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
 // import { ShowComponent } from './show/show.component';
 
 @NgModule({
@@ -40,6 +42,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ProdCatComponent,
     ProdManComponent,
     PageNotFoundComponent,
+    FetchComponent,
+    ShellPortfolioComponent,
     // ShowComponent
   ],
   imports: [
