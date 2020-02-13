@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"container\">\n\n    <h1>Adam J. Sikora</h1>\n    <h3>-Software Developer-</h3>\n    <p><a href=\"mailto:adamjsikora@gmail.com\">adamjsikora@gmail.com</a> - 708.764.0029 - <a href=\"https://www.linkedin.com/in/adamjsikora/\">linkedin.com/in/adamjsikora</a></p>\n\n    <div class=\"division\"></div>\n\n    <!-- <p *ngIf=\"elevator==true\">Focused developer looking to become a vital part of the team. Great balance between coding skill and soft skills. Effective communicator and teacher. Eager to learn deeply and be coached. Eager to build quality software and write beautiful code. Strong ability to see both the big and the small and how important the one is to the other. I lean towards back-end, but I have a background in film/visuals/videogames, so I know why things should look and feel good too.</p>\n\n    <div *ngIf=\"elevator==true\" class=\"division\"></div> -->\n\n    <router-outlet></router-outlet>\n\n    <!-- <app-projects></app-projects> -->\n\n</div>\n\n\n<!-- <img src=\"assets/images/hostility_skirmish/screenshot.png\" alt=\"hello\">\n<img src=\"assets/images/swedish_mountain_manicure/teleport.gif\" alt=\"hello\"> -->\n\n\n<!-- \n\n    <button [routerLink]=\"['/alpha']\">Load Alpha</button>\n    <a [routerLink] = \"['details', 5]\"> Go to /products/details/5 </a> \n\n\n    <div *ngIf=\"errors\">\n        <h4>Errors:</h4>\n        <ul>\n            <div *ngFor=\"let item of errors\">\n                <li class=\"errors\">{{item.message}}</li>\n            </div>\n        </ul>\n\n    </div>\n\n\n\n\n    <div *ngIf=\"createtask\">\n        <form (submit)=\"createTask()\">\n            <div class=\"form-group\">\n                <label for=\"title\">Task Name:</label>\n                <input name=\"createtask.title\" [(ngModel)]=\"createtask.title\" class=\"form-control\" id=\"title\" placeholder=\"---\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"description\">Description:</label>\n                <textarea name=\"createtask.description\" [(ngModel)]=\"createtask.description\" class=\"form-control\" id=\"description\" rows=\"3\" placeholder=\"---\"></textarea>\n            </div>\n\n            <button class=\"btn btn-warning\" type=\"submit\">Create</button>\n        </form>\n    </div>\n\n    <div *ngIf=\"updatetask\">\n        <form (submit)=\"updateTask(onetask._id)\">\n            <div class=\"form-group\">\n                <label for=\"title\">Task Name:</label>\n                <input name=\"updatetask.title\" [(ngModel)]=\"updatetask.title\" class=\"form-control\" id=\"title\" value=\"updatetask.title\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"description\">Description:</label>\n                <textarea name=\"updatetask.description\" [(ngModel)]=\"updatetask.description\" class=\"form-control\" id=\"description\" rows=\"3\" value=\"updatetask.description\"></textarea>\n            </div>\n\n            <button class=\"btn btn-warning\" type=\"submit\">Submit Edits</button>\n        </form>\n    </div>\n\n    <div class=\"division\"></div>\n\n    <button class=\"btn btn-primary\" (click)=\"getTasks()\">Click for Tasks</button>\n\n    <div class=\"division\"></div>\n\n    <div class=\"centered\" *ngFor=\"let task of tasks\">\n\n        <h2><a id=\"clickable\" (click)=\"getOneTask(task._id)\">{{task.title}}</a></h2>\n        <div class=\"division\"></div>\n    </div> -->\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<router-outlet></router-outlet>\n\n\n\n\n<!-- <div class=\"container\">\n\n    <h1>Adam J. Sikora</h1>\n    <h3>-Software Developer-</h3>\n    <p><a href=\"mailto:adamjsikora@gmail.com\">adamjsikora@gmail.com</a> - 708.764.0029 - <a href=\"https://www.linkedin.com/in/adamjsikora/\">linkedin.com/in/adamjsikora</a></p>\n\n    <div class=\"division\"></div> -->\n\n    <!-- <p *ngIf=\"elevator==true\">Focused developer looking to become a vital part of the team. Great balance between coding skill and soft skills. Effective communicator and teacher. Eager to learn deeply and be coached. Eager to build quality software and write beautiful code. Strong ability to see both the big and the small and how important the one is to the other. I lean towards back-end, but I have a background in film/visuals/videogames, so I know why things should look and feel good too.</p>\n\n    <div *ngIf=\"elevator==true\" class=\"division\"></div> -->\n\n    <!-- <router-outlet></router-outlet> -->\n\n    <!-- <app-projects></app-projects> -->\n\n<!-- </div> -->\n\n\n<!-- <img src=\"assets/images/hostility_skirmish/screenshot.png\" alt=\"hello\">\n<img src=\"assets/images/swedish_mountain_manicure/teleport.gif\" alt=\"hello\"> -->\n\n\n<!-- \n\n    <button [routerLink]=\"['/alpha']\">Load Alpha</button>\n    <a [routerLink] = \"['details', 5]\"> Go to /products/details/5 </a> \n\n\n    <div *ngIf=\"errors\">\n        <h4>Errors:</h4>\n        <ul>\n            <div *ngFor=\"let item of errors\">\n                <li class=\"errors\">{{item.message}}</li>\n            </div>\n        </ul>\n\n    </div>\n\n\n\n\n    <div *ngIf=\"createtask\">\n        <form (submit)=\"createTask()\">\n            <div class=\"form-group\">\n                <label for=\"title\">Task Name:</label>\n                <input name=\"createtask.title\" [(ngModel)]=\"createtask.title\" class=\"form-control\" id=\"title\" placeholder=\"---\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"description\">Description:</label>\n                <textarea name=\"createtask.description\" [(ngModel)]=\"createtask.description\" class=\"form-control\" id=\"description\" rows=\"3\" placeholder=\"---\"></textarea>\n            </div>\n\n            <button class=\"btn btn-warning\" type=\"submit\">Create</button>\n        </form>\n    </div>\n\n    <div *ngIf=\"updatetask\">\n        <form (submit)=\"updateTask(onetask._id)\">\n            <div class=\"form-group\">\n                <label for=\"title\">Task Name:</label>\n                <input name=\"updatetask.title\" [(ngModel)]=\"updatetask.title\" class=\"form-control\" id=\"title\" value=\"updatetask.title\">\n            </div>\n            <div class=\"form-group\">\n                <label for=\"description\">Description:</label>\n                <textarea name=\"updatetask.description\" [(ngModel)]=\"updatetask.description\" class=\"form-control\" id=\"description\" rows=\"3\" value=\"updatetask.description\"></textarea>\n            </div>\n\n            <button class=\"btn btn-warning\" type=\"submit\">Submit Edits</button>\n        </form>\n    </div>\n\n    <div class=\"division\"></div>\n\n    <button class=\"btn btn-primary\" (click)=\"getTasks()\">Click for Tasks</button>\n\n    <div class=\"division\"></div>\n\n    <div class=\"centered\" *ngFor=\"let task of tasks\">\n\n        <h2><a id=\"clickable\" (click)=\"getOneTask(task._id)\">{{task.title}}</a></h2>\n        <div class=\"division\"></div>\n    </div> -->\n");
 
 /***/ }),
 
@@ -59,6 +59,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"inner\">\n\n    <button class=\"btn btn-success\" [routerLink]=\"['/']\">-Back-</button>\n\n    <h1>Cake-Rating Exercise</h1>\n\n    <h4>Technologies</h4>\n    <p>Typescript, MongoDB, Express, Angular, Node.js</p>\n\n    <a class=\"btn btn-danger\" href=\"https://github.com/Vacuda/Rate_My_Cakes\">-Github-</a>\n\n    <h5>Adding Cakes and Rating Cakes</h5>\n    <img src=\"assets/images/rate_my_cakes/full.gif\" alt=\"...\">\n\n    <button class=\"btn btn-success\" [routerLink]=\"['/']\" (click)=\"toTop()\">-Back-</button>\n\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/fetch/fetch.component.html":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/fetch/fetch.component.html ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"stick-top\">\n    <nav class=\"navbar navbar-light bg-white navbar-expand-md\">\n        <a href=\"/\"><img src=\"assets/images/fetch/fetch_logo.png\" style=\"width: 150px;\" class=\"hidden-sm hidden-xs navbar-brand\" alt=\"Fetch Rewards logo\"/></a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div id=\"navbarNav\" class=\"navbar-collapse collapse justify-content-end\">\n            <ul class=\"nav navbar-nav justify-content-end\">\n                <li class=\"nav-item\"><a href='#' class='nav-link '>How it Works</a></li>\n                <li class=\"nav-item\"><a href='#' class='nav-link '>Brands</a></li>\n                <li class=\"nav-item\"><a href='#' class='nav-link '>Rewards</a></li>\n                <li class=\"nav-item\"><a href='#' class='nav-link '>Invite Friends</a></li>\n            </ul>\n        </div>\n    </nav>\n\n    <div class=\"divider\"></div>\n\n</div>\n\n<div class=\"container\">\n    <div style=\"margin-top:7%\">\n        <div class=\"row\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-6\">\n                        <img src=\"assets/images/fetch/groceries.png\" class=\"logo mw-100\" alt=\"Grocery bag with grocery products\"/>\n                    </div>\n                    <div class=\"col-md-6\">\n                        <h1>Input a <span class=\"orange\">WORD</span>, please?</h1>\n                        <form action=\"/input_check\" method=\"POST\">\n                            <input type=\"text\" name=\"input\">\n                            <button class=\"btn fetch\">Fetch Result!</button>\n                        </form>\n                        <p>Is it a <span class=\"orange\">PYRAMID</span>?</p>\n<!-- \n                            {%  if result == None %}\n                                <div class=\"row\">\n                                    <a href=\"https://apps.apple.com/app/id1182474649?ign-mpt=uo%3D2\" class=\"no-separation\" target=\"_blank\">\n                                        <img class=\"smaller-icon\" src=\"assets/images/fetch/appstore.png\" alt=\"Download Fetch Rewards in the App Store\"/>\n                                    </a>\n\n                                    <a href=\"https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop&hl=en\" class=\"no-separation\" target=\"_blank\">\n                                        <img class=\"smaller-icon\" src=\"assets/images/fetch/googleplay.png\" alt=\"Download Fetch Rewards in the Play Store\"/>\n                                    </a>\n                                </div>\n                            {% endif %}\n                            \n                            {% if result == True %}\n                                <p class=\"result orange\">Pyramid!</p>\n                                \n                                {% for key, value in dict.items %}\n                                    <li>{{key}} - {{value}} times</li>\n                                {% endfor %}\n\n                            {% endif %}\n\n                            {%  if result == False %}\n                                <p class=\"result orange\">Nope!</p>\n\n                                {% for key, value in dict.items %}\n                                    <li>\"{{key}}\" - {{value}} times</li>\n                                {% endfor %}\n\n                            {% endif %} -->\n\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"row\">&nbsp;</div>\n\n    <div class=\"row\">\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center scroll\" style=\"text-align:center\">\n                <p><b>Scroll to Learn More</b></p>\n            </div>\n            <div class=\"row d-flex justify-content-center\" style=\"text-align:center\">\n                <img src=\"assets/images/fetch/arrow_down.png\" alt=\"Scroll down arrow\"/>\n            </div>\n\n        </div>\n    </div>\n\n</div>\n\n<footer>\n    <div class=\"zig-zag-top\" style=\"background-color:#ff9900; margin-left: -15px; margin-right: -15px\"></div>\n</footer>\n\n    ");
 
 /***/ }),
 
@@ -189,6 +202,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"inner\">\n\n    <button class=\"btn btn-success\" [routerLink]=\"['/']\">-Back-</button>\n\n    <h1>Sacred Coins</h1>\n\n    <p>When I was thirteen, I built a 200 page Choose-Your-Own-Adventure story for my family to play on Christmas Day in order to get their present.  And instead of flipping between pages, they had to walk to other parts of the house where I hid sleeves that contained each page of the story.  Every page had a different location in the house!  It had physical locks, items, and keys to use, and it was even customized for each family member.  It had 43 items in it and 17 ways to die.  No, no one ever completed it.  My mom did have me walk her through it though.</p>\n    <p>Anyway, I wanted to bring this back to life in a digital form.  (Don't pay attention to the writing!)  I really enjoyed building this, but I never finished it.  I loved building the sprites for the items. The crown jewel was working on the map and getting it to dynamically build as you played it!</p>\n    \n    <h4>Technologies</h4>\n    <p><a href=\"https://www.scirra.com/\">Built using Construct 2 (Visual Coding Language)</a></p>\n\n    <h5>Start your Adventure</h5>\n    <img src=\"assets/images/sacred_coins/start.gif\" alt=\"...\">\n\n    <h5>Get and Use Items</h5>\n    <img src=\"assets/images/sacred_coins/interact.gif\" alt=\"...\">\n\n    <h5>Full, Interactive Map, Builds as you Explore</h5>\n    <img src=\"assets/images/sacred_coins/map.gif\" alt=\"...\">\n\n    <h5>Find Multiple Rings to get past the Barrier</h5>\n    <img src=\"assets/images/sacred_coins/rings.gif\" alt=\"...\">\n\n    <h5>Built using a Visual Coding Language</h5>\n    <img src=\"assets/images/sacred_coins/coderun.gif\" alt=\"...\">\n\n    <button class=\"btn btn-success\" [routerLink]=\"['/']\" (click)=\"toTop()\">-Back-</button>\n\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio/shell-portfolio.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio/shell-portfolio.component.html ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n\n    <h1>Adam J. Sikora</h1>\n    <h3>-Software Developer-</h3>\n    <p><a href=\"mailto:adamjsikora@gmail.com\">adamjsikora@gmail.com</a> - 708.764.0029 - <a href=\"https://www.linkedin.com/in/adamjsikora/\">linkedin.com/in/adamjsikora</a></p>\n\n    <div class=\"division\"></div>\n\n    <!-- <p *ngIf=\"elevator==true\">Focused developer looking to become a vital part of the team. Great balance between coding skill and soft skills. Effective communicator and teacher. Eager to learn deeply and be coached. Eager to build quality software and write beautiful code. Strong ability to see both the big and the small and how important the one is to the other. I lean towards back-end, but I have a background in film/visuals/videogames, so I know why things should look and feel good too.</p>\n\n    <div *ngIf=\"elevator==true\" class=\"division\"></div> -->\n\n    <router-outlet></router-outlet>\n\n    <!-- <app-projects></app-projects> -->\n\n</div>");
 
 /***/ }),
 
@@ -472,8 +498,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cakes_cakes_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./cakes/cakes.component */ "./src/app/cakes/cakes.component.ts");
 /* harmony import */ var _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./prod-man/prod-man.component */ "./src/app/prod-man/prod-man.component.ts");
 /* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _fetch_fetch_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./fetch/fetch.component */ "./src/app/fetch/fetch.component.ts");
+/* harmony import */ var _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./shell-portfolio/shell-portfolio.component */ "./src/app/shell-portfolio/shell-portfolio.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 
 // import { EditComponent } from './edit/edit.component';
 // import { NewComponent } from './new/new.component';
@@ -493,28 +521,52 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 const routes = [
-    { path: '', component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_1__["ProjectsComponent"] },
-    { path: 'hostility', component: _hostility_hostility_component__WEBPACK_IMPORTED_MODULE_2__["HostilityComponent"] },
-    { path: 'ninjaman', component: _ninjaman_ninjaman_component__WEBPACK_IMPORTED_MODULE_3__["NinjamanComponent"] },
-    { path: 'swedish', component: _swedish_swedish_component__WEBPACK_IMPORTED_MODULE_4__["SwedishComponent"] },
-    { path: 'sacred', component: _sacred_sacred_component__WEBPACK_IMPORTED_MODULE_5__["SacredComponent"] },
-    { path: 'jigsaw', component: _jigsaw_jigsaw_component__WEBPACK_IMPORTED_MODULE_6__["JigsawComponent"] },
-    { path: 'inventory', component: _inventory_inventory_component__WEBPACK_IMPORTED_MODULE_7__["InventoryComponent"] },
-    { path: 'books_authors', component: _books_books_component__WEBPACK_IMPORTED_MODULE_8__["BooksComponent"] },
-    { path: 'products_categories', component: _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_9__["ProdCatComponent"] },
-    { path: 'gold_getter', component: _gold_gold_component__WEBPACK_IMPORTED_MODULE_10__["GoldComponent"] },
-    { path: 'wedding_planner', component: _wedding_wedding_component__WEBPACK_IMPORTED_MODULE_11__["WeddingComponent"] },
-    { path: 'rate_my_cakes', component: _cakes_cakes_component__WEBPACK_IMPORTED_MODULE_12__["CakesComponent"] },
-    { path: 'product_manager', component: _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_13__["ProdManComponent"] },
+    { path: '', component: _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_16__["ShellPortfolioComponent"],
+        children: [
+            { path: '', component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_1__["ProjectsComponent"] },
+            { path: 'hostility', component: _hostility_hostility_component__WEBPACK_IMPORTED_MODULE_2__["HostilityComponent"] },
+            { path: 'ninjaman', component: _ninjaman_ninjaman_component__WEBPACK_IMPORTED_MODULE_3__["NinjamanComponent"] },
+            { path: 'swedish', component: _swedish_swedish_component__WEBPACK_IMPORTED_MODULE_4__["SwedishComponent"] },
+            { path: 'sacred', component: _sacred_sacred_component__WEBPACK_IMPORTED_MODULE_5__["SacredComponent"] },
+            { path: 'jigsaw', component: _jigsaw_jigsaw_component__WEBPACK_IMPORTED_MODULE_6__["JigsawComponent"] },
+            { path: 'inventory', component: _inventory_inventory_component__WEBPACK_IMPORTED_MODULE_7__["InventoryComponent"] },
+            { path: 'books_authors', component: _books_books_component__WEBPACK_IMPORTED_MODULE_8__["BooksComponent"] },
+            { path: 'products_categories', component: _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_9__["ProdCatComponent"] },
+            { path: 'gold_getter', component: _gold_gold_component__WEBPACK_IMPORTED_MODULE_10__["GoldComponent"] },
+            { path: 'wedding_planner', component: _wedding_wedding_component__WEBPACK_IMPORTED_MODULE_11__["WeddingComponent"] },
+            { path: 'rate_my_cakes', component: _cakes_cakes_component__WEBPACK_IMPORTED_MODULE_12__["CakesComponent"] },
+            { path: 'product_manager', component: _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_13__["ProdManComponent"] },
+        ]
+    },
+    { path: 'fetch', component: _fetch_fetch_component__WEBPACK_IMPORTED_MODULE_15__["FetchComponent"] },
     { path: '**', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__["PageNotFoundComponent"] }
 ];
+// const routes: Routes = [
+//     { path: '',component: ProjectsComponent },
+//     { path: 'hostility',component: HostilityComponent },
+//     { path: 'ninjaman',component: NinjamanComponent },
+//     { path: 'swedish',component: SwedishComponent },
+//     { path: 'sacred',component: SacredComponent },
+//     { path: 'jigsaw',component: JigsawComponent },
+//     { path: 'inventory',component: InventoryComponent },
+//     { path: 'books_authors',component: BooksComponent },
+//     { path: 'products_categories',component: ProdCatComponent },
+//     { path: 'gold_getter',component: GoldComponent },
+//     { path: 'wedding_planner',component: WeddingComponent },
+//     { path: 'rate_my_cakes',component: CakesComponent },
+//     { path: 'product_manager',component: ProdManComponent },
+//     { path: 'fetch',component: FetchComponent },
+//     { path: '**', component: PageNotFoundComponent }
+// ];
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_15__["NgModule"])({
-        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__["RouterModule"].forRoot(routes)],
-        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__["RouterModule"]]
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_17__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_18__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_18__["RouterModule"]]
     })
 ], AppRoutingModule);
 
@@ -711,6 +763,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./prod-cat/prod-cat.component */ "./src/app/prod-cat/prod-cat.component.ts");
 /* harmony import */ var _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./prod-man/prod-man.component */ "./src/app/prod-man/prod-man.component.ts");
 /* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
+/* harmony import */ var _fetch_fetch_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./fetch/fetch.component */ "./src/app/fetch/fetch.component.ts");
+/* harmony import */ var _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./shell-portfolio/shell-portfolio.component */ "./src/app/shell-portfolio/shell-portfolio.component.ts");
 
 
 
@@ -718,6 +772,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { TaskService } from './task.service';
+
+
 
 
 
@@ -754,6 +810,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_18__["ProdCatComponent"],
             _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_19__["ProdManComponent"],
             _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_20__["PageNotFoundComponent"],
+            _fetch_fetch_component__WEBPACK_IMPORTED_MODULE_21__["FetchComponent"],
+            _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_22__["ShellPortfolioComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -860,6 +918,50 @@ CakesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./cakes.component.css */ "./src/app/cakes/cakes.component.css")).default]
     })
 ], CakesComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/fetch/fetch.component.css":
+/*!*******************************************!*\
+  !*** ./src/app/fetch/fetch.component.css ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("* {\r\n    margin: 0;\r\n    border: 0;\r\n    box-sizing: border-box;\r\n    vertical-align: top;\r\n    /* outline: 1px dotted red; */\r\n    color: black;\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif\r\n}\r\n\r\n.container {\r\n    /* padding-top: 100px; */\r\n    /* height: 500px; */\r\n    /* background-image: linear-gradient(black 10%, white 90%); */\r\n}\r\n\r\n.smaller-icon{\r\n    /* display: inline-block; */\r\n    width: 156px;\r\n    height: auto;\r\n}\r\n\r\n.no-separation{\r\n    width: 156px;\r\n}\r\n\r\n.scroll{\r\n    font-size: 11px;\r\n    font-weight: 100;\r\n}\r\n\r\n.divider{\r\n    height: 15px;\r\n    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(214, 214, 214)), color-stop(90%, white));\r\n    background-image: linear-gradient(rgb(214, 214, 214) 0%, white 90%);\r\n}\r\n\r\n.orange{\r\n    color: #ff9900;\r\n    text-shadow: 0px 1px 0px rgb(224, 125, 12);\r\n}\r\n\r\ninput{\r\n    border: 1px solid black;\r\n    height: 30px;\r\n    background-color: rgb(236, 236, 236);\r\n}\r\n\r\n.btn {\r\n    width: 140px;\r\n    margin-left: 15px;\r\n    font-size: 15px;\r\n    color: white;\r\n    /* text-shadow: 0px 0px 13px rgb(80, 43, 0); */\r\n    height: 30px;\r\n    border: 1px solid black;\r\n    border-radius: 1px 1px 3px black;\r\n    box-shadow: 0px 0px 3px rgb(63, 63, 63);\r\n    background-color: #ff9900;\r\n}\r\n\r\n.fetch {\r\n    line-height: 15px;\r\n}\r\n\r\n.result {\r\n    margin-top: -5px;\r\n    font-size: 80px;\r\n}\r\n\r\nli {\r\n    list-style-type: none;\r\n}\r\n\r\nfooter {\r\nbackground-color: #fff;\r\n}\r\n\r\nfooter * {\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\n\r\nfooter\t.zig-zag-top:before{\r\n    background: \r\n                linear-gradient(-45deg, #ff9900 16px, red 16px, blue 16px,  transparent 0), \r\n                linear-gradient(45deg, #ff9900 16px, transparent 0);\r\n    background-position: left top;\r\n    background-repeat: repeat-x;\r\n    background-size: 22px 32px;\r\n    content: \" \";\r\n    display: block;\r\n\r\n    height: 32px;\r\n    width: 100%;\r\n\r\n    position: relative;\r\n    bottom: 64px;\r\n    left:0;\r\n}\r\n\r\nfooter\tdiv > * {\r\n    margin: 0 40px;\r\n}\r\n\r\nfooter\t.zig-zag-top{\r\n    margin: 32px 0;\r\n    margin-bottom: 0;\r\n    background: #ff9900;\r\n}\r\n\r\nfooter\t.zig-zag-top{\r\n    padding: 32px 0;\r\n}\r\n\r\n@media only screen and (max-width: 480px) {\r\n\r\n \r\n    \r\n}\r\n\r\n@media only screen and (min-width: 481px) {\r\n\r\n\r\n\r\n}\r\n\r\n@media only screen and (min-width: 1024px) {\r\n\r\n\r\n\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZmV0Y2gvZmV0Y2guY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFNBQVM7SUFDVCxTQUFTO0lBQ1Qsc0JBQXNCO0lBQ3RCLG1CQUFtQjtJQUNuQiw2QkFBNkI7SUFDN0IsWUFBWTtJQUNaO0FBQ0o7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsbUJBQW1CO0lBQ25CLDZEQUE2RDtBQUNqRTs7QUFFQTtJQUNJLDJCQUEyQjtJQUMzQixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7QUFFQTtJQUNJLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLG1IQUFtRTtJQUFuRSxtRUFBbUU7QUFDdkU7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsMENBQTBDO0FBQzlDOztBQUVBO0lBQ0ksdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixvQ0FBb0M7QUFDeEM7O0FBRUE7SUFDSSxZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZixZQUFZO0lBQ1osOENBQThDO0lBQzlDLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsZ0NBQWdDO0lBQ2hDLHVDQUF1QztJQUN2Qyx5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHFCQUFxQjtBQUN6Qjs7QUFPQTtBQUNBLHNCQUFzQjtBQUN0Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0FBQ2hCOztBQUVBO0lBQ0k7O21FQUUrRDtJQUMvRCw2QkFBNkI7SUFDN0IsMkJBQTJCO0lBQzNCLDBCQUEwQjtJQUMxQixZQUFZO0lBQ1osY0FBYzs7SUFFZCxZQUFZO0lBQ1osV0FBVzs7SUFFWCxrQkFBa0I7SUFDbEIsWUFBWTtJQUNaLE1BQU07QUFDVjs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBbUNBOzs7O0FBSUE7O0FBRUE7Ozs7QUFJQTs7QUFFQTs7OztBQUlBIiwiZmlsZSI6InNyYy9hcHAvZmV0Y2gvZmV0Y2guY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgYm9yZGVyOiAwO1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XHJcbiAgICAvKiBvdXRsaW5lOiAxcHggZG90dGVkIHJlZDsgKi9cclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIGZvbnQtZmFtaWx5OiBWZXJkYW5hLCBHZW5ldmEsIFRhaG9tYSwgc2Fucy1zZXJpZlxyXG59XHJcblxyXG4uY29udGFpbmVyIHtcclxuICAgIC8qIHBhZGRpbmctdG9wOiAxMDBweDsgKi9cclxuICAgIC8qIGhlaWdodDogNTAwcHg7ICovXHJcbiAgICAvKiBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoYmxhY2sgMTAlLCB3aGl0ZSA5MCUpOyAqL1xyXG59XHJcblxyXG4uc21hbGxlci1pY29ue1xyXG4gICAgLyogZGlzcGxheTogaW5saW5lLWJsb2NrOyAqL1xyXG4gICAgd2lkdGg6IDE1NnB4O1xyXG4gICAgaGVpZ2h0OiBhdXRvO1xyXG59XHJcblxyXG4ubm8tc2VwYXJhdGlvbntcclxuICAgIHdpZHRoOiAxNTZweDtcclxufVxyXG5cclxuLnNjcm9sbHtcclxuICAgIGZvbnQtc2l6ZTogMTFweDtcclxuICAgIGZvbnQtd2VpZ2h0OiAxMDA7XHJcbn1cclxuXHJcbi5kaXZpZGVye1xyXG4gICAgaGVpZ2h0OiAxNXB4O1xyXG4gICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYigyMTQsIDIxNCwgMjE0KSAwJSwgd2hpdGUgOTAlKTtcclxufVxyXG5cclxuLm9yYW5nZXtcclxuICAgIGNvbG9yOiAjZmY5OTAwO1xyXG4gICAgdGV4dC1zaGFkb3c6IDBweCAxcHggMHB4IHJnYigyMjQsIDEyNSwgMTIpO1xyXG59XHJcblxyXG5pbnB1dHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG4gICAgaGVpZ2h0OiAzMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIzNiwgMjM2LCAyMzYpO1xyXG59XHJcblxyXG4uYnRuIHtcclxuICAgIHdpZHRoOiAxNDBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAxNXB4O1xyXG4gICAgZm9udC1zaXplOiAxNXB4O1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgLyogdGV4dC1zaGFkb3c6IDBweCAwcHggMTNweCByZ2IoODAsIDQzLCAwKTsgKi9cclxuICAgIGhlaWdodDogMzBweDtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMXB4IDFweCAzcHggYmxhY2s7XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDNweCByZ2IoNjMsIDYzLCA2Myk7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmY5OTAwO1xyXG59XHJcblxyXG4uZmV0Y2gge1xyXG4gICAgbGluZS1oZWlnaHQ6IDE1cHg7XHJcbn1cclxuXHJcbi5yZXN1bHQge1xyXG4gICAgbWFyZ2luLXRvcDogLTVweDtcclxuICAgIGZvbnQtc2l6ZTogODBweDtcclxufVxyXG5cclxubGkge1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG59XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcbmZvb3RlciB7XHJcbmJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbn1cclxuXHJcbmZvb3RlciAqIHtcclxuICAgIG1hcmdpbjogMHB4O1xyXG4gICAgcGFkZGluZzogMHB4O1xyXG59XHJcblxyXG5mb290ZXJcdC56aWctemFnLXRvcDpiZWZvcmV7XHJcbiAgICBiYWNrZ3JvdW5kOiBcclxuICAgICAgICAgICAgICAgIGxpbmVhci1ncmFkaWVudCgtNDVkZWcsICNmZjk5MDAgMTZweCwgcmVkIDE2cHgsIGJsdWUgMTZweCwgIHRyYW5zcGFyZW50IDApLCBcclxuICAgICAgICAgICAgICAgIGxpbmVhci1ncmFkaWVudCg0NWRlZywgI2ZmOTkwMCAxNnB4LCB0cmFuc3BhcmVudCAwKTtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGxlZnQgdG9wO1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IHJlcGVhdC14O1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiAyMnB4IDMycHg7XHJcbiAgICBjb250ZW50OiBcIiBcIjtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG5cclxuICAgIGhlaWdodDogMzJweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG5cclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJvdHRvbTogNjRweDtcclxuICAgIGxlZnQ6MDtcclxufVxyXG5cclxuZm9vdGVyXHRkaXYgPiAqIHtcclxuICAgIG1hcmdpbjogMCA0MHB4O1xyXG59XHJcblxyXG5mb290ZXJcdC56aWctemFnLXRvcHtcclxuICAgIG1hcmdpbjogMzJweCAwO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMDtcclxuICAgIGJhY2tncm91bmQ6ICNmZjk5MDA7XHJcbn1cclxuXHJcbmZvb3Rlclx0LnppZy16YWctdG9we1xyXG4gICAgcGFkZGluZzogMzJweCAwO1xyXG59XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KSB7XHJcblxyXG4gXHJcbiAgICBcclxufVxyXG4gICAgXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNDgxcHgpIHtcclxuXHJcblxyXG5cclxufVxyXG4gICAgXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNHB4KSB7XHJcblxyXG5cclxuXHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/fetch/fetch.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/fetch/fetch.component.ts ***!
+  \******************************************/
+/*! exports provided: FetchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FetchComponent", function() { return FetchComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let FetchComponent = class FetchComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+FetchComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-fetch',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./fetch.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/fetch/fetch.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./fetch.component.css */ "./src/app/fetch/fetch.component.css")).default]
+    })
+], FetchComponent);
 
 
 
@@ -1341,6 +1443,50 @@ SacredComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./sacred.component.css */ "./src/app/sacred/sacred.component.css")).default]
     })
 ], SacredComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/shell-portfolio/shell-portfolio.component.css":
+/*!***************************************************************!*\
+  !*** ./src/app/shell-portfolio/shell-portfolio.component.css ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n\r\n* {\r\n    margin: 0;\r\n    border: 0;\r\n    box-sizing: border-box;\r\n    vertical-align: top;\r\n    /* outline: 1px dotted red; */\r\n    color: black;\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif\r\n}\r\n\r\n.container {\r\n    width: 970px;\r\n    min-height: 800px;\r\n    margin: 0px auto;\r\n    padding: 60px;\r\n    font-size: 15px;\r\n    background-color: rgb(160, 163, 154);\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\np {\r\n    text-align: center;\r\n}\r\n\r\n.division {\r\n    background-color: rgb(216, 216, 216);\r\n    height: 5px;\r\n    width: 80%;\r\n    margin: 20px auto 20px auto;\r\n    box-shadow: 0px 0px 3px rgb(216, 216, 216);\r\n    display: block;\r\n    border-radius: 10px;\r\n}\r\n\r\nbutton {\r\n    margin: 0px auto;\r\n    display: block;\r\n}\r\n\r\nh1 {\r\n    text-align: center;\r\n    color: rgb(216, 216, 216)\r\n}\r\n\r\nh3 {\r\n    text-align: center;\r\n}\r\n\r\n@media only screen and (max-width: 480px) {\r\n\r\n    h1 {\r\n        font-size: 45px;\r\n    }\r\n\r\n    p {\r\n        font-size: 20px;\r\n    }\r\n    \r\n}\r\n\r\n@media only screen and (min-width: 481px) {\r\n\r\n\r\n\r\n}\r\n\r\n@media only screen and (min-width: 1024px) {\r\n\r\n\r\n\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hlbGwtcG9ydGZvbGlvL3NoZWxsLXBvcnRmb2xpby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUE7SUFDSSxTQUFTO0lBQ1QsU0FBUztJQUNULHNCQUFzQjtJQUN0QixtQkFBbUI7SUFDbkIsNkJBQTZCO0lBQzdCLFlBQVk7SUFDWjtBQUNKOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixnQkFBZ0I7SUFDaEIsYUFBYTtJQUNiLGVBQWU7SUFDZixvQ0FBb0M7QUFDeEM7O0FBRUE7SUFDSSxxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBSUE7SUFDSSxvQ0FBb0M7SUFDcEMsV0FBVztJQUNYLFVBQVU7SUFDViwyQkFBMkI7SUFDM0IsMENBQTBDO0lBQzFDLGNBQWM7SUFDZCxtQkFBbUI7QUFDdkI7O0FBR0E7SUFDSSxnQkFBZ0I7SUFDaEIsY0FBYztBQUNsQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQjtBQUNKOztBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQW1CQTs7SUFFSTtRQUNJLGVBQWU7SUFDbkI7O0lBRUE7UUFDSSxlQUFlO0lBQ25COztBQUVKOztBQUVBOzs7O0FBSUE7O0FBRUE7Ozs7QUFJQSIsImZpbGUiOiJzcmMvYXBwL3NoZWxsLXBvcnRmb2xpby9zaGVsbC1wb3J0Zm9saW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5cclxuKiB7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBib3JkZXI6IDA7XHJcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgdmVydGljYWwtYWxpZ246IHRvcDtcclxuICAgIC8qIG91dGxpbmU6IDFweCBkb3R0ZWQgcmVkOyAqL1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgZm9udC1mYW1pbHk6IFZlcmRhbmEsIEdlbmV2YSwgVGFob21hLCBzYW5zLXNlcmlmXHJcbn1cclxuXHJcbi5jb250YWluZXIge1xyXG4gICAgd2lkdGg6IDk3MHB4O1xyXG4gICAgbWluLWhlaWdodDogODAwcHg7XHJcbiAgICBtYXJnaW46IDBweCBhdXRvO1xyXG4gICAgcGFkZGluZzogNjBweDtcclxuICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxNjAsIDE2MywgMTU0KTtcclxufVxyXG5cclxuYSB7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbn1cclxuXHJcbnAge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG5cclxuXHJcbi5kaXZpc2lvbiB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjE2LCAyMTYsIDIxNik7XHJcbiAgICBoZWlnaHQ6IDVweDtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBtYXJnaW46IDIwcHggYXV0byAyMHB4IGF1dG87XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDNweCByZ2IoMjE2LCAyMTYsIDIxNik7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbn1cclxuXHJcblxyXG5idXR0b24ge1xyXG4gICAgbWFyZ2luOiAwcHggYXV0bztcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG59XHJcblxyXG5oMSB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBjb2xvcjogcmdiKDIxNiwgMjE2LCAyMTYpXHJcbn1cclxuXHJcbmgzIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KSB7XHJcblxyXG4gICAgaDEge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogNDVweDtcclxuICAgIH1cclxuXHJcbiAgICBwIHtcclxuICAgICAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICB9XHJcbiAgICBcclxufVxyXG4gICAgXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNDgxcHgpIHtcclxuXHJcblxyXG5cclxufVxyXG4gICAgXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNHB4KSB7XHJcblxyXG5cclxuXHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/shell-portfolio/shell-portfolio.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/shell-portfolio/shell-portfolio.component.ts ***!
+  \**************************************************************/
+/*! exports provided: ShellPortfolioComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ShellPortfolioComponent", function() { return ShellPortfolioComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ShellPortfolioComponent = class ShellPortfolioComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ShellPortfolioComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-shell-portfolio',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./shell-portfolio.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio/shell-portfolio.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./shell-portfolio.component.css */ "./src/app/shell-portfolio/shell-portfolio.component.css")).default]
+    })
+], ShellPortfolioComponent);
 
 
 

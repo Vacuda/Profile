@@ -1,0 +1,92 @@
+<div class="stick-top">
+    <nav class="navbar navbar-light bg-white navbar-expand-md">
+        <a href="/"><img src="assets/images/fetch/fetch_logo.png" style="width: 150px;" class="hidden-sm hidden-xs navbar-brand" alt="Fetch Rewards logo"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" class="navbar-collapse collapse justify-content-end">
+            <ul class="nav navbar-nav justify-content-end">
+                <li class="nav-item"><a href='#' class='nav-link '>How it Works</a></li>
+                <li class="nav-item"><a href='#' class='nav-link '>Brands</a></li>
+                <li class="nav-item"><a href='#' class='nav-link '>Rewards</a></li>
+                <li class="nav-item"><a href='#' class='nav-link '>Invite Friends</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="divider"></div>
+
+</div>
+
+<div class="container">
+    <div style="margin-top:7%">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/fetch/groceries.png" class="logo mw-100" alt="Grocery bag with grocery products"/>
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Input a <span class="orange">WORD</span>, please?</h1>
+                        <form action="/input_check" method="POST">
+                            <input type="text" name="input">
+                            <button class="btn fetch">Fetch Result!</button>
+                        </form>
+                        <p>Is it a <span class="orange">PYRAMID</span>?</p>
+<!-- 
+                            {%  if result == None %}
+                                <div class="row">
+                                    <a href="https://apps.apple.com/app/id1182474649?ign-mpt=uo%3D2" class="no-separation" target="_blank">
+                                        <img class="smaller-icon" src="assets/images/fetch/appstore.png" alt="Download Fetch Rewards in the App Store"/>
+                                    </a>
+
+                                    <a href="https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop&hl=en" class="no-separation" target="_blank">
+                                        <img class="smaller-icon" src="assets/images/fetch/googleplay.png" alt="Download Fetch Rewards in the Play Store"/>
+                                    </a>
+                                </div>
+                            {% endif %}
+                            
+                            {% if result == True %}
+                                <p class="result orange">Pyramid!</p>
+                                
+                                {% for key, value in dict.items %}
+                                    <li>{{key}} - {{value}} times</li>
+                                {% endfor %}
+
+                            {% endif %}
+
+                            {%  if result == False %}
+                                <p class="result orange">Nope!</p>
+
+                                {% for key, value in dict.items %}
+                                    <li>"{{key}}" - {{value}} times</li>
+                                {% endfor %}
+
+                            {% endif %} -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">&nbsp;</div>
+
+    <div class="row">
+        <div class="container">
+            <div class="row d-flex justify-content-center scroll" style="text-align:center">
+                <p><b>Scroll to Learn More</b></p>
+            </div>
+            <div class="row d-flex justify-content-center" style="text-align:center">
+                <img src="assets/images/fetch/arrow_down.png" alt="Scroll down arrow"/>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="zig-zag-top" style="background-color:#ff9900; margin-left: -15px; margin-right: -15px"></div>
+</footer>
+
+    
