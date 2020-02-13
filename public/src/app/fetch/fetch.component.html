@@ -28,41 +28,39 @@
                     </div>
                     <div class="col-md-6">
                         <h1>Input a <span class="orange">WORD</span>, please?</h1>
-                        <form action="/input_check" method="POST">
-                            <input type="text" name="input">
-                            <button class="btn fetch">Fetch Result!</button>
+                        <form (submit)="input_check()">
+                            <input type="text" name="input" [(ngModel)]="input">
+                            <button class="btn fetch" type="submit">Fetch Result!</button>
                         </form>
                         <p>Is it a <span class="orange">PYRAMID</span>?</p>
-<!-- 
-                            {%  if result == None %}
-                                <div class="row">
-                                    <a href="https://apps.apple.com/app/id1182474649?ign-mpt=uo%3D2" class="no-separation" target="_blank">
-                                        <img class="smaller-icon" src="assets/images/fetch/appstore.png" alt="Download Fetch Rewards in the App Store"/>
-                                    </a>
 
-                                    <a href="https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop&hl=en" class="no-separation" target="_blank">
-                                        <img class="smaller-icon" src="assets/images/fetch/googleplay.png" alt="Download Fetch Rewards in the Play Store"/>
-                                    </a>
-                                </div>
-                            {% endif %}
-                            
-                            {% if result == True %}
-                                <p class="result orange">Pyramid!</p>
-                                
-                                {% for key, value in dict.items %}
-                                    <li>{{key}} - {{value}} times</li>
-                                {% endfor %}
+                        <div *ngIf="result == null">
+                            <div class="row">
+                                <a href="https://apps.apple.com/app/id1182474649?ign-mpt=uo%3D2" class="no-separation" target="_blank">
+                                    <img class="smaller-icon" src="assets/images/fetch/appstore.png" alt="Download Fetch Rewards in the App Store"/>
+                                </a>
 
-                            {% endif %}
+                                <a href="https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop&hl=en" class="no-separation" target="_blank">
+                                    <img class="smaller-icon" src="assets/images/fetch/googleplay.png" alt="Download Fetch Rewards in the Play Store"/>
+                                </a>
+                            </div>
+                        </div>
 
-                            {%  if result == False %}
-                                <p class="result orange">Nope!</p>
+                        <div *ngIf="result == true">
+                            <p class="result orange">Pyramid!</p>
+                            <p class="last_input">--{{last_input}}--</p>
+                            <div *ngFor="let item of dict_list | keyvalue">
+                                <li>{{item.key}} - {{item.value}} times</li>
+                            </div> 
+                        </div>
 
-                                {% for key, value in dict.items %}
-                                    <li>"{{key}}" - {{value}} times</li>
-                                {% endfor %}
-
-                            {% endif %} -->
+                        <div *ngIf="result == false">
+                            <p class="result orange">Nope!</p>
+                            <p class="last_input">--{{last_input}}--</p>
+                            <div *ngFor="let item of dict_list | keyvalue">
+                                <li>{{item.key}} - {{item.value}} times</li>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

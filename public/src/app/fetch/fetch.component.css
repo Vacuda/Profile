@@ -117,6 +117,14 @@ footer	.zig-zag-top{
     padding: 32px 0;
 }
 
+h1 {
+    margin-bottom: 10px;
+}
+
+.last_input {
+    margin-bottom: 10px;
+}
+
 
 
 
