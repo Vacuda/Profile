@@ -17,6 +17,7 @@ import { ProdManComponent } from './prod-man/prod-man.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FetchComponent } from './fetch/fetch.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
+import { CoinMachineComponent } from './coin-machine/coin-machine.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -36,6 +37,7 @@ const routes: Routes = [
             { path: 'wedding_planner',component: WeddingComponent },
             { path: 'rate_my_cakes',component: CakesComponent },
             { path: 'product_manager',component: ProdManComponent },
+            { path: 'coin_machine',component: CoinMachineComponent },
         ]
      },
     { path: 'fetch',component: FetchComponent },

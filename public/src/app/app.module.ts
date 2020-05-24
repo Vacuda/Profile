@@ -23,6 +23,7 @@ import { ProdManComponent } from './prod-man/prod-man.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FetchComponent } from './fetch/fetch.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
+import { CoinMachineComponent } from './coin-machine/coin-machine.component';
 // import { ShowComponent } from './show/show.component';
 
 @NgModule({
@@ -44,6 +45,7 @@ import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.compo
     PageNotFoundComponent,
     FetchComponent,
     ShellPortfolioComponent,
+    CoinMachineComponent,
     // ShowComponent
   ],
   imports: [
