@@ -13,7 +13,7 @@ export class ProdCatComponent implements OnInit {
     }
 
     toTop(){
-            document.body.scrollTop = document.documentElement.scrollTop = 0;
-        }
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
 
 }
