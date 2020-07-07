@@ -116,6 +116,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/diabetes/diabetes.component.html":
+  /*!****************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/diabetes/diabetes.component.html ***!
+    \****************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppDiabetesDiabetesComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"inner\">\n\n    <button class=\"btn btn-success\" [routerLink]=\"['/']\">-Back-</button>\n\n    <h1>Diabetes Treatment App</h1>\n\n    <p>--WORK IN PROGRESS--</p>\n    <p>I'm working on this app for a friend who is a nurse in a Diabetes Clinic. The layout and technology are hooked up, and now I have to practically become a doctor to work out all the logic necessary to produce the proper diagnosis. Eek!</p>\n    <h4>Technologies</h4>\n    <p>Typescript, Express, Angular, Node.js</p>\n\n    <a class=\"btn btn-danger\" href=\"https://github.com/Vacuda/Diabetes_Treatment\">-Github-</a>\n\n    <h5>Changing Inputs, Diagnosis Alters Automatically</h5>\n    <img class=\"shrink\" src=\"assets/images/diabetes_treatment/full.gif\" alt=\"Animated Gif Showing Functionality\">\n\n    <h5>Responsive!</h5>\n    <img src=\"assets/images/diabetes_treatment/responsive.gif\" alt=\"Animated Gif Showing Functionality\">\n\n    <button class=\"btn btn-success\" [routerLink]=\"['/']\" (click)=\"toTop()\">-Back-</button>\n\n</div>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/fetch/fetch.component.html":
   /*!**********************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/fetch/fetch.component.html ***!
@@ -311,7 +331,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n<p *ngIf=\"elevator==true\" class=\"elevator\">Focused developer looking to become a vital part of the team. Great balance between technical skills and soft skills, creativity and habit. Effective communicator and teacher. Eager to learn deeply and be coached. Eager to build quality software and write beautiful code. Strong ability to see both the big and the small and how important the one is to the other. I have a background in filmmaking, editing, writing and video games, so I would love to join these passions with software development.</p>\n\n<div *ngIf=\"elevator==true\" class=\"division\"></div>\n\n\n<div class=\"inner\">\n    <div class=\"card\">\n        <div class=\"card-header\">Inventory Shelf</div>  \n        <img src=\"assets/images/inventory_shelf/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Manage Inventory, Make Purchases</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/inventory']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Coin Machine API</div>  \n        <img src=\"assets/images/coin_machine/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Basic CRUD for Coin Management</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/coin_machine']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Swedish Mountain Manicure</div>  \n        <img src=\"assets/images/swedish_mountain_manicure/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Platformer Video Game</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/swedish']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Wedding Planner</div>  \n        <img src=\"assets/images/wedding_planner/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Exercise with Login and Registration</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/wedding_planner']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Sacred Coins</div>  \n        <img src=\"assets/images/sacred_coins/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Vast Choose-Your-Own-Adventure</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/sacred']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Jigsaw Registry</div>  \n        <img src=\"assets/images/jigsaw_registry/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Jigsaw Puzzle Hobby Organizer</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/jigsaw']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Hostility Skirmish</div>  \n        <img src=\"assets/images/hostility_skirmish/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Online Multiplayer Battle Game</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/hostility']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Ninjaman</div>  \n        <img src=\"assets/images/ninjaman/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Pacman Clone</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/ninjaman']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Books and Authors</div>  \n        <img src=\"assets/images/books_authors/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Books and Authors Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/books_authors']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Gold Getter</div>  \n        <img src=\"assets/images/gold_getter/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Gold-Getting Exercise with Python</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/gold_getter']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Rate My Cakes</div>  \n        <img src=\"assets/images/rate_my_cakes/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Cake-Rating Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/rate_my_cakes']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Products and Categories</div>  \n        <img src=\"assets/images/products_categories/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Product and Category Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/products_categories']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Product Manager</div>  \n        <img src=\"assets/images/product_manager/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Managing Products Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/product_manager']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n</div>\n\n";
+    __webpack_exports__["default"] = "\n<p *ngIf=\"elevator==true\" class=\"elevator\">Focused developer looking to become a vital part of the team. Great balance between technical skills and soft skills, creativity and habit. Effective communicator and teacher. Eager to learn deeply and be coached. Eager to build quality software and write beautiful code. Strong ability to see both the big and the small and how important the one is to the other. I have a background in filmmaking, editing, writing and video games, so I would love to join these passions with software development.</p>\n\n<div *ngIf=\"elevator==true\" class=\"division\"></div>\n\n\n<div class=\"inner\">\n    <div class=\"card\">\n        <div class=\"card-header\">Inventory Shelf</div>  \n        <img src=\"assets/images/inventory_shelf/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Manage Inventory, Make Purchases</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/inventory']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Coin Machine API</div>  \n        <img src=\"assets/images/coin_machine/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Basic CRUD for Coin Management</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/coin_machine']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Diabetes Treatment App</div>  \n        <img src=\"assets/images/diabetes_treatment/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Medical Diagnosis Aid</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/diabetes']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Swedish Mountain Manicure</div>  \n        <img src=\"assets/images/swedish_mountain_manicure/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Platformer Video Game</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/swedish']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Wedding Planner</div>  \n        <img src=\"assets/images/wedding_planner/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Exercise with Login and Registration</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/wedding_planner']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Sacred Coins</div>  \n        <img src=\"assets/images/sacred_coins/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Vast Choose-Your-Own-Adventure</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/sacred']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Jigsaw Registry</div>  \n        <img src=\"assets/images/jigsaw_registry/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Jigsaw Puzzle Hobby Organizer</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/jigsaw']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Hostility Skirmish</div>  \n        <img src=\"assets/images/hostility_skirmish/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Online Multiplayer Battle Game</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/hostility']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Ninjaman</div>  \n        <img src=\"assets/images/ninjaman/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Pacman Clone</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/ninjaman']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Books and Authors</div>  \n        <img src=\"assets/images/books_authors/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Books and Authors Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/books_authors']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Gold Getter</div>  \n        <img src=\"assets/images/gold_getter/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Gold-Getting Exercise with Python</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/gold_getter']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Rate My Cakes</div>  \n        <img src=\"assets/images/rate_my_cakes/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Cake-Rating Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/rate_my_cakes']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Products and Categories</div>  \n        <img src=\"assets/images/products_categories/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Product and Category Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/products_categories']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n    <div class=\"card\">\n        <div class=\"card-header\">Product Manager</div>  \n        <img src=\"assets/images/product_manager/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text\">Managing Products Exercise</p>\n            <button class=\"btn btn-success\" [routerLink]=\"['/product_manager']\" (click)=\"toTop()\">Check Me Out</button>\n        </div>\n    </div>\n\n</div>\n\n";
     /***/
   },
 
@@ -1083,13 +1103,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    var _diabetes_diabetes_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    /*! ./diabetes/diabetes.component */
+    "./src/app/diabetes/diabetes.component.ts");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js"); // import { EditComponent } from './edit/edit.component';
     // import { NewComponent } from './new/new.component';
@@ -1140,6 +1166,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         path: 'coin_machine',
         component: _coin_machine_coin_machine_component__WEBPACK_IMPORTED_MODULE_17__["CoinMachineComponent"]
+      }, {
+        path: 'diabetes',
+        component: _diabetes_diabetes_component__WEBPACK_IMPORTED_MODULE_18__["DiabetesComponent"]
       }]
     }, {
       path: 'fetch',
@@ -1169,9 +1198,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, AppRoutingModule);
     };
 
-    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_18__["NgModule"])({
-      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_19__["RouterModule"].forRoot(routes)],
-      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_19__["RouterModule"]]
+    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_19__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_20__["RouterModule"].forRoot(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_20__["RouterModule"]]
     })], AppRoutingModule); // const routes: Routes = [
     //     { path: 'product',component: ProductComponent, children: [
     //         { path: 'details/:id', component: ProductDetailComponent },
@@ -1534,7 +1563,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _coin_machine_coin_machine_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
     /*! ./coin-machine/coin-machine.component */
-    "./src/app/coin-machine/coin-machine.component.ts"); // import { TaskService } from './task.service';
+    "./src/app/coin-machine/coin-machine.component.ts");
+    /* harmony import */
+
+
+    var _diabetes_diabetes_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    /*! ./diabetes/diabetes.component */
+    "./src/app/diabetes/diabetes.component.ts"); // import { TaskService } from './task.service';
     // import { ShowComponent } from './show/show.component';
 
 
@@ -1543,7 +1578,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _hostility_hostility_component__WEBPACK_IMPORTED_MODULE_8__["HostilityComponent"], _ninjaman_ninjaman_component__WEBPACK_IMPORTED_MODULE_9__["NinjamanComponent"], _swedish_swedish_component__WEBPACK_IMPORTED_MODULE_10__["SwedishComponent"], _sacred_sacred_component__WEBPACK_IMPORTED_MODULE_11__["SacredComponent"], _jigsaw_jigsaw_component__WEBPACK_IMPORTED_MODULE_12__["JigsawComponent"], _inventory_inventory_component__WEBPACK_IMPORTED_MODULE_13__["InventoryComponent"], _books_books_component__WEBPACK_IMPORTED_MODULE_14__["BooksComponent"], _gold_gold_component__WEBPACK_IMPORTED_MODULE_15__["GoldComponent"], _wedding_wedding_component__WEBPACK_IMPORTED_MODULE_16__["WeddingComponent"], _cakes_cakes_component__WEBPACK_IMPORTED_MODULE_17__["CakesComponent"], _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_18__["ProdCatComponent"], _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_19__["ProdManComponent"], _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_20__["PageNotFoundComponent"], _fetch_fetch_component__WEBPACK_IMPORTED_MODULE_21__["FetchComponent"], _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_22__["ShellPortfolioComponent"], _coin_machine_coin_machine_component__WEBPACK_IMPORTED_MODULE_23__["CoinMachineComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _hostility_hostility_component__WEBPACK_IMPORTED_MODULE_8__["HostilityComponent"], _ninjaman_ninjaman_component__WEBPACK_IMPORTED_MODULE_9__["NinjamanComponent"], _swedish_swedish_component__WEBPACK_IMPORTED_MODULE_10__["SwedishComponent"], _sacred_sacred_component__WEBPACK_IMPORTED_MODULE_11__["SacredComponent"], _jigsaw_jigsaw_component__WEBPACK_IMPORTED_MODULE_12__["JigsawComponent"], _inventory_inventory_component__WEBPACK_IMPORTED_MODULE_13__["InventoryComponent"], _books_books_component__WEBPACK_IMPORTED_MODULE_14__["BooksComponent"], _gold_gold_component__WEBPACK_IMPORTED_MODULE_15__["GoldComponent"], _wedding_wedding_component__WEBPACK_IMPORTED_MODULE_16__["WeddingComponent"], _cakes_cakes_component__WEBPACK_IMPORTED_MODULE_17__["CakesComponent"], _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_18__["ProdCatComponent"], _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_19__["ProdManComponent"], _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_20__["PageNotFoundComponent"], _fetch_fetch_component__WEBPACK_IMPORTED_MODULE_21__["FetchComponent"], _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_22__["ShellPortfolioComponent"], _coin_machine_coin_machine_component__WEBPACK_IMPORTED_MODULE_23__["CoinMachineComponent"], _diabetes_diabetes_component__WEBPACK_IMPORTED_MODULE_24__["DiabetesComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"]],
       providers: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
       //   providers: [TaskService],
@@ -1801,6 +1836,85 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./coin-machine.component.css */
       "./src/app/coin-machine/coin-machine.component.css")).default]
     })], CoinMachineComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/diabetes/diabetes.component.css":
+  /*!*************************************************!*\
+    !*** ./src/app/diabetes/diabetes.component.css ***!
+    \*************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppDiabetesDiabetesComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".inner {\r\n    margin: 0 auto;\r\n    display: block;\r\n    text-align: center;\r\n}\r\n\r\nimg {\r\n    width: 80%;\r\n    height: auto;\r\n    /* max-width: 90%; */\r\n    box-shadow: 0px 0px 3px 2px black;\r\n\r\n}\r\n\r\nh5 {\r\n    margin-top: 20px;\r\n}\r\n\r\nh1 {\r\n    text-decoration: underline;\r\n}\r\n\r\n.top {\r\n    width: 20%;\r\n    height: auto;\r\n}\r\n\r\n.btn-success {\r\n    margin-top: 20px;\r\n    margin-bottom: 20px;\r\n    width: 30%;\r\n    height: 24px;\r\n    line-height: 10px;\r\n    box-shadow: 0px 0px 1px 2px black;\r\n}\r\n\r\n.btn-danger {\r\n    width: 30%;\r\n    margin-bottom: 20px;\r\n    height: 24px;\r\n    line-height: 10px;\r\n    box-shadow: 0px 0px 1px 2px black;\r\n}\r\n\r\n.shrink {\r\n    width: 60%;\r\n}\r\n\r\n@media only screen and (max-width: 480px) {\r\n\r\n    h5 {\r\n        font-size: 30px;\r\n    }\r\n\r\n    p {\r\n        font-size: 20px;\r\n    }\r\n    \r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZGlhYmV0ZXMvZGlhYmV0ZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxjQUFjO0lBQ2Qsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksVUFBVTtJQUNWLFlBQVk7SUFDWixvQkFBb0I7SUFDcEIsaUNBQWlDOztBQUVyQzs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJLFVBQVU7SUFDVixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixVQUFVO0lBQ1YsWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixpQ0FBaUM7QUFDckM7O0FBRUE7SUFDSSxVQUFVO0lBQ1YsbUJBQW1CO0lBQ25CLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsaUNBQWlDO0FBQ3JDOztBQUVBO0lBQ0ksVUFBVTtBQUNkOztBQUdBOztJQUVJO1FBQ0ksZUFBZTtJQUNuQjs7SUFFQTtRQUNJLGVBQWU7SUFDbkI7O0FBRUoiLCJmaWxlIjoic3JjL2FwcC9kaWFiZXRlcy9kaWFiZXRlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmlubmVyIHtcclxuICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbmltZyB7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgaGVpZ2h0OiBhdXRvO1xyXG4gICAgLyogbWF4LXdpZHRoOiA5MCU7ICovXHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDNweCAycHggYmxhY2s7XHJcblxyXG59XHJcblxyXG5oNSB7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG59XHJcblxyXG5oMSB7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG5cclxuLnRvcCB7XHJcbiAgICB3aWR0aDogMjAlO1xyXG4gICAgaGVpZ2h0OiBhdXRvO1xyXG59XHJcblxyXG4uYnRuLXN1Y2Nlc3Mge1xyXG4gICAgbWFyZ2luLXRvcDogMjBweDtcclxuICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbiAgICB3aWR0aDogMzAlO1xyXG4gICAgaGVpZ2h0OiAyNHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDEwcHg7XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDFweCAycHggYmxhY2s7XHJcbn1cclxuXHJcbi5idG4tZGFuZ2VyIHtcclxuICAgIHdpZHRoOiAzMCU7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG4gICAgaGVpZ2h0OiAyNHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDEwcHg7XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDFweCAycHggYmxhY2s7XHJcbn1cclxuXHJcbi5zaHJpbmsge1xyXG4gICAgd2lkdGg6IDYwJTtcclxufVxyXG5cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDgwcHgpIHtcclxuXHJcbiAgICBoNSB7XHJcbiAgICAgICAgZm9udC1zaXplOiAzMHB4O1xyXG4gICAgfVxyXG5cclxuICAgIHAge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIH1cclxuICAgIFxyXG59Il19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/diabetes/diabetes.component.ts":
+  /*!************************************************!*\
+    !*** ./src/app/diabetes/diabetes.component.ts ***!
+    \************************************************/
+
+  /*! exports provided: DiabetesComponent */
+
+  /***/
+  function srcAppDiabetesDiabetesComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "DiabetesComponent", function () {
+      return DiabetesComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var DiabetesComponent =
+    /*#__PURE__*/
+    function () {
+      function DiabetesComponent() {
+        _classCallCheck(this, DiabetesComponent);
+      }
+
+      _createClass(DiabetesComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return DiabetesComponent;
+    }();
+
+    DiabetesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-diabetes',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./diabetes.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/diabetes/diabetes.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./diabetes.component.css */
+      "./src/app/diabetes/diabetes.component.css")).default]
+    })], DiabetesComponent);
     /***/
   },
 
