@@ -25,6 +25,8 @@ import { FetchComponent } from './fetch/fetch.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
 import { CoinMachineComponent } from './coin-machine/coin-machine.component';
 import { DiabetesComponent } from './diabetes/diabetes.component';
+import { WebProjectsComponent } from './web-projects/web-projects.component';
+import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfolio-web.component';
 // import { ShowComponent } from './show/show.component';
 
 @NgModule({
@@ -48,6 +50,8 @@ import { DiabetesComponent } from './diabetes/diabetes.component';
     ShellPortfolioComponent,
     CoinMachineComponent,
     DiabetesComponent,
+    WebProjectsComponent,
+    ShellPortfolioWebComponent,
     // ShowComponent
   ],
   imports: [

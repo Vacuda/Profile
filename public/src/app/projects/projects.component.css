@@ -88,17 +88,17 @@ p {
     
 }
     
-@media only screen and (max-width: 481px) {
+/* @media only screen and (max-width: 481px) {
     .card {
         
-        /* height: 700px; */
+        height: 700px; 
 
     }
 
    
 
 
-}
+} */
     
 /* @media only screen and (min-width: 1024px) {
     .card {

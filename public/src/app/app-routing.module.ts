@@ -19,6 +19,8 @@ import { FetchComponent } from './fetch/fetch.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
 import { CoinMachineComponent } from './coin-machine/coin-machine.component';
 import { DiabetesComponent } from './diabetes/diabetes.component';
+import { WebProjectsComponent } from './web-projects/web-projects.component';
+import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfolio-web.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -42,7 +44,25 @@ const routes: Routes = [
             { path: 'diabetes',component: DiabetesComponent },
         ]
      },
-    { path: 'fetch',component: FetchComponent },
+    { path: 'web',component: ShellPortfolioWebComponent,
+        children: [
+            { path: '',component: WebProjectsComponent },
+            { path: 'hostility',component: HostilityComponent },
+            { path: 'ninjaman',component: NinjamanComponent },
+            { path: 'swedish',component: SwedishComponent },
+            { path: 'sacred',component: SacredComponent },
+            { path: 'jigsaw',component: JigsawComponent },
+            { path: 'inventory',component: InventoryComponent },
+            { path: 'books_authors',component: BooksComponent },
+            { path: 'products_categories',component: ProdCatComponent },
+            { path: 'gold_getter',component: GoldComponent },
+            { path: 'wedding_planner',component: WeddingComponent },
+            { path: 'rate_my_cakes',component: CakesComponent },
+            { path: 'product_manager',component: ProdManComponent },
+            { path: 'coin_machine',component: CoinMachineComponent },
+            { path: 'diabetes',component: DiabetesComponent },
+        ]
+},
     { path: '**', component: PageNotFoundComponent }
 ];
 
