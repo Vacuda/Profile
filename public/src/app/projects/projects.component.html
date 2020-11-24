@@ -1,10 +1,82 @@
 
-<p *ngIf="elevator==true" class="elevator">Focused developer looking to become a vital part of the team. Great balance between technical skills and soft skills, creativity and habit. Effective communicator and teacher. Eager to learn deeply and be coached. Eager to build quality software and write beautiful code. Strong ability to see both the big and the small and how important the one is to the other. I have a background in filmmaking, editing, writing and video games, so I would love to join these passions with software development.</p>
+<p *ngIf="elevator==true" class="elevator">
+    Focused developer looking to become a vital part of the team. 
+    Great balance between technical skills and soft skills, creativity and habit. Effective communicator and teacher. 
+    Eager to learn deeply and be coached. Eager to build quality software. Strong ability to see both the big 
+    and the small and how important the one is to the other.</p>
+
+<p *ngIf="elevator==true" class="elevator">
+    I have a background in filmmaking, editing, writing and playing a lot of video games, so I would love to join these 
+    passions and break into the games industry. While I build my own game, I'd love to find a job that can help me learn.</p>
 
 <div *ngIf="elevator==true" class="division"></div>
 
 
 <div class="inner">
+    
+    <div class="card">
+        <div class="card-header">Talismans</div>  
+        <img src="assets/images/talismans/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Game I'm Currently Developing</p>
+            <button class="btn btn-success" [routerLink]="['/talismans']" (click)="toTop()">Check Me Out</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">Unreal Engine</div>  
+        <img src="assets/images/unreal/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Game Engine Experience</p>
+            <button class="btn btn-success" [routerLink]="['/unreal']" (click)="toTop()">Check Me Out</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">Blender</div>  
+        <img src="assets/images/blender/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">3D Modeling Experience</p>
+            <button class="btn btn-success" [routerLink]="['/blender']" (click)="toTop()">Check Me Out</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">Swedish Mountain Manicure</div>  
+        <img src="assets/images/swedish_mountain_manicure/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Platformer Video Game</p>
+            <button class="btn btn-success" [routerLink]="['/swedish']" (click)="toTop()">Check Me Out</button>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">Hostility Skirmish</div>  
+        <img src="assets/images/hostility_skirmish/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Online Multiplayer Battle Game</p>
+            <button class="btn btn-success" [routerLink]="['/hostility']" (click)="toTop()">Check Me Out</button>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">Ninjaman</div>  
+        <img src="assets/images/ninjaman/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Pacman Clone</p>
+            <button class="btn btn-success" [routerLink]="['/ninjaman']" (click)="toTop()">Check Me Out</button>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">Sacred Coins</div>  
+        <img src="assets/images/sacred_coins/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Vast Choose-Your-Own-Adventure</p>
+            <button class="btn btn-success" [routerLink]="['/sacred']" (click)="toTop()">Check Me Out</button>
+        </div>
+    </div>
+    
     <div class="card">
         <div class="card-header">Inventory Shelf</div>  
         <img src="assets/images/inventory_shelf/screenshot.png" class="card-img-top" alt="Screenshot">
@@ -33,29 +105,11 @@
     </div>
 
     <div class="card">
-        <div class="card-header">Swedish Mountain Manicure</div>  
-        <img src="assets/images/swedish_mountain_manicure/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Platformer Video Game</p>
-            <button class="btn btn-success" [routerLink]="['/swedish']" (click)="toTop()">Check Me Out</button>
-        </div>
-    </div>
-
-    <div class="card">
         <div class="card-header">Wedding Planner</div>  
         <img src="assets/images/wedding_planner/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Exercise with Login and Registration</p>
             <button class="btn btn-success" [routerLink]="['/wedding_planner']" (click)="toTop()">Check Me Out</button>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-header">Sacred Coins</div>  
-        <img src="assets/images/sacred_coins/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Vast Choose-Your-Own-Adventure</p>
-            <button class="btn btn-success" [routerLink]="['/sacred']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 
@@ -68,23 +122,6 @@
         </div>
     </div>
 
-    <div class="card">
-        <div class="card-header">Hostility Skirmish</div>  
-        <img src="assets/images/hostility_skirmish/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Online Multiplayer Battle Game</p>
-            <button class="btn btn-success" [routerLink]="['/hostility']" (click)="toTop()">Check Me Out</button>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-header">Ninjaman</div>  
-        <img src="assets/images/ninjaman/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Pacman Clone</p>
-            <button class="btn btn-success" [routerLink]="['/ninjaman']" (click)="toTop()">Check Me Out</button>
-        </div>
-    </div>
 
     <div class="card">
         <div class="card-header">Books and Authors</div>  

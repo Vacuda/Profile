@@ -15,12 +15,14 @@ import { WeddingComponent } from './wedding/wedding.component';
 import { CakesComponent } from './cakes/cakes.component';
 import { ProdManComponent } from './prod-man/prod-man.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { FetchComponent } from './fetch/fetch.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
 import { CoinMachineComponent } from './coin-machine/coin-machine.component';
 import { DiabetesComponent } from './diabetes/diabetes.component';
 import { WebProjectsComponent } from './web-projects/web-projects.component';
 import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfolio-web.component';
+import { TalismansComponent } from './talismans/talismans.component';
+import { UnrealComponent } from './unreal/unreal.component';
+import { BlenderComponent } from './blender/blender.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -28,6 +30,9 @@ const routes: Routes = [
     { path: '',component: ShellPortfolioComponent,
         children: [
             { path: '',component: ProjectsComponent },
+            { path: 'talismans',component: TalismansComponent },
+            { path: 'unreal',component: UnrealComponent },
+            { path: 'blender',component: BlenderComponent },
             { path: 'hostility',component: HostilityComponent },
             { path: 'ninjaman',component: NinjamanComponent },
             { path: 'swedish',component: SwedishComponent },

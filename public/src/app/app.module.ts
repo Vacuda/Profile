@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
-// import { TaskService } from './task.service';
 import { FormsModule } from '@angular/forms';
 import { ProjectsComponent } from './projects/projects.component';
 import { HostilityComponent } from './hostility/hostility.component';
@@ -21,13 +20,14 @@ import { CakesComponent } from './cakes/cakes.component';
 import { ProdCatComponent } from './prod-cat/prod-cat.component';
 import { ProdManComponent } from './prod-man/prod-man.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { FetchComponent } from './fetch/fetch.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
 import { CoinMachineComponent } from './coin-machine/coin-machine.component';
 import { DiabetesComponent } from './diabetes/diabetes.component';
 import { WebProjectsComponent } from './web-projects/web-projects.component';
 import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfolio-web.component';
-// import { ShowComponent } from './show/show.component';
+import { BlenderComponent } from './blender/blender.component';
+import { TalismansComponent } from './talismans/talismans.component';
+import { UnrealComponent } from './unreal/unreal.component';
 
 @NgModule({
   declarations: [
@@ -46,13 +46,14 @@ import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfoli
     ProdCatComponent,
     ProdManComponent,
     PageNotFoundComponent,
-    FetchComponent,
     ShellPortfolioComponent,
     CoinMachineComponent,
     DiabetesComponent,
     WebProjectsComponent,
     ShellPortfolioWebComponent,
-    // ShowComponent
+    BlenderComponent,
+    TalismansComponent,
+    UnrealComponent
   ],
   imports: [
     BrowserModule,
