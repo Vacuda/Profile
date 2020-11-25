@@ -10,12 +10,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.container {
-    width: 970px;
-    min-height: 800px;
-    margin: 0px auto;
-    padding: 60px;
-    font-size: 15px;
+.mycontainer {
     background-color: rgb(160, 163, 154);
 }
 
@@ -69,28 +64,78 @@ h3 {
 
 
 
-
+/* SMALL */
 
 @media only screen and (max-width: 480px) {
 
-    h1 {
-        font-size: 45px;
+    .mycontainer {
+        width: 100%;
+        min-height: 800px;
+        margin: 0px auto;
+        padding: 20px;
     }
 
-    p {
-        font-size: 20px;
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
     }
     
 }
     
+/* MEDIUM */
+
 @media only screen and (min-width: 481px) {
 
+    .mycontainer {
+        width: 100%;
+        min-height: 800px;
+        margin: 0px;
+        padding: 20px 30px;
+    }
 
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
+    }
 
 }
     
+/* LARGE */
+
 @media only screen and (min-width: 1024px) {
 
+    .mycontainer {
+        width: 970px;
+        min-height: 800px;
+        margin: 0px auto;
+        padding: 20px 40px;
+    }
+
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
+    }
 
 
 }

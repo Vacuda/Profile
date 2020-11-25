@@ -1,11 +1,10 @@
 
-
-* {
+/* * {
     margin: 0;
     border: 0;
     box-sizing: border-box;
     vertical-align: top;
-    /* outline: 1px dotted red; */
+    outline: 1px dotted red;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
@@ -17,8 +16,9 @@
     padding: 60px;
     font-size: 15px;
     background-color: rgb(160, 163, 154);
-}
+} */
 
+/* 
 a {
     text-decoration: none;
 }
@@ -93,4 +93,4 @@ h3 {
 
 
 
-}
+} */
