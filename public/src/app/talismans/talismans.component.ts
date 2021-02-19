@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TalismansComponent implements OnInit {
 
-  constructor() { }
+    bIsWeb: boolean;
 
-  ngOnInit() {
-  }
+    constructor() { }
+
+    ngOnInit() {
+    }
+
+    toTop(){
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
 
 }

@@ -50,11 +50,24 @@ h3 {
 }
 
 
+.midicon {
+    margin: 0px 30px;
+}
 
+img {
+    margin-top: 10px;
+    height: 32px;
+    width: auto;
+}
 
-
-
-
+.btn-success {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 24px;
+    line-height: 10px;
+    box-shadow: 0px 0px 1px 2px black;
+}
 
 
 

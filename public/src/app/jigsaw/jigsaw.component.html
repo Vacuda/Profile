@@ -1,29 +1,41 @@
 <div class="inner">
 
-    <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
 
-    <h1>Jigsaw Registry</h1>
+        <h1>Jigsaw Registry</h1>
 
-    <p>A big hobby of mine is doing jigsaw puzzles.  At one point, I went looking for an app that could help me log my puzzling hobby, but I didn't find it.  So, I built it myself!</p>
-    <p>I have not yet been back to it to make it look and feel nice, but it was a challenge working with so many different models and forms.</p>
-    
-    <h4>Technologies</h4>
-    <p>Python, Django, SQLite</p>
+        <p>A big hobby of mine is doing jigsaw puzzles.  At one point, I went looking for an app that could help me log my puzzling hobby, but I didn't find it.  So, I built it myself!</p>
+        <p>I have not yet been back to it to make it look and feel nice, but it was a challenge working with so many different models and forms.</p>
+        
+        <h4>Technologies</h4>
+        <p>Python, Django, SQLite</p>
 
-    <a class="btn btn-danger" href="https://github.com/Vacuda/jigsaw_registry">-Github-</a>
+        <a class="btn btn-danger" href="https://github.com/Vacuda/jigsaw_registry">-Github-</a>
 
-    <h5>Log all of your Jigsaw Puzzles</h5>
-    <img src="assets/images/jigsaw_registry/view_puzzle.gif" alt="Animated Gif Showing Functionality">
+        <h5>Log all of your Jigsaw Puzzles</h5>
+        <img src="assets/images/jigsaw_registry/view_puzzle.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Adding a Puzzle into the Database</h5>
-    <img src="assets/images/jigsaw_registry/add_puzzle.gif" alt="Animated Gif Showing Functionality">
+        <h5>Adding a Puzzle into the Database</h5>
+        <img src="assets/images/jigsaw_registry/add_puzzle.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Adding a Project into the System</h5>
-    <img src="assets/images/jigsaw_registry/add_project.gif" alt="Animated Gif Showing Functionality">
+        <h5>Adding a Project into the System</h5>
+        <img src="assets/images/jigsaw_registry/add_project.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Check out your Stats</h5>
-    <img src="assets/images/jigsaw_registry/stats.gif" alt="Animated Gif Showing Functionality">
+        <h5>Check out your Stats</h5>
+        <img src="assets/images/jigsaw_registry/stats.gif" alt="Animated Gif Showing Functionality">
 
-    <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
 
 </div>

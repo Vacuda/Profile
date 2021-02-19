@@ -1,35 +1,47 @@
 <div class="inner">
 
-    <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
 
-    <h1>Blender Experience</h1>
+        <h1>Blender Experience</h1>
 
-    <p>Other than the Obligatory Tutorial Donut, I've used Blender to work on my current project, Talismans.  
-        The models aren't complex, but I did need to be very precise with them.  My levels are procedurally generated, so
-        I built the foundation of a kit that I can continue to iterate on.</p>
+        <p>Other than the Obligatory Tutorial Donut, I've used Blender to work on my current project, Talismans.  
+            The models aren't complex, but I did need to be very precise with them.  My levels are procedurally generated, so
+            I built the foundation of a kit that I can continue to iterate on.</p>
 
-    <p>Puzzle pieces had to be precise, so they can procedurally be made and still fit together in a consistent manner.</p>
+        <p>Puzzle pieces had to be precise, so they can procedurally be made and still fit together in a consistent manner.</p>
 
-    <p>This all forced me to understand the importance of controlling your UV Maps.</p>
+        <p>This all forced me to understand the importance of controlling your UV Maps.</p>
 
-    <h4>Areas Of Focus</h4>
-    <p>Model Building, UV Maps, Tutorial Donut</p>
+        <h4>Areas Of Focus</h4>
+        <p>Model Building, UV Maps, Tutorial Donut</p>
 
-    <h5>Pieces That Fit Evenly</h5>
-    <img src="assets/images/blender/pieces.png" alt="Various Pieces On The Board">
-    
-    <h5>Room Kit Basis</h5>
-    <img src="assets/images/blender/room_kit.png" alt="Various Models of a Room Kit">
+        <h5>Pieces That Fit Evenly</h5>
+        <img src="assets/images/blender/pieces.png" alt="Various Pieces On The Board">
 
-    <h5>Room Models In Action</h5>
-    <img src="assets/images/blender/rooms.png" alt="Various Models of a Room Kit">
+        <h5>Room Kit Basis</h5>
+        <img src="assets/images/blender/room_kit.png" alt="Various Models of a Room Kit">
 
-    <h5>Grid Model With UV Map</h5>
-    <img src="assets/images/blender/uv_board.png" alt="Board Model With UV Maps">
+        <h5>Room Models In Action</h5>
+        <img src="assets/images/blender/rooms.png" alt="Various Models of a Room Kit">
 
-    <h5>Obligatory Tutorial Donut</h5>
-    <img src="assets/images/blender/donut.png" alt="Computer Graphic Donut">
+        <h5>Grid Model With UV Map</h5>
+        <img src="assets/images/blender/uv_board.png" alt="Board Model With UV Maps">
 
-    <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+        <h5>Obligatory Tutorial Donut</h5>
+        <img src="assets/images/blender/donut.png" alt="Computer Graphic Donut">
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
 
 </div>

@@ -7,9 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShellPortfolioComponent implements OnInit {
 
-  constructor() { }
+    // elevator: boolean;
 
-  ngOnInit() {
-  }
+    constructor() { }
+
+    ngOnInit() {
+        // this.elevator = true;
+    }
+
+    toTop(){
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+
+    onOutletLoaded(component) {
+        component.bIsWeb = false;
+    }
+
+    // ngOnDestroy(){
+    //     this.elevator = false;
+    // }
 
 }
+

@@ -1,21 +1,33 @@
 <div class="inner">
 
-    <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
 
-    <h1>Gold-Getting Exercise</h1>
+        <h1>Gold-Getting Exercise</h1>
 
-    <h4>Technologies</h4>
-    <p>Python, Django, MySQLite</p>
-    <a class="btn btn-danger" href="https://github.com/Vacuda/Gold_Getter_in_Django">-Github-</a>
+        <h4>Technologies</h4>
+        <p>Python, Django, MySQLite</p>
+        <a class="btn btn-danger" href="https://github.com/Vacuda/Gold_Getter_in_Django">-Github-</a>
 
-    <p>and</p>
+        <p>and</p>
 
-    <p>Python, Flask, MySQLite</p>
-    <a class="btn btn-danger" href="https://github.com/Vacuda/Gold_Getter_in_Flask">-Github-</a>
+        <p>Python, Flask, MySQLite</p>
+        <a class="btn btn-danger" href="https://github.com/Vacuda/Gold_Getter_in_Flask">-Github-</a>
 
-    <h5>Getting Golds</h5>
-    <img src="assets/images/gold_getter/full.gif" alt="Animated Gif Showing Functionality">
+        <h5>Getting Golds</h5>
+        <img src="assets/images/gold_getter/full.gif" alt="Animated Gif Showing Functionality">
 
-    <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
 
 </div>

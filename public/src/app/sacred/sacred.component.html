@@ -1,30 +1,42 @@
 <div class="inner">
 
-    <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
 
-    <h1>Sacred Coins</h1>
+        <h1>Sacred Coins</h1>
 
-    <p>When I was thirteen, I built a 200 page Choose-Your-Own-Adventure story for my family to play on Christmas Day in order to get their present.  And instead of flipping between pages, they had to walk to other parts of the house where I hid sleeves that contained each page of the story.  Every page had a different location in the house!  It had physical locks, items, and keys to use, and it was even customized for each family member.  It had 43 items in it and 17 ways to die.  No, no one ever completed it.  My mom did have me walk her through it though.</p>
-    <p>Anyway, I wanted to bring this back to life in a digital form.  (Don't pay attention to the writing!)  I really enjoyed building this, but I never finished it.  I loved building the sprites for the items. The crown jewel was working on the map and getting it to dynamically build as you played it!</p>
-    
-    <h4>Technologies</h4>
-    <p><a href="https://www.scirra.com/">Built using Construct 2 (Visual Coding Language)</a></p>
+        <p>When I was thirteen, I built a 200 page Choose-Your-Own-Adventure story for my family to play on Christmas Day in order to get their present.  And instead of flipping between pages, they had to walk to other parts of the house where I hid sleeves that contained each page of the story.  Every page had a different location in the house!  It had physical locks, items, and keys to use, and it was even customized for each family member.  It had 43 items in it and 17 ways to die.  No, no one ever completed it.  My mom did have me walk her through it though.</p>
+        <p>Anyway, I wanted to bring this back to life in a digital form.  (Don't pay attention to the writing!)  I really enjoyed building this, but I never finished it.  I loved building the sprites for the items. The crown jewel was working on the map and getting it to dynamically build as you played it!</p>
+        
+        <h4>Technologies</h4>
+        <p><a href="https://www.scirra.com/">Built using Construct 2 (Visual Coding Language)</a></p>
 
-    <h5>Start your Adventure</h5>
-    <img src="assets/images/sacred_coins/start.gif" alt="Animated Gif Showing Functionality">
+        <h5>Start your Adventure</h5>
+        <img src="assets/images/sacred_coins/start.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Get and Use Items</h5>
-    <img src="assets/images/sacred_coins/interact.gif" alt="Animated Gif Showing Functionality">
+        <h5>Get and Use Items</h5>
+        <img src="assets/images/sacred_coins/interact.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Full, Interactive Map, Builds as you Explore</h5>
-    <img src="assets/images/sacred_coins/map.gif" alt="Animated Gif Showing Functionality">
+        <h5>Full, Interactive Map, Builds as you Explore</h5>
+        <img src="assets/images/sacred_coins/map.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Find Multiple Rings to get past the Barrier</h5>
-    <img src="assets/images/sacred_coins/rings.gif" alt="Animated Gif Showing Functionality">
+        <h5>Find Multiple Rings to get past the Barrier</h5>
+        <img src="assets/images/sacred_coins/rings.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Built using a Visual Coding Language</h5>
-    <img src="assets/images/sacred_coins/coderun.gif" alt="Animated Gif Showing Functionality">
+        <h5>Built using a Visual Coding Language</h5>
+        <img src="assets/images/sacred_coins/coderun.gif" alt="Animated Gif Showing Functionality">
 
-    <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
 
 </div>

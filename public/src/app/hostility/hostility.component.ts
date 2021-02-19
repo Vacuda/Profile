@@ -7,12 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HostilityComponent implements OnInit {
 
-  constructor() { }
+    bIsWeb: boolean;
 
-  ngOnInit() {
-  }
+    constructor() { }
 
-  toTop(){
+    ngOnInit() {
+    }
+
+    toTop(){
         document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
 

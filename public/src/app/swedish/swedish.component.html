@@ -1,24 +1,36 @@
 <div class="inner">
 
-    <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
 
-    <h1>Swedish Mountain Manicure</h1>
+        <h1>Swedish Mountain Manicure</h1>
 
-    <p>I had tons of fun on this project, as you may be able to tell.  I had told my partner to give me three words and that I would build a small videogame around.  She said, “Sweden, Nail Polish, and ...”  I can't remember the third one.  Maybe it was Passcard?</p>
-    <p>Anyway, I spent a lot of time working on the different sprites and gameplay modes of Jamie, our Nail Polish hero. Working with each element and getting them all to work together was particularly joyous for me.  I learned a whole lot about animation and programming a main character.  I even did a lot of experimenting building environments using repeated sprites.  Look at that teleport animation!  And have you built a sprite meatball that spins?</p>
-    
-    <h4>Technologies</h4>
-    <p><a href="https://www.scirra.com/">Built using Construct 2 (Visual Coding Language)</a></p>
+        <p>I had tons of fun on this project, as you may be able to tell.  I had told my partner to give me three words and that I would build a small videogame around.  She said, “Sweden, Nail Polish, and ...”  I can't remember the third one.  Maybe it was Passcard?</p>
+        <p>Anyway, I spent a lot of time working on the different sprites and gameplay modes of Jamie, our Nail Polish hero. Working with each element and getting them all to work together was particularly joyous for me.  I learned a whole lot about animation and programming a main character.  I even did a lot of experimenting building environments using repeated sprites.  Look at that teleport animation!  And have you built a sprite meatball that spins?</p>
+        
+        <h4>Technologies</h4>
+        <p><a href="https://www.scirra.com/">Built using Construct 2 (Visual Coding Language)</a></p>
 
-    <h5>You are Nail Polish, Explore the Mountain, Its in Sweden.</h5>
-    <img src="assets/images/swedish_mountain_manicure/full.gif" alt="Animated Gif Showing Functionality">
+        <h5>You are Nail Polish, Explore the Mountain, Its in Sweden.</h5>
+        <img src="assets/images/swedish_mountain_manicure/full.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Different Nail Polish, Different Game Play</h5>
-    <img src="assets/images/swedish_mountain_manicure/character.gif" alt="Animated Gif Showing Functionality">
+        <h5>Different Nail Polish, Different Game Play</h5>
+        <img src="assets/images/swedish_mountain_manicure/character.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Nifty Teleport Animation</h5>
-    <img src="assets/images/swedish_mountain_manicure/teleport.gif" alt="Animated Gif Showing Functionality">
+        <h5>Nifty Teleport Animation</h5>
+        <img src="assets/images/swedish_mountain_manicure/teleport.gif" alt="Animated Gif Showing Functionality">
 
-    <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
 
 </div>

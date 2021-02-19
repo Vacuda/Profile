@@ -1,17 +1,30 @@
 <div class="inner">
 
-    <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
 
-    <h1>Books and Authors Exercise</h1>
+        <h1>Books and Authors Exercise</h1>
 
-    <h4>Technologies</h4>
-    <p>Python, Django, MySQLite</p>
+        <h4>Technologies</h4>
+        <p>Python, Django, MySQLite</p>
 
-    <a class="btn btn-danger" href="https://github.com/Vacuda/Books_Authors">-Github-</a>
+        <a class="btn btn-danger" href="https://github.com/Vacuda/Books_Authors">-Github-</a>
 
-    <h5>Adding and Linking Books and Authors</h5>
-    <img src="assets/images/books_authors/full.gif" alt="Animated Gif Showing Functionality">
+        <h5>Adding and Linking Books and Authors</h5>
+        <img src="assets/images/books_authors/full.gif" alt="Animated Gif Showing Functionality">
 
-    <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
 
 </div>

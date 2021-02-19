@@ -1,6 +1,5 @@
 
-// import { EditComponent } from './edit/edit.component';
-// import { NewComponent } from './new/new.component';
+
 import { ProjectsComponent } from './projects/projects.component';
 import { HostilityComponent } from './hostility/hostility.component';
 import { NinjamanComponent } from './ninjaman/ninjaman.component';
@@ -53,6 +52,7 @@ const routes: Routes = [
         children: [
             { path: '',component: WebProjectsComponent },
             { path: 'hostility',component: HostilityComponent },
+            { path: 'talismans',component: TalismansComponent },
             { path: 'ninjaman',component: NinjamanComponent },
             { path: 'swedish',component: SwedishComponent },
             { path: 'sacred',component: SacredComponent },

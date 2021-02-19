@@ -1,29 +1,41 @@
 <div class="inner">
 
-    <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
 
-    <h1>Hostility Skirmish</h1>
+        <h1>Hostility Skirmish</h1>
 
-    <p>Hostility Skirmish was a collobrative effort with two other programmers, built in a week.  We all wanted experience with Github and managing a project socially and using version control.  Getting the code to work as a multiplayer, online experience was the most difficult part, but we worked it out.</p>
-    <p>My contributions centered around building the gameplay mechanics and the models that it uses.  I had higher aspirations for it than we were able to get to.  We spent more time on the technology aspect of it than on the game itself.</p>
-    
-    <h4>Technologies</h4>
-    <p>C#, .NET Core, SQL</p>
+        <p>Hostility Skirmish was a collobrative effort with two other programmers, built in a week.  We all wanted experience with Github and managing a project socially and using version control.  Getting the code to work as a multiplayer, online experience was the most difficult part, but we worked it out.</p>
+        <p>My contributions centered around building the gameplay mechanics and the models that it uses.  I had higher aspirations for it than we were able to get to.  We spent more time on the technology aspect of it than on the game itself.</p>
+        
+        <h4>Technologies</h4>
+        <p>C#, .NET Core, SQL</p>
 
-    <a class="btn btn-danger" href="https://github.com/Vacuda/Hostility_Skirmish">-Github-</a>
+        <a class="btn btn-danger" href="https://github.com/Vacuda/Hostility_Skirmish">-Github-</a>
 
-    <h5>Build your Party, Customize your Characters</h5>
-    <img src="assets/images/hostility_skirmish/build.gif" alt="Animated Gif Showing Functionality">
+        <h5>Build your Party, Customize your Characters</h5>
+        <img src="assets/images/hostility_skirmish/build.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Challenge Fellow Onliners, Join the Battle</h5>
-    <img src="assets/images/hostility_skirmish/join_battle.gif" alt="Animated Gif Showing Functionality">
+        <h5>Challenge Fellow Onliners, Join the Battle</h5>
+        <img src="assets/images/hostility_skirmish/join_battle.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Turn-Based Attacks</h5>
-    <img src="assets/images/hostility_skirmish/attack.gif" alt="Animated Gif Showing Functionality">
+        <h5>Turn-Based Attacks</h5>
+        <img src="assets/images/hostility_skirmish/attack.gif" alt="Animated Gif Showing Functionality">
 
-    <h5>Ouch!  Deaths.</h5>
-    <img src="assets/images/hostility_skirmish/death.gif" alt="Animated Gif Showing Functionality">
+        <h5>Ouch!  Deaths.</h5>
+        <img src="assets/images/hostility_skirmish/death.gif" alt="Animated Gif Showing Functionality">
 
-    <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
 
 </div>

@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     border: 0;
@@ -8,12 +10,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.container {
-    width: 970px;
-    min-height: 800px;
-    margin: 0px auto;
-    padding: 60px;
-    font-size: 15px;
+.mycontainer {
     background-color: rgb(160, 163, 154);
 }
 
@@ -53,6 +50,25 @@ h3 {
 }
 
 
+.midicon {
+    margin: 0px 30px;
+}
+
+img {
+    margin-top: 10px;
+    height: 32px;
+    width: auto;
+}
+
+
+.btn-success {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 24px;
+    line-height: 10px;
+    box-shadow: 0px 0px 1px 2px black;
+}
 
 
 
@@ -61,34 +77,78 @@ h3 {
 
 
 
-
-
-
-
-
-
-
+/* SMALL */
 
 @media only screen and (max-width: 480px) {
 
-    h1 {
-        font-size: 45px;
+    .mycontainer {
+        width: 100%;
+        min-height: 800px;
+        margin: 0px auto;
+        padding: 20px;
     }
 
-    p {
-        font-size: 20px;
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
     }
     
 }
     
+/* MEDIUM */
+
 @media only screen and (min-width: 481px) {
 
+    .mycontainer {
+        width: 100%;
+        min-height: 800px;
+        margin: 0px;
+        padding: 20px 30px;
+    }
 
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
+    }
 
 }
     
+/* LARGE */
+
 @media only screen and (min-width: 1024px) {
 
+    .mycontainer {
+        width: 970px;
+        min-height: 800px;
+        margin: 0px auto;
+        padding: 20px 40px;
+    }
+
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
+    }
 
 
 }

@@ -3,14 +3,36 @@
     <h1>Adam J. Sikora</h1>
     <h3>-Software Programmer-</h3>
     <h3>-Game Developer-</h3>
-    <p><a href="mailto:adamjsikora@gmail.com">adamjsikora@gmail.com</a> - 708.764.0029 - <a href="https://www.linkedin.com/in/adamjsikora/">linkedin.com/in/adamjsikora</a></p>
+    <p><a href="mailto:adamjsikora@gmail.com">adamjsikora@gmail.com</a> - 708.764.0029
+    <p>
+        <a href="https://twitter.com/vavavacudagames"><img src="assets/images/icons/icon_twitter.png" alt="Twitter Icon"></a>
+        <a class="midicon"href="https://www.youtube.com/channel/UCQd1p4LLjIFoVrocGAS9bdQ"><img src="assets/images/icons/icon_youtube.png" alt="Youtube Icon"></a>
+        <a href="https://www.linkedin.com/in/adamjsikora/"><img src="assets/images/icons/icon_linkedin.png" alt="LinkedIn Icon"></a>
+    </p>
+
 
     <div class="division"></div>
 
+    <!-- <div *ngIf="elevator==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div> -->
 
+    <!-- <p *ngIf="elevator==true" class="elevator">
+        Focused developer looking to become a vital part of the team. 
+        Great balance between technical skills and soft skills, creativity and habit. Effective communicator and teacher. 
+        Eager to learn deeply and be coached. Eager to build quality software. Strong ability to see both the big 
+        and the small and how important the one is to the other.</p>
+    
+    <p *ngIf="elevator==true" class="elevator">
+        I have a background in filmmaking, editing, writing and playing a lot of video games, so I would love to join these 
+        passions and break into the games industry. While I build my own game, I'd love to find a job that can help me learn.</p> -->
+    
+    <!-- <div *ngIf="elevator==true" class="division"></div> -->
 
-    <router-outlet></router-outlet>
+    <router-outlet (activate)="onOutletLoaded($event)"></router-outlet>
 
-
+    <!-- <div *ngIf="elevator==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div> -->
 
 </div>

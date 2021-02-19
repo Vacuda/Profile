@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeddingComponent implements OnInit {
 
+    bIsWeb: boolean;
+
     constructor() { }
 
     ngOnInit() {
     }
 
     toTop(){
-            document.body.scrollTop = document.documentElement.scrollTop = 0;
-        }
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
 
 }

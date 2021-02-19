@@ -12,17 +12,15 @@ export class AppComponent implements OnInit {
     // createtask:any;
     // updatetask:any;
     // @Input() taskToShow:any;
-    elevator:any;
+    // elevator:any;
 
     constructor(){}
 
     ngOnInit(){
-        this.elevator = true;
+
     }
 
     ngOnDestroy(){
-        console.log("ondestroy")
-        this.elevator = false;
     }
 
 }
