@@ -376,6 +376,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.html":
+  /*!******************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.html ***!
+    \******************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppShellPortfolioIronGalaxyShellPortfolioIronGalaxyComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<router-outlet></router-outlet>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio-web/shell-portfolio-web.component.html":
   /*!**************************************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio-web/shell-portfolio-web.component.html ***!
@@ -1239,13 +1259,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    var _shell_portfolio_iron_galaxy_shell_portfolio_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    /*! ./shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component */
+    "./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.ts");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
 
@@ -1361,7 +1387,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]
     }, {
       path: 'i_want_to_work_for_iron_galaxy',
-      component: _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_23__["CaterIronGalaxyComponent"]
+      component: _shell_portfolio_iron_galaxy_shell_portfolio_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_24__["ShellPortfolioIronGalaxyComponent"],
+      children: [{
+        path: '',
+        component: _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_23__["CaterIronGalaxyComponent"]
+      }]
     }, {
       path: '**',
       component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__["PageNotFoundComponent"]
@@ -1387,9 +1417,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, AppRoutingModule);
     };
 
-    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_24__["NgModule"])({
-      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_25__["RouterModule"].forRoot(routes)],
-      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_25__["RouterModule"]]
+    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_25__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_26__["RouterModule"].forRoot(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_26__["RouterModule"]]
     })], AppRoutingModule); // const routes: Routes = [
     //     { path: 'product',component: ProductComponent, children: [
     //         { path: 'details/:id', component: ProductDetailComponent },
@@ -1790,16 +1820,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
     /*! ./cater-iron-galaxy/cater-iron-galaxy.component */
     "./src/app/cater-iron-galaxy/cater-iron-galaxy.component.ts");
+    /* harmony import */
+
+
+    var _shell_portfolio_iron_galaxy_shell_portfolio_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+    /*! ./shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component */
+    "./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _hostility_hostility_component__WEBPACK_IMPORTED_MODULE_8__["HostilityComponent"], _ninjaman_ninjaman_component__WEBPACK_IMPORTED_MODULE_9__["NinjamanComponent"], _swedish_swedish_component__WEBPACK_IMPORTED_MODULE_10__["SwedishComponent"], _sacred_sacred_component__WEBPACK_IMPORTED_MODULE_11__["SacredComponent"], _jigsaw_jigsaw_component__WEBPACK_IMPORTED_MODULE_12__["JigsawComponent"], _inventory_inventory_component__WEBPACK_IMPORTED_MODULE_13__["InventoryComponent"], _books_books_component__WEBPACK_IMPORTED_MODULE_14__["BooksComponent"], _gold_gold_component__WEBPACK_IMPORTED_MODULE_15__["GoldComponent"], _wedding_wedding_component__WEBPACK_IMPORTED_MODULE_16__["WeddingComponent"], _cakes_cakes_component__WEBPACK_IMPORTED_MODULE_17__["CakesComponent"], _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_18__["ProdCatComponent"], _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_19__["ProdManComponent"], _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_20__["PageNotFoundComponent"], _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_21__["ShellPortfolioComponent"], _coin_machine_coin_machine_component__WEBPACK_IMPORTED_MODULE_22__["CoinMachineComponent"], _diabetes_diabetes_component__WEBPACK_IMPORTED_MODULE_23__["DiabetesComponent"], _web_projects_web_projects_component__WEBPACK_IMPORTED_MODULE_24__["WebProjectsComponent"], _shell_portfolio_web_shell_portfolio_web_component__WEBPACK_IMPORTED_MODULE_25__["ShellPortfolioWebComponent"], _blender_blender_component__WEBPACK_IMPORTED_MODULE_26__["BlenderComponent"], _talismans_talismans_component__WEBPACK_IMPORTED_MODULE_27__["TalismansComponent"], _unreal_unreal_component__WEBPACK_IMPORTED_MODULE_28__["UnrealComponent"], _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_29__["CaterIronGalaxyComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"], _hostility_hostility_component__WEBPACK_IMPORTED_MODULE_8__["HostilityComponent"], _ninjaman_ninjaman_component__WEBPACK_IMPORTED_MODULE_9__["NinjamanComponent"], _swedish_swedish_component__WEBPACK_IMPORTED_MODULE_10__["SwedishComponent"], _sacred_sacred_component__WEBPACK_IMPORTED_MODULE_11__["SacredComponent"], _jigsaw_jigsaw_component__WEBPACK_IMPORTED_MODULE_12__["JigsawComponent"], _inventory_inventory_component__WEBPACK_IMPORTED_MODULE_13__["InventoryComponent"], _books_books_component__WEBPACK_IMPORTED_MODULE_14__["BooksComponent"], _gold_gold_component__WEBPACK_IMPORTED_MODULE_15__["GoldComponent"], _wedding_wedding_component__WEBPACK_IMPORTED_MODULE_16__["WeddingComponent"], _cakes_cakes_component__WEBPACK_IMPORTED_MODULE_17__["CakesComponent"], _prod_cat_prod_cat_component__WEBPACK_IMPORTED_MODULE_18__["ProdCatComponent"], _prod_man_prod_man_component__WEBPACK_IMPORTED_MODULE_19__["ProdManComponent"], _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_20__["PageNotFoundComponent"], _shell_portfolio_shell_portfolio_component__WEBPACK_IMPORTED_MODULE_21__["ShellPortfolioComponent"], _coin_machine_coin_machine_component__WEBPACK_IMPORTED_MODULE_22__["CoinMachineComponent"], _diabetes_diabetes_component__WEBPACK_IMPORTED_MODULE_23__["DiabetesComponent"], _web_projects_web_projects_component__WEBPACK_IMPORTED_MODULE_24__["WebProjectsComponent"], _shell_portfolio_web_shell_portfolio_web_component__WEBPACK_IMPORTED_MODULE_25__["ShellPortfolioWebComponent"], _blender_blender_component__WEBPACK_IMPORTED_MODULE_26__["BlenderComponent"], _talismans_talismans_component__WEBPACK_IMPORTED_MODULE_27__["TalismansComponent"], _unreal_unreal_component__WEBPACK_IMPORTED_MODULE_28__["UnrealComponent"], _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_29__["CaterIronGalaxyComponent"], _shell_portfolio_iron_galaxy_shell_portfolio_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_30__["ShellPortfolioIronGalaxyComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"]],
       providers: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
-      //   providers: [TaskService],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
     /***/
@@ -3236,6 +3271,85 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./sacred.component.css */
       "./src/app/sacred/sacred.component.css")).default]
     })], SacredComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.css":
+  /*!***************************************************************************************!*\
+    !*** ./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.css ***!
+    \***************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppShellPortfolioIronGalaxyShellPortfolioIronGalaxyComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoZWxsLXBvcnRmb2xpby1pcm9uLWdhbGF4eS9zaGVsbC1wb3J0Zm9saW8taXJvbi1nYWxheHkuY29tcG9uZW50LmNzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.ts":
+  /*!**************************************************************************************!*\
+    !*** ./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.ts ***!
+    \**************************************************************************************/
+
+  /*! exports provided: ShellPortfolioIronGalaxyComponent */
+
+  /***/
+  function srcAppShellPortfolioIronGalaxyShellPortfolioIronGalaxyComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ShellPortfolioIronGalaxyComponent", function () {
+      return ShellPortfolioIronGalaxyComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var ShellPortfolioIronGalaxyComponent =
+    /*#__PURE__*/
+    function () {
+      function ShellPortfolioIronGalaxyComponent() {
+        _classCallCheck(this, ShellPortfolioIronGalaxyComponent);
+      }
+
+      _createClass(ShellPortfolioIronGalaxyComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return ShellPortfolioIronGalaxyComponent;
+    }();
+
+    ShellPortfolioIronGalaxyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-shell-portfolio-iron-galaxy',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./shell-portfolio-iron-galaxy.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./shell-portfolio-iron-galaxy.component.css */
+      "./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.css")).default]
+    })], ShellPortfolioIronGalaxyComponent);
     /***/
   },
 
