@@ -29,7 +29,6 @@ import { BlenderComponent } from './blender/blender.component';
 import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
 import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
-import { ShellPortfolioIronGalaxyComponent } from './shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component';
 
 @NgModule({
   declarations: [
@@ -56,8 +55,7 @@ import { ShellPortfolioIronGalaxyComponent } from './shell-portfolio-iron-galaxy
     BlenderComponent,
     TalismansComponent,
     UnrealComponent,
-    CaterIronGalaxyComponent,
-    ShellPortfolioIronGalaxyComponent
+    CaterIronGalaxyComponent
   ],
   imports: [
     BrowserModule,
