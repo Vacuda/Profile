@@ -22,6 +22,7 @@ import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfoli
 import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
 import { BlenderComponent } from './blender/blender.component';
+import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -67,7 +68,12 @@ const routes: Routes = [
             { path: 'coin_machine',component: CoinMachineComponent },
             { path: 'diabetes',component: DiabetesComponent },
         ]
-},
+    },
+    { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
+        children: [
+            { path: '',component: ProjectsComponent },
+        ]
+     },
     { path: '**', component: PageNotFoundComponent }
 ];
 

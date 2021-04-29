@@ -1,0 +1,262 @@
+
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    /* outline: 1px dotted red; */
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.mycontainer {
+    background-color: rgb(236, 219, 187);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+.division {
+    background-color: rgb(204, 175, 121); 
+    border-color: rgb(95, 61, 29);
+    height: 5px;
+    width: 60%;
+    margin: 20px auto 20px auto;
+    box-shadow: 0px 0px 2px rgb(95, 61, 29);
+    display: block;
+    border-radius: 10px;
+}
+
+
+button {
+    margin: 0px;
+    font-size: 14px;
+    display: block;
+}
+
+h1, h3 {
+    text-align: center;
+    color: rgb(14, 7, 2);
+}
+
+iframe {
+    width: 80%;
+    display: block;
+    margin: 5px auto;
+    box-shadow: 0px 0px 7px rgb(95, 61, 29);
+}
+
+.midicon img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.icons img{
+    margin-top: 10px;
+    height: auto;
+}
+
+.ironlogo {
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0px 0px 7px rgb(95, 61, 29);
+}
+
+.talismanlogo {
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0px 0px 7px rgb(95, 61, 29);
+}
+
+.adamatpicture {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0px 0px 7px rgb(95, 61, 29);
+}
+.btn-success {
+    background-color: rgb(204, 175, 121);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* width: 30%; */
+    height: 24px;
+    line-height: 10px;
+    margin-left: 10px;
+    text-align: left;
+    box-shadow: 0px 0px 1px 2px rgb(95, 61, 29);
+}
+
+.itembar {
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    line-height: 20px;
+    display: block;
+    height: 40%;
+    width: 50%;
+    border-color: rgb(95, 61, 29);
+    background-color: rgb(204, 175, 121);
+    box-shadow: 0px 0px 1px 2px rgb(95, 61, 29);
+}
+
+.itembar h3:nth-of-type(1) {
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+}
+
+.itembar h3:nth-of-type(2) {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+
+.itemimg {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 0px 7px rgb(95, 61, 29);
+}
+
+.item {
+    margin: 0px 0px 20px 0px;
+}
+
+
+#footerlegal {
+    margin-top: 100px;
+    font-size: 10px;
+}
+
+
+
+
+/* SMALL */
+
+@media only screen and (max-width: 480px) {
+
+    .mycontainer {
+        width: 100%;
+        min-height: 800px;
+        margin: 0px auto;
+        padding: 20px;
+    }
+
+    .mycontainer h1 {
+        font-size: 20px;
+    }
+
+    .mycontainer h3 {
+        font-size: 14px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
+    }
+
+    .itembar {
+        width: 100%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    iframe {
+        height: 30vh;
+    }
+
+    .icons img{
+        width: 26px;
+    }
+    
+}
+    
+/* MEDIUM */
+
+@media only screen and (min-width: 481px) {
+
+    .mycontainer {
+        width: 100%;
+        min-height: 800px;
+        margin: 0px;
+        padding: 20px 30px;
+    }
+
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 12px;
+    }
+
+    .itembar {
+        width: 75%;
+    }
+
+    iframe {
+        height: 52vh;
+    }
+
+    .icons img {
+        width: 44px;
+    }
+
+}
+    
+/* LARGE */
+
+@media only screen and (min-width: 1024px) {
+
+    .mycontainer {
+        width: 970px;
+        min-height: 800px;
+        margin: 0px auto;
+        padding: 20px 40px;
+    }
+
+    .mycontainer h1 {
+        font-size: 30px;
+    }
+
+    .mycontainer h3 {
+        font-size: 16px;
+    }
+
+    .mycontainer p {
+        font-size: 20px;
+    }
+
+    .itembar {
+        width: 50%;
+    }
+
+    iframe {
+        height: 60vh;
+    }
+
+    .icons img{
+        width: 54px;
+    }
+}
