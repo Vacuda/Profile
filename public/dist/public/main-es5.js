@@ -1361,11 +1361,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }]
     }, {
       path: 'i_want_to_work_for_iron_galaxy',
-      component: _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_23__["CaterIronGalaxyComponent"],
-      children: [{
-        path: '',
-        component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_1__["ProjectsComponent"]
-      }]
+      component: _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_23__["CaterIronGalaxyComponent"]
     }, {
       path: '**',
       component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__["PageNotFoundComponent"]

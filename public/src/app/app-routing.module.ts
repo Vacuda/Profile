@@ -70,9 +70,9 @@ const routes: Routes = [
         ]
     },
     { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
-        children: [
-            { path: '',component: ProjectsComponent },
-        ]
+        // children: [
+        //     { path: '',component: ProjectsComponent },
+        // ]
      },
     { path: '**', component: PageNotFoundComponent }
 ];
