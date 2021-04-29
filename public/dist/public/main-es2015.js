@@ -610,12 +610,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _talismans_talismans_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./talismans/talismans.component */ "./src/app/talismans/talismans.component.ts");
 /* harmony import */ var _unreal_unreal_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./unreal/unreal.component */ "./src/app/unreal/unreal.component.ts");
 /* harmony import */ var _blender_blender_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./blender/blender.component */ "./src/app/blender/blender.component.ts");
-/* harmony import */ var _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./cater-iron-galaxy/cater-iron-galaxy.component */ "./src/app/cater-iron-galaxy/cater-iron-galaxy.component.ts");
-/* harmony import */ var _shell_portfolio_iron_galaxy_shell_portfolio_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component */ "./src/app/shell-portfolio-iron-galaxy/shell-portfolio-iron-galaxy.component.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-
-
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 
 
 
@@ -684,11 +680,11 @@ const routes = [
             { path: 'diabetes', component: _diabetes_diabetes_component__WEBPACK_IMPORTED_MODULE_17__["DiabetesComponent"] },
         ]
     },
-    { path: 'i_want_to_work_for_iron_galaxy', component: _shell_portfolio_iron_galaxy_shell_portfolio_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_24__["ShellPortfolioIronGalaxyComponent"],
-        children: [
-            { path: '', component: _cater_iron_galaxy_cater_iron_galaxy_component__WEBPACK_IMPORTED_MODULE_23__["CaterIronGalaxyComponent"] },
-        ]
-    },
+    // { path: 'i_want_to_work_for_iron_galaxy',component: ShellPortfolioIronGalaxyComponent,
+    //     children: [
+    //         { path: '',component: CaterIronGalaxyComponent },
+    //     ]
+    //  },
     { path: '**', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__["PageNotFoundComponent"] }
 ];
 // const routes: Routes = [
@@ -711,9 +707,9 @@ const routes = [
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_25__["NgModule"])({
-        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_26__["RouterModule"].forRoot(routes)],
-        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_26__["RouterModule"]]
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_23__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_24__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_24__["RouterModule"]]
     })
 ], AppRoutingModule);
 
@@ -739,7 +735,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n/* * {\r\n    margin: 0;\r\n    border: 0;\r\n    box-sizing: border-box;\r\n    vertical-align: top;\r\n    outline: 1px dotted red;\r\n    color: black;\r\n    font-family: Verdana, Geneva, Tahoma, sans-serif\r\n}\r\n\r\n.container {\r\n    width: 970px;\r\n    min-height: 800px;\r\n    margin: 0px auto;\r\n    padding: 60px;\r\n    font-size: 15px;\r\n    background-color: rgb(160, 163, 154);\r\n} */\r\n\r\n/* \r\na {\r\n    text-decoration: none;\r\n}\r\n\r\np {\r\n    text-align: center;\r\n}\r\n\r\n\r\n\r\n.division {\r\n    background-color: rgb(216, 216, 216);\r\n    height: 5px;\r\n    width: 80%;\r\n    margin: 20px auto 20px auto;\r\n    box-shadow: 0px 0px 3px rgb(216, 216, 216);\r\n    display: block;\r\n    border-radius: 10px;\r\n}\r\n\r\n\r\nbutton {\r\n    margin: 0px auto;\r\n    display: block;\r\n}\r\n\r\nh1 {\r\n    text-align: center;\r\n    color: rgb(216, 216, 216)\r\n}\r\n\r\nh3 {\r\n    text-align: center;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n@media only screen and (max-width: 480px) {\r\n\r\n    h1 {\r\n        font-size: 45px;\r\n    }\r\n\r\n    p {\r\n        font-size: 20px;\r\n    }\r\n    \r\n}\r\n    \r\n@media only screen and (min-width: 481px) {\r\n\r\n\r\n\r\n}\r\n    \r\n@media only screen and (min-width: 1024px) {\r\n\r\n\r\n\r\n} */\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBOzs7Ozs7Ozs7Ozs7Ozs7OztHQWlCRzs7QUFFSDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0dBMkVHIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLyogKiB7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBib3JkZXI6IDA7XHJcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgdmVydGljYWwtYWxpZ246IHRvcDtcclxuICAgIG91dGxpbmU6IDFweCBkb3R0ZWQgcmVkO1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgZm9udC1mYW1pbHk6IFZlcmRhbmEsIEdlbmV2YSwgVGFob21hLCBzYW5zLXNlcmlmXHJcbn1cclxuXHJcbi5jb250YWluZXIge1xyXG4gICAgd2lkdGg6IDk3MHB4O1xyXG4gICAgbWluLWhlaWdodDogODAwcHg7XHJcbiAgICBtYXJnaW46IDBweCBhdXRvO1xyXG4gICAgcGFkZGluZzogNjBweDtcclxuICAgIGZvbnQtc2l6ZTogMTVweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxNjAsIDE2MywgMTU0KTtcclxufSAqL1xyXG5cclxuLyogXHJcbmEge1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59XHJcblxyXG5wIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuXHJcblxyXG4uZGl2aXNpb24ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIxNiwgMjE2LCAyMTYpO1xyXG4gICAgaGVpZ2h0OiA1cHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgbWFyZ2luOiAyMHB4IGF1dG8gMjBweCBhdXRvO1xyXG4gICAgYm94LXNoYWRvdzogMHB4IDBweCAzcHggcmdiKDIxNiwgMjE2LCAyMTYpO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG59XHJcblxyXG5cclxuYnV0dG9uIHtcclxuICAgIG1hcmdpbjogMHB4IGF1dG87XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxufVxyXG5cclxuaDEge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgY29sb3I6IHJnYigyMTYsIDIxNiwgMjE2KVxyXG59XHJcblxyXG5oMyB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCkge1xyXG5cclxuICAgIGgxIHtcclxuICAgICAgICBmb250LXNpemU6IDQ1cHg7XHJcbiAgICB9XHJcblxyXG4gICAgcCB7XHJcbiAgICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgfVxyXG4gICAgXHJcbn1cclxuICAgIFxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDQ4MXB4KSB7XHJcblxyXG5cclxuXHJcbn1cclxuICAgIFxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEwMjRweCkge1xyXG5cclxuXHJcblxyXG59ICovIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
@@ -757,14 +753,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-// import { TaskService } from './task.service';
 let AppComponent = class AppComponent {
-    // tasks:any;
-    // onetask:any;
-    // createtask:any;
-    // updatetask:any;
-    // @Input() taskToShow:any;
-    // elevator:any;
     constructor() { }
     ngOnInit() {
     }
@@ -779,105 +768,6 @@ AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     })
 ], AppComponent);
 
-//this._router.navigate(['authors/all'])
-// private _route: ActivatedRoute,
-// private _router: Router
-//import { ActivatedRoute, Params, Router } from '@angular/router';
-// this._route.params.subscribe(params => {
-//             console.log(params);
-//             this.id=params.id;
-//         })
-// getTasks(){
-//     this.updatetask = null;
-//     this.createtask = {
-//         title: "",
-//         description: ""
-//     }
-//     let observable = this._httpService.getTasks()
-//     observable.subscribe(data => {
-//         this.tasks = data['results'];
-//         this.onetask = null;
-//     });
-// }
-// getOneTask(id:number){
-//     this.errors = null;
-//     let observable = this._httpService.getOneTask(id)
-//     observable.subscribe(data => {
-//         this.tasks = null;
-//         this.onetask = data['results'];
-//     });
-// }
-// createTask(){
-//     this.errors = null;
-//     let observable = this._httpService.createTask(this.createtask)
-//     observable.subscribe(data => {
-//         if(data["results"]){
-//             this.getTasks();
-//             this.createtask = {
-//                 title: "",
-//                 description: ""
-//             }
-//         }
-//         else if(data["errors"]){
-//             this.errors = [];
-//             for(let item in data["errors"]){
-//                 this.errors.push(data["errors"][item]);
-//             }
-//         }
-//     });       
-// }
-// deleteTask(id:number){
-//     //resets
-//     this.errors = null;
-//     this.updatetask = null;
-//     this.createtask = {
-//         title: "",
-//         description: ""
-//     }
-//     let observable = this._httpService.deleteTask(id)
-//     observable.subscribe(data => {
-//         this.getTasks();
-//         this.onetask = null;
-//     });
-// }
-// markComplete(id:number){
-//     //resets
-//     this.errors = null;
-//     let observable = this._httpService.markComplete(id)
-//     observable.subscribe(data => {
-//         this.getOneTask(id);
-//     });
-// }
-// editTask(){
-//     console.log("hereh;rake;jrakj;er")
-//     //resets
-//     this.createtask = null;
-//     this.errors = null;
-//     this.updatetask = {
-//         title: this.onetask.title,
-//         description: this.onetask.description
-//     }
-// }
-// updateTask(id:number){
-//     console.log(id)
-//     let observable = this._httpService.updateTask(id, this.updatetask)
-//     observable.subscribe(data => {
-//         if(data["results"]){
-//             this.createtask = {
-//             title: "",
-//             description: ""
-//             }
-//             this.getOneTask(id);
-//             this.updatetask = null;
-//         }
-//         else if(data["errors"]){
-//             this.errors = [];
-//             for(let item in data["errors"]){
-//                 this.errors.push(data["errors"][item]);
-//             }
-//         }
-//     });
-// }
 
 
 /***/ }),

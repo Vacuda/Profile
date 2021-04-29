@@ -70,11 +70,11 @@ const routes: Routes = [
             { path: 'diabetes',component: DiabetesComponent },
         ]
     },
-    { path: 'i_want_to_work_for_iron_galaxy',component: ShellPortfolioIronGalaxyComponent,
-        children: [
-            { path: '',component: CaterIronGalaxyComponent },
-        ]
-     },
+    // { path: 'i_want_to_work_for_iron_galaxy',component: ShellPortfolioIronGalaxyComponent,
+    //     children: [
+    //         { path: '',component: CaterIronGalaxyComponent },
+    //     ]
+    //  },
     { path: '**', component: PageNotFoundComponent }
 ];
 
