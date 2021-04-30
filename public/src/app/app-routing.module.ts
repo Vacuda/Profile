@@ -74,26 +74,6 @@ const routes: Routes = [
     { path: '**', component: PageNotFoundComponent }
 ];
 
-// const routes: Routes = [
-//     { path: '',component: ProjectsComponent },
-//     { path: 'hostility',component: HostilityComponent },
-//     { path: 'ninjaman',component: NinjamanComponent },
-//     { path: 'swedish',component: SwedishComponent },
-//     { path: 'sacred',component: SacredComponent },
-//     { path: 'jigsaw',component: JigsawComponent },
-//     { path: 'inventory',component: InventoryComponent },
-//     { path: 'books_authors',component: BooksComponent },
-//     { path: 'products_categories',component: ProdCatComponent },
-//     { path: 'gold_getter',component: GoldComponent },
-//     { path: 'wedding_planner',component: WeddingComponent },
-//     { path: 'rate_my_cakes',component: CakesComponent },
-//     { path: 'product_manager',component: ProdManComponent },
-//     { path: 'fetch',component: FetchComponent },
-//     { path: '**', component: PageNotFoundComponent }
-// ];
-
-
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
