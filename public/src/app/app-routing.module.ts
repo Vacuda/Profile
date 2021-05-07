@@ -23,6 +23,7 @@ import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
 import { BlenderComponent } from './blender/blender.component';
 import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
+import { CaterLionHeartComponent } from './cater-lion-heart/cater-lion-heart.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -70,6 +71,8 @@ const routes: Routes = [
         ]
     },
     { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
+    },
+    { path: 'lion_heart',component: CaterLionHeartComponent,
     },
     { path: '**', component: PageNotFoundComponent }
 ];
