@@ -23,7 +23,7 @@
 
     <p>Anyway...</p>
     <h1>The Talismans Of Genyatium</h1>
-    <img class="talismanlogo" src="assets/images/cater_iron_galaxy/talismans_logo.png" alt="Talismans Logo">
+    <img class="talismanlogo" src="assets/images/talismans/talismans_logo.png" alt="Talismans Logo">
 
     <p>
         <a class="icons" href="https://www.youtube.com/channel/UCQd1p4LLjIFoVrocGAS9bdQ"><img src="assets/images/icons/icon_youtube.png" alt="Youtube Icon"></a>
@@ -151,7 +151,7 @@
                 out a Material Blueprint was more intimidating than working with C++ code.  But it took awhile to really 
                 learn(and I'm still learning, with every new UE4 tool I use) how to connect the C++ code to the editor.
             </p>
-            <img class="itemimg" src="assets/images/unreal/code_1.png" alt="C++ Code">
+            <img class="itemimg" src="assets/images/talismans/cpp_integration.png" alt="C++ Code">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 In a lot of ways, this has been my biggest obstacle in learning UE4.  You have to learn how to exchange 
                 references between code and editor.  You have to understand the object inheritance trees and how and 
@@ -177,7 +177,7 @@
                 a housing class that would be built at the beginning of a level and it housed all of the relevant connections.  
                 Now, a class only needs to hook up to the Hub, and it can start to talk to eveyone.
             </p>
-            <img class="itemimg" src="assets/images/talismans/code_2.png" alt="C++ Code">
+            <img class="itemimg" src="assets/images/talismans/hub_code.png" alt="C++ Code">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 I'm currently 
                 rethinking this, though.  The Hub builds and houses all of the classes I created to organize code, 
@@ -204,7 +204,7 @@
                 used, and what the words themselves mean.  All of these can be combined to create clear and 
                 robust naming conventions.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/naming_code.png" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -224,7 +224,7 @@
                 to the team's conventions, I think it was very helpful to develop my own first.  I'm more worried 
                 that I write too many comments, so I think I'll be fine.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/comments_code.png" alt="Puzzle In Progress">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 My comments are the pseudo code version of what the code does.  The code, 
                 then, is merely an implementation of those comments.  Thus, you can read the code, without 
@@ -272,7 +272,7 @@
                 I created a custom Save Game Object and successfully saved it and loaded it into a new game.  But 
                 something was wrong...
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Screenshot Of Saving Not Working">
+            <img class="itemimg" src="assets/images/talismans/save_game_1.png" alt="Screenshot Of Saving Not Working">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 All of my objects were gone!  I saved pointers to them, but of course, the 
                 objects themselves didn't persist.  Although I did spend a lot of time trying to get my code to use 
@@ -281,7 +281,7 @@
                 a new way to reference unique pieces.  Previously, I was using the pointers themselves as a form of 
                 UID.  Now, I built my own UID to easily be able to rebuild objects upon loading a saved game. Success!
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Screenshot Of Saving Working">
+            <img class="itemimg" src="assets/images/talismans/save_game_2.png" alt="Screenshot Of Saving Working">
         </div>
     </div>
     
@@ -301,17 +301,17 @@
                 image, use it on a Material Instance, and to dynamically move the texture into its proper place 
                 on each piece.  And rotate it accordingly!
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle Images Off Kilter">
+            <img class="itemimg" src="assets/images/talismans/piece_face_1.png" alt="Puzzle Images Off Kilter">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 Any variance would mess up the image when you put the 
                 pieces together.  I wish I was making a game about Squares with the power of 2, but alas, hexagons 
                 with a height of sqrt of 12288.
             </p>
+            <img class="itemimg" src="assets/images/talismans/piece_face_2.png" alt="Successful Puzzle Image Alignment">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 But I finally got it!
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Successful Puzzle Image Alignment">
-            <img class="itemimg" src="assets/images/unreal/blueprints.png" alt="Blueprint Screenshot Of Working Material">
+            <img class="itemimg" src="assets/images/talismans/piece_face_3.png" alt="Blueprint Screenshot Of Working Material">
         </div>
     </div>
 
@@ -330,7 +330,7 @@
                 and how the texture is manipulated on the material blueprint, especially when your objects 
                 need to be mathematically precise.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/uvs.png" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -352,7 +352,7 @@
                 be connected to.  All of this information is gathered when the puzzles are cut and checked 
                 against when a piece is dropped.
             </p>
-            <img class="itemimg" src="assets/images/unreal/code_1.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/recognize.png" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -373,7 +373,7 @@
                 pieces.  Every piece starts with its own cluster.  When a connecting piece is found, the piece 
                 is added to the initial cluster, and the second one is destroyed.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/connecting_pieces.gif" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -392,19 +392,19 @@
                 Col, Row, and Tri.  A piece can only rotate by 60 degrees, so Tri is represented by an 
                 integer(1-6).  Now, it's easy enough to rotate a piece.  
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="One Hex Rotation">
+            <img class="itemimg" src="assets/images/talismans/piece_rotations.gif" alt="One Hex Rotation">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 It spins around one point, and 
                 the Tri changes by 1.  If at 7, reset to 1.  The rotation of the actor cluster is rotated 
                 accordingly, and the pieces are connected to the cluster.  But what happens if a large cluster contains 
                 pieces in different Col and Row addresses?
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Large Cluster Rotation">
+            <img class="itemimg" src="assets/images/talismans/cluster_rotations.gif" alt="Large Cluster Rotation">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 How would I know how to change the addresses of each piece?  I first tried to use trigonometry 
                 to solve this problem.  I got close.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Page Scribbles Of Mathematic Formulas">
+            <img class="itemimg" src="assets/images/talismans/math_scribbles.png" alt="Page Scribbles Of Mathematic Formulas">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 I was able to reliably get the correct integer change 
                 that needed to happen in the Col and Row.  Tri still changed only one.  However, I couldn't 
@@ -413,7 +413,7 @@
                 not too much effort.  They still followed a pattern, and hard coding this felt more reliable 
                 than my decades past AP Trigonometry knowledge.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Hexagon Map To Help Find Rotations">
+            <img class="itemimg" src="assets/images/talismans/rotation_hexmap.png" alt="Hexagon Map To Help Find Rotations">
         </div>
     </div>
 
@@ -539,7 +539,7 @@
                 visual representations of different types of variables.  I also like how it's easier 
                 to get references from the editor.  However, larger operations are better done in C++.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/blueprints.png" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -556,13 +556,9 @@
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 Widgets were another Unreal paradigm that took some effort to work with.  It didn't help 
                 that I came to them without blueprint experience.  Following online tutorials weren't that 
-                difficult, though.  First, I just got one properly working with the game.
+                difficult, though.  First, I just got one properly working with the game. Next, I put in a pause and stats menu.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
-            <p class="bodytext left_align">
-                Next, I put in a pause and stats menu.
-            </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/pause_menu.png" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -582,17 +578,21 @@
                 Getting these numbers is one thing, but I also wanted the player to be able to change the look of 
                 progress. 
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/perspective_change.gif" alt="Puzzle In Progress">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 Specifically, that last look, which I've called MatrixBoxes.  Initially, I got this 
                 working by creating a Widget Image for each of these black squares and making them visible according 
                 to a TArray of an Enum that represents each different square.  I knew there was probably a better 
                 solution, but I was glad I accomplished something “off the beaten path.”  Later, I had to add 
-                characters to my main Font because it didn't come with some common punctuation.  Now that my game 
-                brought me to learning how to make my own vector-graphic font characters.  Why don't I make some 
+                characters to my main Font because it didn't come with some common punctuation.
+            </p>
+            <img class="itemimg" src="assets/images/talismans/punctuation_creation.png" alt="Puzzle In Progress">
+            <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
+                Now that my game 
+                brought me to learning how to make my own vector-graphic font characters, why don't I make some 
                 characters that will act as my boxes?  Now, my back-end just returns a string in MatrixBox Language!
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/matrixbox_language.png" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -613,8 +613,8 @@
                 import them correctly into Unreal.  These two animations are minor, but the result of a lot 
                 of struggle.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Animation Of An ItemPiece">
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Animation Of Cursor To Square">
+            <img class="itemimg" src="assets/images/talismans/itempiece_animation.gif" alt="Animation Of An ItemPiece">
+            <img class="itemimg" src="assets/images/talismans/cursor_to_square.gif" alt="Animation Of Cursor To Square">
         </div>
     </div>
 
@@ -633,18 +633,20 @@
                 This information is stored in simple, custom structs.  Objects are made for each of these pieces 
                 at the beginning of each session based on this information, and these objects are moved and 
                 manipulated throughout the game, which also alters the information in the structs.  The on-screen
-                pieces that the player sees are only representations of this information.
+                pieces that the player sees are only representations of this information. In the future, I will be 
+                able to effect the ratio of smaller pieces to bigger pieces based on
+                difficulty settings.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <!-- <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
                 In the future, I will be able to effect the ratio of smaller pieces to bigger pieces based on
                 difficulty settings.
-            </p>
+            </p> -->
         </div>
     </div>
 
     <!-- Table Navigation -->
-    <!-- <div class="item" id="item_table_navigation">
+    <div class="item" id="item_table_navigation">
 
         <div class="itembar btn" (click)="toggle_item_table_navigation()">
             <h3>Table Navigation</h3>
@@ -654,11 +656,11 @@
             <div class="finedivision"></div>
             <div class="finedivision2"></div>
             <p class="bodytext left_align">&nbsp;&nbsp;&nbsp;
-                Code moving from place to place.
+                ---
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/table_navigation.gif" alt="Puzzle In Progress">
         </div>
-    </div> -->
+    </div>
 
 <!-- GAME DESIGN / ART -->
 <div class="item" id="item_tagline">
@@ -685,7 +687,7 @@
                 during a world build according to how many pieces or how many puzzles are chosen.  Or 
                 according to a percentage variable of larger puzzles versus small puzzles.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Puzzle In Progress">
+            <img class="itemimg" src="assets/images/talismans/puzzle_images.gif" alt="Puzzle In Progress">
         </div>
     </div>
 
@@ -703,7 +705,7 @@
                 These vessels represent all the baggage we store our pain in.  They are inspired by all 
                 the breakable objects in video games that are so fun to clear.
             </p>
-            <img class="itemimg" src="assets/images/talismans/containers.png" alt="Hundreds Of Vessels Ready To Break">
+            <img class="itemimg" src="assets/images/talismans/vessels.png" alt="Hundreds Of Vessels Ready To Break">
         </div>
     </div>
 
@@ -762,7 +764,7 @@
                 a lot of vessels at once.  AND etc.  Here's a mockup of the stats screen that would show different
                 Vitalities gained.
             </p>
-            <img class="itemimg" src="assets/images/talismans/bin_view.png" alt="Photoshop Mockup Of Upgrades">
+            <img class="itemimg" src="assets/images/talismans/mockup.png" alt="Photoshop Mockup Of Upgrades">
         </div>
     </div>
 
@@ -810,13 +812,21 @@
 
 <!--END ITEMS-->
 
+    <div class="division"></div>
+    <div class="division2"></div>
+
+    <h1>The Talismans Of Genyatium</h1>
+    <img class="talismanlogo" src="assets/images/talismans/talismans_logo.png" alt="Talismans Logo">
+    
+    <div class="division"></div>
+    <div class="division2"></div>
     <footer>
         <p id="footerlegal">Talismans Of Genyatium &copy; VavaVacuda Games 2021</p>
     </footer>
 
 
     
-    <img class="adamatpicture" src="assets/images/cater_iron_galaxy/adam_at_iron_galaxy.png" alt="Adam At Iron Galaxy">
+    
 
 
 </div>
