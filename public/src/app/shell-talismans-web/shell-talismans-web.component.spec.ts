@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CaterLionHeartComponent } from './cater-lion-heart.component';
+import { ShellTalismansWebComponent } from './shell-talismans-web.component';
 
-describe('CaterLionHeartComponent', () => {
-  let component: CaterLionHeartComponent;
-  let fixture: ComponentFixture<CaterLionHeartComponent>;
+describe('ShellTalismansWebComponent', () => {
+  let component: ShellTalismansWebComponent;
+  let fixture: ComponentFixture<ShellTalismansWebComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CaterLionHeartComponent ]
+      declarations: [ ShellTalismansWebComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CaterLionHeartComponent);
+    fixture = TestBed.createComponent(ShellTalismansWebComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

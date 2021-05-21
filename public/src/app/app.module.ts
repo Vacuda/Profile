@@ -29,7 +29,7 @@ import { BlenderComponent } from './blender/blender.component';
 import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
 import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
-import { CaterLionHeartComponent } from './cater-lion-heart/cater-lion-heart.component';
+import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +57,7 @@ import { CaterLionHeartComponent } from './cater-lion-heart/cater-lion-heart.com
     TalismansComponent,
     UnrealComponent,
     CaterIronGalaxyComponent,
-    CaterLionHeartComponent
+    ShellTalismansWebComponent
   ],
   imports: [
     BrowserModule,

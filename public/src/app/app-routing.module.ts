@@ -23,7 +23,7 @@ import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
 import { BlenderComponent } from './blender/blender.component';
 import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
-import { CaterLionHeartComponent } from './cater-lion-heart/cater-lion-heart.component';
+import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -31,7 +31,7 @@ const routes: Routes = [
     { path: '',component: ShellPortfolioComponent,
         children: [
             { path: '',component: ProjectsComponent },
-            { path: 'talismans',component: TalismansComponent },
+            // { path: 'talismans',component: TalismansComponent },
             { path: 'unreal',component: UnrealComponent },
             { path: 'blender',component: BlenderComponent },
             { path: 'hostility',component: HostilityComponent },
@@ -54,7 +54,7 @@ const routes: Routes = [
         children: [
             { path: '',component: WebProjectsComponent },
             { path: 'hostility',component: HostilityComponent },
-            { path: 'talismans',component: TalismansComponent },
+            // { path: 'talismans',component: TalismansComponent },
             { path: 'ninjaman',component: NinjamanComponent },
             { path: 'swedish',component: SwedishComponent },
             { path: 'sacred',component: SacredComponent },
@@ -72,7 +72,9 @@ const routes: Routes = [
     },
     { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
     },
-    { path: 'lion_heart',component: CaterLionHeartComponent,
+    { path: 'talismans',component: TalismansComponent,
+    },
+    { path: 'web/talismans',component: ShellTalismansWebComponent,
     },
     { path: '**', component: PageNotFoundComponent }
 ];
