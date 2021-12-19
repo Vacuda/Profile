@@ -1,0 +1,51 @@
+<div class="inner">
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
+
+        <h1>Honey Hives</h1>
+
+        
+        <p>This game is the result of a two-week sprint I did to learn Unity. (really, 16 days) I quickly designed the game on paper using cut out hexagons.  I had to struggle with learning how Unity wanted you to build a game, but I was helped a lot by my experience with Unreal.</p>
+        <p>It's a kind of Hexagon Sodoku using tiles that you can maybe spin or maybe move between various honeycombs.  Brighten each flower to complete a honeycomb.</p>
+        
+        <h4>Introductory DevLog:</h4>
+        <iframe src="https://www.youtube.com/embed/xBhaxMXPgHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <p></p>
+        <a class="btn btn-danger" href="https://www.youtube.com/watch?v=xBhaxMXPgHg&list=PLzFBsLQ1cL2v6WZdW85rzh1bQrXdMdfrZ">- Youtube Playlist Of All Videos -</a>
+        <p></p>
+        
+        <h4>Technologies</h4>
+        <p>Built using Unity and C#, Models in Blender</p>
+        
+        <p></p>
+        <a class="btn btn-danger" href="https://github.com/Vacuda/HoneyHives/tree/master/Assets/Scripts">- C# Github Samples -</a>
+
+
+        <h5>Can You Figure This Out?</h5>
+        <img src="assets/images/honey_hives/honeyhives_logic_screenshot.png" alt="Screenshot Of A Puzzle">
+
+        <h5>Spin, Move, and Make The Logic Valid</h5>
+        <img src="assets/images/honey_hives/honeyhives_logic.gif" alt="Animated Gif Showing Answer">
+
+        <h5>Using Your Beebox Frame!</h5>
+        <img src="assets/images/honey_hives/honeyhives_beeboxframe.gif" alt="Animated Gif Showing Functionality">
+
+        <h5>How It Was Going Vs How It Started</h5>
+        <img src="assets/images/honey_hives/honeyhives_designhistory.png" alt="Game Design Picture">
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
+
+</div>

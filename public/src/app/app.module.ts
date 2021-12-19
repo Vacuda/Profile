@@ -30,6 +30,8 @@ import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
 import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
 import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
+import { UnityComponent } from './unity/unity.component';
+import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +59,9 @@ import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talisman
     TalismansComponent,
     UnrealComponent,
     CaterIronGalaxyComponent,
-    ShellTalismansWebComponent
+    ShellTalismansWebComponent,
+    UnityComponent,
+    HoneyHivesComponent
   ],
   imports: [
     BrowserModule,

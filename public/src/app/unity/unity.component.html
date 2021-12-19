@@ -1,0 +1,40 @@
+<div class="inner">
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
+
+        <h1>Unity Engine Experience</h1>
+
+        <p>This unfinished project, named 
+            <a href="/honey_hives">Honey Hives</a>
+            , was part of a two-week sprint to learn Unity by building a quick prototype. I definitely used my building experience with Unreal to move quickly into how Unity was looking for you to build a project. I can see how Unity is quicker to get things on screen, but I did have to turn my back on trying to make things as lean as possible.</p>
+        <p></p>
+
+        <h4>Areas Of Focus</h4>
+        <p>Differences Between C# and C++, Easier To Connect Between Elements</p>
+
+        <a class="btn btn-danger" href="https://github.com/Vacuda/HoneyHives/tree/master/Assets/Scripts">- C# Github Samples -</a>
+
+        <h5>Structured By GameObject Heirarchy</h5>
+        <img src="assets/images/unity/unity_honeyhives.png" alt="Screenshot of Unity Program">
+
+        <h5>C# Code</h5>
+        <img src="assets/images/unity/unity_honeyhives_code.png" alt="Screenshot of C# Code">
+
+        
+
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
+
+</div>

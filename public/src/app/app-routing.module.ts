@@ -24,6 +24,8 @@ import { UnrealComponent } from './unreal/unreal.component';
 import { BlenderComponent } from './blender/blender.component';
 import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
 import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
+import { UnityComponent } from './unity/unity.component';
+import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -48,6 +50,8 @@ const routes: Routes = [
             { path: 'product_manager',component: ProdManComponent },
             { path: 'coin_machine',component: CoinMachineComponent },
             { path: 'diabetes',component: DiabetesComponent },
+            { path: 'unity',component: UnityComponent },
+            { path: 'honey_hives',component: HoneyHivesComponent },
         ]
      },
     { path: 'web',component: ShellPortfolioWebComponent,
