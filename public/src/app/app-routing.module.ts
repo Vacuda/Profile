@@ -72,6 +72,7 @@ const routes: Routes = [
             { path: 'product_manager',component: ProdManComponent },
             { path: 'coin_machine',component: CoinMachineComponent },
             { path: 'diabetes',component: DiabetesComponent },
+            { path: 'honey_hives',component: HoneyHivesComponent },
         ]
     },
     { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
