@@ -1,0 +1,59 @@
+<div class="inner">
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
+
+    <div class="division"></div>
+    <div class="division2"></div>
+
+        <h1>BMP Image Cropper</h1>
+
+        <p>
+            This commandline tool takes in an 8-bit .bmp file and outputs a new .bmp file, cropping
+            off any transparent edges, reducing the image to its smallest bounding rectangle.
+        </p>
+
+        <img src="assets/images/crop_tool/cropper.gif" alt="Animated Gif Showing Crop Functionality">
+
+        <h4>Technologies</h4>
+        <p>C++</p>
+
+        <a class="btn btn-danger" href="https://github.com/Vacuda/BMP_ImageCropper">-Github-</a>
+
+        <h4>Store BMP Info</h4>
+        <p>
+            It reads and stores the .bmp file information into the BMP_Format class.  The BMP BMP_Format
+            consists of a fileheader, image info, colortable data, and pixel data.  Each pixel is
+            represented by a byte, written in hexadecimal.  Each row of pixels is padded to be a
+            multiple of 4 bytes in size.
+        </p>
+
+        <h4>Analyze Info</h4>
+        <p>
+            It anaylzes the information to determine each edge of the image with the first untransparent
+            pixel.  This takes into account possible padding due to the 4 byte padding restriction.
+        </p>
+
+        <h4>Produce New Image</h4>
+        <p>
+            Then, it uses that information to build a new .bmp file.  This file may need padding added
+            to it.  It copies the relevant data from the original file into the resulting image.  It
+            also correctly modifies the metadata to produce a valid .bmp file.
+        </p>
+
+        
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
+
+</div>

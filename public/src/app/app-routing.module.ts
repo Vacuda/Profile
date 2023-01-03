@@ -26,6 +26,7 @@ import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.
 import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
 import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
+import { CropToolComponent } from './crop-tool/crop-tool.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -52,6 +53,7 @@ const routes: Routes = [
             { path: 'diabetes',component: DiabetesComponent },
             { path: 'unity',component: UnityComponent },
             { path: 'honey_hives',component: HoneyHivesComponent },
+            { path: 'crop_tool',component: CropToolComponent },
         ]
      },
     { path: 'web',component: ShellPortfolioWebComponent,
@@ -73,9 +75,16 @@ const routes: Routes = [
             { path: 'coin_machine',component: CoinMachineComponent },
             { path: 'diabetes',component: DiabetesComponent },
             { path: 'honey_hives',component: HoneyHivesComponent },
+            { path: 'crop_tool',component: CropToolComponent },
         ]
     },
     { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
+    children: [
+        { path: '',component: ProjectsComponent },
+    ]
+
+
+
     },
     { path: 'talismans',component: TalismansComponent,
     },

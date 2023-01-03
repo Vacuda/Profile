@@ -32,6 +32,7 @@ import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.
 import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
 import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
+import { CropToolComponent } from './crop-tool/crop-tool.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
     CaterIronGalaxyComponent,
     ShellTalismansWebComponent,
     UnityComponent,
-    HoneyHivesComponent
+    HoneyHivesComponent,
+    CropToolComponent
   ],
   imports: [
     BrowserModule,

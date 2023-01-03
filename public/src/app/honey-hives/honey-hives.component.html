@@ -8,37 +8,39 @@
         <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
     </div>
 
-        <h1>Honey Hives</h1>
+    <div class="division"></div>
+    <div class="division2"></div>
 
-        <p>Honey Hives is a kind of Hexagon Sodoku using tiles that you can maybe spin or maybe move.  The key to figuring out these puzzles is to start at the Equal Signs (=), for if they create a contradiction, your beautiful flowers will not bloom.</p>
-        
-        <p>I am building this game to expand my knowledge of C# and the Unity engine, and to learn the differences and similiarites between the popular engines. My understanding of Unreal helped to make learning Unity a fairly quick exercise.</p>
-    
+    <h4>Hexagonal, Sudoku, Math, Tile and Metroidvania Game</h4>
+        <img src="assets/images/honey_hives/screenshot_honeyhives.png" alt="Title Screen of Honey Hives">
+
+
         
         <h4>Introductory DevLog:</h4>
-        <iframe src="https://www.youtube.com/embed/xBhaxMXPgHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+        <div class="videoWrapper"ng>
+            <iframe src="https://www.youtube.com/embed/F9iDBG0Fjc4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
         <p></p>
-        <a class="btn btn-danger" href="https://www.youtube.com/watch?v=xBhaxMXPgHg&list=PLzFBsLQ1cL2v6WZdW85rzh1bQrXdMdfrZ">- Youtube Playlist Of All Videos -</a>
+        <a class="btn btn-danger" href="https://www.youtube.com/watch?v=F9iDBG0Fjc4&list=PLzFBsLQ1cL2v6WZdW85rzh1bQrXdMdfrZ">- Youtube Playlist Of All Videos -</a>
         <p></p>
-        
+
         <h4>Technologies</h4>
         <p>Built using Unity and C#, Models in Blender</p>
         
         <p></p>
         <a class="btn btn-danger" href="https://github.com/Vacuda/HoneyHives/tree/master/Assets/Scripts">- C# Github Samples -</a>
+        
+        <h5>Avoid False Statements In 9 Directions and Your Flowers Will Bloom!</h5>
+        <img src="assets/images/honey_hives/honeyhives_guidelines.gif" alt="Animated Gif Showing Functionality">
 
-
-        <h5>Can You Figure This Out?</h5>
-        <img src="assets/images/honey_hives/honeyhives_logic_screenshot.png" alt="Screenshot Of A Puzzle">
+        <h5>You Can't Move Some Pieces</h5>
+        <img class="img_sm" src="assets/images/honey_hives/honeyhives_negative_feedback.gif" alt="Animated Gif of Negative Feedback">
 
         <h5>Spin, Move, and Make The Logic Valid</h5>
-        <img src="assets/images/honey_hives/honeyhives_logic.gif" alt="Animated Gif Showing Answer">
+        <img src="assets/images/honey_hives/honeyhives_manipulate.gif" alt="Animated Gif of Manipulating Pieces">
 
-        <h5>Using Your Beebox Frame!</h5>
-        <img src="assets/images/honey_hives/honeyhives_beeboxframe.gif" alt="Animated Gif Showing Functionality">
-
-        <h5>How It Was Going Vs How It Started</h5>
+        <h5>How It's Going vs How It Started</h5>
         <img src="assets/images/honey_hives/honeyhives_designhistory.png" alt="Game Design Picture">
 
     <!-- Switch For Regular Or Web Version -->
@@ -48,5 +50,9 @@
     <div *ngIf="bIsWeb==false">
         <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
     </div>
+
+        <!-- <footer> -->
+        <p id="footerlegal">Honey Hives &copy; VavaVacuda Games 2023</p>
+        <!-- </footer> -->
 
 </div>

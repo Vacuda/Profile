@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     border: 0;
@@ -10,9 +8,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.mycontainer {
+/* .mycontainer {
     background-color: rgb(160, 163, 154);
-}
+    background-color: rgb(65, 65, 65);
+    background-image: linear-gradient(to right, rgb(169, 170, 166), rgb(75, 77, 73)); 
+} */
 
 a {
     text-decoration: none;
@@ -24,12 +24,34 @@ p {
 
 
 
-.division {
+/* .division {
     background-color: rgb(216, 216, 216);
     height: 5px;
     width: 80%;
     margin: 20px auto 20px auto;
     box-shadow: 0px 0px 3px rgb(216, 216, 216);
+    display: block;
+    border-radius: 10px;
+} */
+
+.division {
+    background-color: rgb(209, 168, 31);
+    border-color: rgb(95, 61, 29);
+    height: 5px;
+    width: 60%;
+    margin: 20px auto 20px auto;
+    box-shadow: 0px 0px 2px rgb(95, 61, 29);
+    display: block;
+    border-radius: 10px;
+}
+
+.division2 {
+    background-color: rgb(209, 168, 31);
+    border-color: rgb(95, 61, 29);
+    height: 5px;
+    width: 50%;
+    margin: -14px auto 20px auto;
+    box-shadow: 0px 0px 2px rgb(95, 61, 29);
     display: block;
     border-radius: 10px;
 }
@@ -42,7 +64,13 @@ button {
 
 h1 {
     text-align: center;
-    color: rgb(216, 216, 216)
+    /* color: rgb(216, 216, 216); */
+    color: rgb(58, 52, 22);
+    background-image: radial-gradient(rgb(229, 206, 134),rgb(209, 168, 31));
+    width: 40%;
+    margin: 10px auto 10px auto;
+    box-shadow: 4px 4px 3px 2px rgb(104, 88, 47);
+    border-radius: 8px;
 }
 
 h3 {
@@ -64,7 +92,6 @@ img {
     width: auto;
 }
 
-
 .btn-success {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -73,6 +100,7 @@ img {
     line-height: 10px;
     box-shadow: 0px 0px 1px 2px black;
 }
+
 
 
 

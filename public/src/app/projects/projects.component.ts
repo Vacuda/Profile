@@ -17,5 +17,5 @@ export class ProjectsComponent implements OnInit {
     toTop(){
         document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
-
+    
 }

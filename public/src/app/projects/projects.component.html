@@ -1,142 +1,148 @@
 
-    <p class="elevator">
-        Focused game developer looking to become a vital part of a software development 
-        team.  Great balance between technical skills and soft skills.  Effective communicator 
-        as a leader and a colleague.  Highly adept at seeing how smaller details and components 
-        integrate with the larger whole.  Background in filmmaking, visual arts, and management.</p>
+        <p class="elevator">
+            Focused game developer looking to become a vital part of a software development 
+            team.  Great balance between technical skills and soft skills.  Effective communicator 
+            as a leader and a colleague.  Highly adept at seeing how smaller details and components 
+            integrate with the larger whole.  Background in filmmaking, visual arts, and management.</p>
+
+
     
 
 
     <div class="division"></div>
+    <div class="division2"></div>
+
 
 
 <div class="inner">
     
-    <div class="card">
+    <div class="card" [routerLink]="['/talismans']" (click)="toTop()">
         <div class="card-header">Talismans Of Genyatium</div>  
         <img src="assets/images/talismans/screenshot_talismans.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
-            <p class="card-text">Game I'm Currently Developing</p>
-            <button class="btn btn-success" [routerLink]="['/talismans']" (click)="toTop()">Check Me Out</button>
+            <p class="card-text">Developed with C++/Unreal</p>
         </div>
     </div>
-
-    <div class="card">
+    
+    <div class="card" [routerLink]="['/honey_hives']" (click)="toTop()">
         <div class="card-header">Honey Hives</div>  
         <img src="assets/images/honey_hives/screenshot_honeyhives.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
-            <p class="card-text">Game I'm Currently Developing</p>
-            <button class="btn btn-success" [routerLink]="['/honey_hives']" (click)="toTop()">Check Me Out</button>
+            <p class="card-text">Developed with C#/Unity</p>
         </div>
     </div>
 
-    <div class="card">
-        <div class="card-header">Unreal Engine</div>  
-        <img src="assets/images/unreal/screenshot.png" class="card-img-top" alt="Screenshot">
+    <div class="card" [routerLink]="['/crop_tool']" (click)="toTop()">
+        <div class="card-header">BMP Image Cropper</div>  
+        <img src="assets/images/crop_tool/screenshot_crop_tool.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
-            <p class="card-text">Game Engine Experience</p>
-            <button class="btn btn-success" [routerLink]="['/unreal']" (click)="toTop()">Check Me Out</button>
+            <p class="card-text">C++ Commandline Tool</p>
         </div>
     </div>
 
-    <div class="card">
-        <div class="card-header">Unity Engine</div>  
-        <img src="assets/images/unity/screenshot_unity.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Game Engine Experience</p>
-            <button class="btn btn-success" [routerLink]="['/unity']" (click)="toTop()">Check Me Out</button>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-header">Blender</div>  
-        <img src="assets/images/blender/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">3D Modeling Experience</p>
-            <button class="btn btn-success" [routerLink]="['/blender']" (click)="toTop()">Check Me Out</button>
-        </div>
-    </div>
-
-    <div class="card">
+    <div class="card" [routerLink]="['/swedish']" (click)="toTop()">
         <div class="card-header">Swedish Mountain Manicure</div>  
         <img src="assets/images/swedish_mountain_manicure/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Platformer Video Game</p>
-            <button class="btn btn-success" [routerLink]="['/swedish']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
     
-    <div class="card">
+    <div class="card" [routerLink]="['/unreal']" (click)="toTop()">
+        <div class="card-header">Unreal Engine</div>  
+        <img src="assets/images/unreal/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Game Engine Experience</p>
+        </div>
+    </div>
+
+    <div class="card" [routerLink]="['/unity']" (click)="toTop()">
+        <div class="card-header">Unity Engine</div>  
+        <img src="assets/images/unity/screenshot_unity.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">Game Engine Experience</p>
+        </div>
+    </div>
+
+    <div class="card" [routerLink]="['/blender']" (click)="toTop()">
+        <div class="card-header">Blender</div>  
+        <img src="assets/images/blender/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text">3D Modeling Experience</p>
+        </div>
+    </div>
+
+    
+    <!-- <div class="card">
         <div class="card-header">Hostility Skirmish (web)</div>  
         <img src="assets/images/hostility_skirmish/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Online Multiplayer Battle Game</p>
             <button class="btn btn-success" [routerLink]="['/hostility']" (click)="toTop()">Check Me Out</button>
         </div>
-    </div>
+    </div> -->
     
-    <div class="card">
+    <!-- <div class="card">
         <div class="card-header">Ninjaman</div>  
         <img src="assets/images/ninjaman/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Pacman Clone</p>
             <button class="btn btn-success" [routerLink]="['/ninjaman']" (click)="toTop()">Check Me Out</button>
         </div>
-    </div>
+    </div> -->
     
-    <div class="card">
+    <!-- <div class="card">
         <div class="card-header">Sacred Coins</div>  
         <img src="assets/images/sacred_coins/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Vast Choose-Your-Own-Adventure</p>
             <button class="btn btn-success" [routerLink]="['/sacred']" (click)="toTop()">Check Me Out</button>
         </div>
-    </div>
+    </div> -->
     
-    <div class="card">
+    <div class="card" [routerLink]="['/inventory']" (click)="toTop()">
         <div class="card-header">Inventory Shelf (web)</div>  
         <img src="assets/images/inventory_shelf/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Manage Inventory, Make Purchases</p>
-            <button class="btn btn-success" [routerLink]="['/inventory']" (click)="toTop()">Check Me Out</button>
         </div>
     </div>
 
-    <div class="card">
+    <!-- <div class="card">
         <div class="card-header">Coin Machine API (web)</div>  
         <img src="assets/images/coin_machine/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Basic CRUD for Coin Management</p>
             <button class="btn btn-success" [routerLink]="['/coin_machine']" (click)="toTop()">Check Me Out</button>
         </div>
-    </div>
+    </div> -->
 
-    <div class="card">
+    <!-- <div class="card">
         <div class="card-header">Diabetes Treatment App (web)</div>  
         <img src="assets/images/diabetes_treatment/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Medical Diagnosis Aid</p>
             <button class="btn btn-success" [routerLink]="['/diabetes']" (click)="toTop()">Check Me Out</button>
         </div>
-    </div>
+    </div> -->
 
-    <div class="card">
+    <!-- <div class="card">
         <div class="card-header">Wedding Planner (web)</div>  
         <img src="assets/images/wedding_planner/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Exercise with Login and Registration</p>
             <button class="btn btn-success" [routerLink]="['/wedding_planner']" (click)="toTop()">Check Me Out</button>
         </div>
-    </div>
+    </div> -->
 
-    <div class="card">
+    <!-- <div class="card">
         <div class="card-header">Jigsaw Registry (web)</div>  
         <img src="assets/images/jigsaw_registry/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
             <p class="card-text">Jigsaw Puzzle Hobby Organizer</p>
             <button class="btn btn-success" [routerLink]="['/jigsaw']" (click)="toTop()">Check Me Out</button>
         </div>
-    </div>
+    </div> -->
 
 
 

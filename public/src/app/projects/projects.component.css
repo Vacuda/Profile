@@ -16,7 +16,7 @@ img {
     text-align: center;
 }
 
-.division {
+/* .division {
     background-color: rgb(216, 216, 216);
     height: 5px;
     width: 80%;
@@ -24,7 +24,33 @@ img {
     box-shadow: 0px 0px 3px rgb(216, 216, 216);
     display: block;
     border-radius: 10px;
+} */
+
+.division {
+    background-color: rgb(209, 168, 31);
+    border-color: rgb(95, 61, 29);
+    height: 5px;
+    width: 60%;
+    margin: 20px auto 20px auto;
+    box-shadow: 0px 0px 2px rgb(95, 61, 29);
+    display: block;
+    border-radius: 10px;
 }
+
+.division2 {
+    background-color: rgb(209, 168, 31);
+    border-color: rgb(95, 61, 29);
+    height: 5px;
+    width: 50%;
+    margin: -14px auto 20px auto;
+    box-shadow: 0px 0px 2px rgb(95, 61, 29);
+    display: block;
+    border-radius: 10px;
+}
+
+/* .sammy{
+    background-image: radial-gradient(rgb(209, 168, 31),white 98%);
+} */
 
 p {
     text-align: center;
@@ -40,19 +66,26 @@ p {
     padding: 8px;
     /* font: pink; */
     display: block;
-    background-color: rgb(145, 145, 145);
-    /* background-color: rgb(160, 163, 154); */
-    /* background-image: radial-gradient(black,white); */
+    /* background-color: rgb(145, 145, 145); */
+    /* background-color: rgb(138, 117, 47); */
+    background-image: radial-gradient(rgb(229, 206, 134),rgb(209, 168, 31));
     /* background-image: linear-gradient(black 50%,white, black); */
 }
 
 .card {
-    background-color: rgb(216, 216, 216);
+    /* background-color: rgb(216, 216, 216); */
+    background-color: rgb(228, 226, 208);
     width: 40%;
     margin: 20px 0px;
-    height: 300px;
+    height: 200px;
     display: inline-block;
-    box-shadow: 0px 0px 3px 2px black;
+    box-shadow: 4px 4px 3px 2px rgb(104, 88, 47);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 6px 6px 3px 2px rgb(104, 88, 47);
 }
 
 .card-body {
@@ -106,7 +139,7 @@ button {
 @media only screen and (min-width: 481px) {
     .card {
         
-        height: 300px;
+        height: 200px;
         width: 46%;
         margin: 20px 2%;
         display: inline-block;
@@ -134,7 +167,7 @@ button {
  @media only screen and (min-width: 547px) {
     .card {
         
-        height: 300px;
+        height: 200px;
         width: 46%;
         margin: 20px 2%;
         display: inline-block;
@@ -161,7 +194,7 @@ button {
 @media only screen and (min-width: 1024px) {
     .card {
         width: 29.33%;
-        height: 300px;
+        height: 200px;
         margin: 20px 2%;
         display: inline-block;
     } 
