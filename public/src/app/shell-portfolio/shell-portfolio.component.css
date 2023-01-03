@@ -10,11 +10,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-/* .mycontainer {
-    background-color: rgb(160, 163, 154);
-    background-color: rgb(65, 65, 65);
-    background-image: linear-gradient(to right, rgb(169, 170, 166), rgb(75, 77, 73)); 
-} */
+.mycontainer {
+    /* background-color: rgb(160, 163, 154); */
+    /* background-color: rgb(65, 65, 65); */
+    /* background-image: linear-gradient(to right, rgb(169, 170, 166), rgb(75, 77, 73));  */
+    background-color: rgb(255, 255, 255); 
+}
 
 a {
     text-decoration: none;

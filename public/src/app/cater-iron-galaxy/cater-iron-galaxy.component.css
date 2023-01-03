@@ -10,10 +10,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-/* .mycontainer {
-    background-color: rgb(236, 219, 187); 
-    background-color: rgb(117, 112, 103); 
-} */
+.mycontainer {
+    /* background-color: rgb(236, 219, 187);  */
+    /* background-color: rgb(117, 112, 103);  */
+    background-color: rgb(255, 255, 255); 
+}
 
 a {
     text-decoration: none;
