@@ -1,0 +1,152 @@
+.inner {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    /* max-width: 90%; */
+    box-shadow: 0px 0px 3px 2px black;
+
+}
+
+iframe {
+    width: 80%;
+    display: block;
+    margin: 5px auto;
+    box-shadow: 0px 0px 7px black;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#footerlegal {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+
+.division {
+    background-color: rgb(209, 168, 31);
+    border-color: rgb(95, 61, 29);
+    height: 5px;
+    width: 60%;
+    margin: 20px auto 20px auto;
+    box-shadow: 0px 0px 2px rgb(95, 61, 29);
+    display: block;
+    border-radius: 10px;
+}
+
+.division2 {
+    background-color: rgb(209, 168, 31);
+    border-color: rgb(95, 61, 29);
+    height: 5px;
+    width: 50%;
+    margin: -14px auto 20px auto;
+    box-shadow: 0px 0px 2px rgb(95, 61, 29);
+    display: block;
+    border-radius: 10px;
+}
+
+h5 {
+    margin-top: 20px;
+}
+
+h4{
+    margin: 20px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.top {
+    width: 20%;
+    height: auto;
+}
+
+.btn-success {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 24px;
+    line-height: 10px;
+    box-shadow: 0px 0px 1px 2px black;
+}
+
+.btn-danger {
+    width: 40%;
+    margin-bottom: 20px;
+    height: 24px;
+    line-height: 10px;
+    box-shadow: 0px 0px 1px 2px black;
+}
+
+.img_sm{
+    width: 35%;
+}
+
+
+/* SMALL */
+
+@media only screen and (max-width: 480px) {
+
+    h5 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    iframe {
+        height: 30vh;
+    }
+
+    .btn-danger {
+        width: 100%;
+    }
+
+}
+    
+/* MEDIUM */
+
+@media only screen and (min-width: 481px) {
+
+    iframe {
+        height: 52vh;
+    }
+
+    .btn-danger {
+        width: 70%;
+    }
+
+}
+    
+/* LARGE */
+
+@media only screen and (min-width: 1024px) {
+
+    iframe {
+        height: 60vh;
+    }
+
+    .btn-danger {
+        width: 40%;
+    }
+
+}

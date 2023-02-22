@@ -27,6 +27,7 @@ import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talisman
 import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { CropToolComponent } from './crop-tool/crop-tool.component';
+import { BreakOutAgainComponent } from './break-out-again/break-out-again.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -54,6 +55,7 @@ const routes: Routes = [
             { path: 'unity',component: UnityComponent },
             { path: 'honey_hives',component: HoneyHivesComponent },
             { path: 'crop_tool',component: CropToolComponent },
+            { path: 'break_out_again',component: BreakOutAgainComponent },
         ]
      },
     { path: 'web',component: ShellPortfolioWebComponent,

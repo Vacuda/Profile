@@ -33,6 +33,7 @@ import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talisman
 import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { CropToolComponent } from './crop-tool/crop-tool.component';
+import { BreakOutAgainComponent } from './break-out-again/break-out-again.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { CropToolComponent } from './crop-tool/crop-tool.component';
     ShellTalismansWebComponent,
     UnityComponent,
     HoneyHivesComponent,
-    CropToolComponent
+    CropToolComponent,
+    BreakOutAgainComponent
   ],
   imports: [
     BrowserModule,
