@@ -8,17 +8,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ProjectsComponent } from './projects/projects.component';
 import { HostilityComponent } from './hostility/hostility.component';
-import { NinjamanComponent } from './ninjaman/ninjaman.component';
 import { SwedishComponent } from './swedish/swedish.component';
 import { SacredComponent } from './sacred/sacred.component';
 import { JigsawComponent } from './jigsaw/jigsaw.component';
 import { InventoryComponent } from './inventory/inventory.component';
-import { BooksComponent } from './books/books.component';
-import { GoldComponent } from './gold/gold.component';
 import { WeddingComponent } from './wedding/wedding.component';
-import { CakesComponent } from './cakes/cakes.component';
-import { ProdCatComponent } from './prod-cat/prod-cat.component';
-import { ProdManComponent } from './prod-man/prod-man.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
 import { CoinMachineComponent } from './coin-machine/coin-machine.component';
@@ -34,23 +28,18 @@ import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { CropToolComponent } from './crop-tool/crop-tool.component';
 import { BreakOutAgainComponent } from './break-out-again/break-out-again.component';
+import { FetchFriendComponent } from './fetch-friend/fetch-friend.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     HostilityComponent,
-    NinjamanComponent,
     SwedishComponent,
     SacredComponent,
     JigsawComponent,
     InventoryComponent,
-    BooksComponent,
-    GoldComponent,
     WeddingComponent,
-    CakesComponent,
-    ProdCatComponent,
-    ProdManComponent,
     PageNotFoundComponent,
     ShellPortfolioComponent,
     CoinMachineComponent,
@@ -65,7 +54,8 @@ import { BreakOutAgainComponent } from './break-out-again/break-out-again.compon
     UnityComponent,
     HoneyHivesComponent,
     CropToolComponent,
-    BreakOutAgainComponent
+    BreakOutAgainComponent,
+    FetchFriendComponent
   ],
   imports: [
     BrowserModule,

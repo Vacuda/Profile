@@ -2,17 +2,11 @@
 
 import { ProjectsComponent } from './projects/projects.component';
 import { HostilityComponent } from './hostility/hostility.component';
-import { NinjamanComponent } from './ninjaman/ninjaman.component';
 import { SwedishComponent } from './swedish/swedish.component';
 import { SacredComponent } from './sacred/sacred.component';
 import { JigsawComponent } from './jigsaw/jigsaw.component';
 import { InventoryComponent } from './inventory/inventory.component';
-import { BooksComponent } from './books/books.component';
-import { ProdCatComponent } from './prod-cat/prod-cat.component';
-import { GoldComponent } from './gold/gold.component';
 import { WeddingComponent } from './wedding/wedding.component';
-import { CakesComponent } from './cakes/cakes.component';
-import { ProdManComponent } from './prod-man/prod-man.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ShellPortfolioComponent } from './shell-portfolio/shell-portfolio.component';
 import { CoinMachineComponent } from './coin-machine/coin-machine.component';
@@ -28,6 +22,7 @@ import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { CropToolComponent } from './crop-tool/crop-tool.component';
 import { BreakOutAgainComponent } from './break-out-again/break-out-again.component';
+import { FetchFriendComponent } from './fetch-friend/fetch-friend.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -39,23 +34,18 @@ const routes: Routes = [
             { path: 'unreal',component: UnrealComponent },
             { path: 'blender',component: BlenderComponent },
             { path: 'hostility',component: HostilityComponent },
-            { path: 'ninjaman',component: NinjamanComponent },
             { path: 'swedish',component: SwedishComponent },
             { path: 'sacred',component: SacredComponent },
             { path: 'jigsaw',component: JigsawComponent },
             { path: 'inventory',component: InventoryComponent },
-            { path: 'books_authors',component: BooksComponent },
-            { path: 'products_categories',component: ProdCatComponent },
-            { path: 'gold_getter',component: GoldComponent },
             { path: 'wedding_planner',component: WeddingComponent },
-            { path: 'rate_my_cakes',component: CakesComponent },
-            { path: 'product_manager',component: ProdManComponent },
             { path: 'coin_machine',component: CoinMachineComponent },
             { path: 'diabetes',component: DiabetesComponent },
             { path: 'unity',component: UnityComponent },
             { path: 'honey_hives',component: HoneyHivesComponent },
             { path: 'crop_tool',component: CropToolComponent },
             { path: 'break_out_again',component: BreakOutAgainComponent },
+            { path: 'fetch_friend',component: FetchFriendComponent },
         ]
      },
     { path: 'web',component: ShellPortfolioWebComponent,
@@ -63,21 +53,16 @@ const routes: Routes = [
             { path: '',component: WebProjectsComponent },
             { path: 'hostility',component: HostilityComponent },
             // { path: 'talismans',component: TalismansComponent },
-            { path: 'ninjaman',component: NinjamanComponent },
             { path: 'swedish',component: SwedishComponent },
             { path: 'sacred',component: SacredComponent },
             { path: 'jigsaw',component: JigsawComponent },
             { path: 'inventory',component: InventoryComponent },
-            { path: 'books_authors',component: BooksComponent },
-            { path: 'products_categories',component: ProdCatComponent },
-            { path: 'gold_getter',component: GoldComponent },
             { path: 'wedding_planner',component: WeddingComponent },
-            { path: 'rate_my_cakes',component: CakesComponent },
-            { path: 'product_manager',component: ProdManComponent },
             { path: 'coin_machine',component: CoinMachineComponent },
             { path: 'diabetes',component: DiabetesComponent },
             { path: 'honey_hives',component: HoneyHivesComponent },
             { path: 'crop_tool',component: CropToolComponent },
+            { path: 'fetch_friend',component: FetchFriendComponent },
         ]
     },
     { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,

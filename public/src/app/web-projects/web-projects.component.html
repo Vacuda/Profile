@@ -10,19 +10,30 @@
 
 <div class="inner">
 
+    <div class="card" [routerLink]="['/web/fetch_friend']" (click)="toTop()">
+        <div class="card-header">Fetch A Friend</div>  
+        <img src="assets/images/fetch_friend/faf_screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text-tech">- Javascript / React -</p>
+            <p class="card-text">Dog Adoption App</p>
+        </div>
+    </div>
+
+    <div class="card" [routerLink]="['/web/inventory']" (click)="toTop()">
+        <div class="card-header">Inventory Shelf</div>  
+        <img src="assets/images/inventory_shelf/screenshot.png" class="card-img-top" alt="Screenshot">
+        <div class="card-body">
+            <p class="card-text-tech">- Typescript / Angular -</p>
+            <p class="card-text">Manage Inventory, Make Purchases</p>
+        </div>
+    </div>
+
     <div class="card" [routerLink]="['/web/talismans']" (click)="toTop()">
         <div class="card-header">Talismans Of Genyatium</div>  
         <img src="assets/images/talismans/screenshot_talismans.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
-            <p class="card-text">Developed with C++/Unreal</p>
-        </div>
-    </div>
-    
-    <div class="card" [routerLink]="['/web/inventory']" (click)="toTop()">
-        <div class="card-header">Inventory Shelf (web)</div>  
-        <img src="assets/images/inventory_shelf/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Manage Inventory, Make Purchases</p>
+            <p class="card-text-tech">- C++ / Unreal -</p>
+            <p class="card-text">Procedurally-Generated Jigsaw Game</p>
         </div>
     </div>
 
@@ -30,7 +41,8 @@
         <div class="card-header">Honey Hives</div>  
         <img src="assets/images/honey_hives/screenshot_honeyhives.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
-            <p class="card-text">Developed with C#/Unity</p>
+            <p class="card-text-tech">- C# / Unity -</p>
+            <p class="card-text">Procedurally-Generated Logic Game</p>
         </div>
     </div>
 
@@ -38,6 +50,7 @@
         <div class="card-header">Coin Machine API</div>  
         <img src="assets/images/coin_machine/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
+            <p class="card-text-tech">- Ruby On Rails -</p>
             <p class="card-text">Basic CRUD for Coin Management</p>
         </div>
     </div>
@@ -46,7 +59,8 @@
         <div class="card-header">BMP Image Cropper</div>  
         <img src="assets/images/crop_tool/screenshot_crop_tool.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
-            <p class="card-text">C++ Commandline Tool</p>
+            <p class="card-text-tech">- C++ -</p>
+            <p class="card-text">Commandline Tool To Crop Images</p>
         </div>
     </div>
 
@@ -54,38 +68,25 @@
         <div class="card-header">Diabetes Treatment App</div>  
         <img src="assets/images/diabetes_treatment/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
+            <p class="card-text-tech">- Typescript / Angular -</p>
             <p class="card-text">Medical Diagnosis Aid</p>
         </div>
     </div>
-
-    <!-- <div class="card" [routerLink]="['/web/swedish']" (click)="toTop()">
-        <div class="card-header">Swedish Mountain Manicure</div>  
-        <img src="assets/images/swedish_mountain_manicure/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Platformer Prototype</p>
-        </div>
-    </div> -->
 
     <div class="card" [routerLink]="['/web/wedding_planner']" (click)="toTop()">
         <div class="card-header">Wedding Planner</div>  
         <img src="assets/images/wedding_planner/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
-            <p class="card-text">Exercise with Login and Registration</p>
+            <p class="card-text-tech">- C# / .NET Core -</p>
+            <p class="card-text">Login and Registration Exercise</p>
         </div>
     </div>
-
-    <!-- <div class="card" [routerLink]="['/web/sacred']" (click)="toTop()">
-        <div class="card-header">Sacred Coins</div>  
-        <img src="assets/images/sacred_coins/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Vast Choose-Your-Own-Adventure</p>
-        </div>
-    </div> -->
 
     <div class="card" [routerLink]="['/web/jigsaw']" (click)="toTop()">
         <div class="card-header">Jigsaw Registry</div>  
         <img src="assets/images/jigsaw_registry/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
+            <p class="card-text-tech">- Python / Django -</p>
             <p class="card-text">Jigsaw Puzzle Hobby Organizer</p>
         </div>
     </div>
@@ -94,57 +95,10 @@
         <div class="card-header">Hostility Skirmish</div>  
         <img src="assets/images/hostility_skirmish/screenshot.png" class="card-img-top" alt="Screenshot">
         <div class="card-body">
+            <p class="card-text-tech">- C# / .NET Core -</p>
             <p class="card-text">Online Multiplayer Battle Game</p>
         </div>
     </div>
-
-    <div class="card" [routerLink]="['/web/ninjaman']" (click)="toTop()">
-        <div class="card-header">Ninjaman</div>  
-        <img src="assets/images/ninjaman/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Pacman Clone</p>
-        </div>
-    </div>
-
-    <!-- <div class="card" [routerLink]="['/web/books_authors']" (click)="toTop()">
-        <div class="card-header">Books and Authors</div>  
-        <img src="assets/images/books_authors/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Books and Authors Exercise</p>
-        </div>
-    </div> -->
-
-    <div class="card" [routerLink]="['/web/gold_getter']" (click)="toTop()">
-        <div class="card-header">Gold Getter</div>  
-        <img src="assets/images/gold_getter/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Gold-Getting Exercise with Python</p>
-        </div>
-    </div>
-
-    <!-- <div class="card" [routerLink]="['/web/rate_my_cakes']" (click)="toTop()">
-        <div class="card-header">Rate My Cakes</div>  
-        <img src="assets/images/rate_my_cakes/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Cake-Rating Exercise</p>
-        </div>
-    </div> -->
-
-    <!-- <div class="card" [routerLink]="['/web/products_categories']" (click)="toTop()">
-        <div class="card-header">Products and Categories</div>  
-        <img src="assets/images/products_categories/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Product and Category Exercise</p>
-        </div>
-    </div> -->
-
-    <!-- <div class="card" [routerLink]="['/web/product_manager']" (click)="toTop()">
-        <div class="card-header">Product Manager</div>  
-        <img src="assets/images/product_manager/screenshot.png" class="card-img-top" alt="Screenshot">
-        <div class="card-body">
-            <p class="card-text">Managing Products Exercise</p>
-        </div>
-    </div> -->
 
 </div>
 
