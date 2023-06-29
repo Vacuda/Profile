@@ -27,8 +27,8 @@ import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talisman
 import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { CropToolComponent } from './crop-tool/crop-tool.component';
-import { BreakOutAgainComponent } from './break-out-again/break-out-again.component';
 import { FetchFriendComponent } from './fetch-friend/fetch-friend.component';
+import { FantasticKnockAboutComponent } from './fantastic-knock-about/fantastic-knock-about.component';
 
 @NgModule({
   declarations: [
@@ -54,8 +54,8 @@ import { FetchFriendComponent } from './fetch-friend/fetch-friend.component';
     UnityComponent,
     HoneyHivesComponent,
     CropToolComponent,
-    BreakOutAgainComponent,
-    FetchFriendComponent
+    FetchFriendComponent,
+    FantasticKnockAboutComponent
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,18 @@ img {
     width: 80%;
     height: auto;
     /* max-width: 90%; */
-    box-shadow: 0px 0px 3px 2px black;
+    /* box-shadow: 0px 0px 7px 2px rgb(109, 72, 4); */
+    box-shadow: 0px 0px 7px 2px rgb(109, 72, 4);
+    border-radius: 15px;
+
+}
+
+.doglogo {
+    width: 30%;
+    height: auto;
+    box-shadow: 0px 0px 7px 2px rgb(109, 72, 4);
+    border-radius: 15px;
+    margin-bottom: 15px;
 
 }
 

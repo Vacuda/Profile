@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-break-out-again',
-  templateUrl: './break-out-again.component.html',
-  styleUrls: ['./break-out-again.component.css']
+  selector: 'app-fantastic-knock-about',
+  templateUrl: './fantastic-knock-about.component.html',
+  styleUrls: ['./fantastic-knock-about.component.css']
 })
-export class BreakOutAgainComponent implements OnInit {
+export class FantasticKnockAboutComponent implements OnInit {
 
     bIsWeb: boolean;
 
