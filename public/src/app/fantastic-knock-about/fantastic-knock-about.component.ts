@@ -18,4 +18,6 @@ export class FantasticKnockAboutComponent implements OnInit {
         document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
 
+    // TEST ADD FOR DEPLOYMENT
+
 }
