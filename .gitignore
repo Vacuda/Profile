@@ -305,5 +305,3 @@ VagrantFile
 bower_components/
 node_modules
 package-lock.json
-crop-tool.component.html
-honey-hives.component.html
