@@ -22,7 +22,7 @@ import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfoli
 import { BlenderComponent } from './blender/blender.component';
 import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
-import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
+//import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
 import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
 import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
@@ -49,7 +49,7 @@ import { FantasticKnockAboutComponent } from './fantastic-knock-about/fantastic-
     BlenderComponent,
     TalismansComponent,
     UnrealComponent,
-    CaterIronGalaxyComponent,
+    //CaterIronGalaxyComponent,
     ShellTalismansWebComponent,
     UnityComponent,
     HoneyHivesComponent,

@@ -16,7 +16,6 @@ import { ShellPortfolioWebComponent } from './shell-portfolio-web/shell-portfoli
 import { TalismansComponent } from './talismans/talismans.component';
 import { UnrealComponent } from './unreal/unreal.component';
 import { BlenderComponent } from './blender/blender.component';
-import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
 import { ShellTalismansWebComponent } from './shell-talismans-web/shell-talismans-web.component';
 import { UnityComponent } from './unity/unity.component';
 import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
@@ -65,14 +64,14 @@ const routes: Routes = [
             { path: 'fetch_friend',component: FetchFriendComponent },
         ]
     },
-    { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
-    children: [
-        { path: '',component: ProjectsComponent },
-    ]
+    // { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
+    // children: [
+    //     { path: '',component: ProjectsComponent },
+    // ]
 
 
 
-    },
+    // },
     { path: 'talismans',component: TalismansComponent,
     },
     { path: 'web/talismans',component: ShellTalismansWebComponent,
