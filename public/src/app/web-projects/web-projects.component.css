@@ -139,6 +139,18 @@ button {
         height: auto;
         margin: 15px auto 0px auto;
     }
+
+    .videogame {
+        text-align: center;
+        /* color: rgb(216, 216, 216); */
+        color: rgb(58, 52, 22);
+        background-image: radial-gradient(rgb(229, 206, 134),rgb(209, 168, 31));
+        width: 40%;
+        font-size: 20px;
+        margin: 10px auto 10px auto;
+        box-shadow: 4px 4px 3px 2px rgb(104, 88, 47);
+        border-radius: 8px;
+    }
  
     
 }
@@ -169,6 +181,17 @@ button {
         font-size: 14px;
     }
 
+    .videogame {
+        text-align: center;
+        /* color: rgb(216, 216, 216); */
+        color: rgb(58, 52, 22);
+        background-image: radial-gradient(rgb(229, 206, 134),rgb(209, 168, 31));
+        width: 40%;
+        font-size: 20px;
+        margin: 10px auto 10px auto;
+        box-shadow: 4px 4px 3px 2px rgb(104, 88, 47);
+        border-radius: 8px;
+    }
 
 }
 
@@ -204,6 +227,17 @@ button {
         width: auto;
     } */
 
+    .videogame {
+        text-align: center;
+        /* color: rgb(216, 216, 216); */
+        color: rgb(58, 52, 22);
+        background-image: radial-gradient(rgb(229, 206, 134),rgb(209, 168, 31));
+        width: 40%;
+        font-size: 20px;
+        margin: 10px auto 10px auto;
+        box-shadow: 4px 4px 3px 2px rgb(104, 88, 47);
+        border-radius: 8px;
+    }
 }
     
 /* LARGE */
@@ -229,7 +263,17 @@ button {
         font-size: 12px;
     }
 
-
+    .videogame {
+        text-align: center;
+        /* color: rgb(216, 216, 216); */
+        color: rgb(58, 52, 22);
+        background-image: radial-gradient(rgb(229, 206, 134),rgb(209, 168, 31));
+        width: 40%;
+        font-size: 20px;
+        margin: 10px auto 10px auto;
+        box-shadow: 4px 4px 3px 2px rgb(104, 88, 47);
+        border-radius: 8px;
+    }
 
 
 }
