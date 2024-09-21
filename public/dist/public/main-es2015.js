@@ -192,6 +192,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/receipts/receipts.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/receipts/receipts.component.html ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"inner\">\n\n    <!-- Switch For Regular Or Web Version -->\n    <div *ngIf=\"bIsWeb==true\">\n        <button class=\"btn btn-success\" [routerLink]=\"['/web']\">-Back-</button>\n    </div>\n    <div *ngIf=\"bIsWeb==false\">\n        <button class=\"btn btn-success\" [routerLink]=\"['/']\">-Back-</button>\n    </div>\n\n    <div class=\"division\"></div>\n    <div class=\"division2\"></div>\n\n        <h1>Receipt Processor</h1>\n\n        <p>This program analyzes information gathered from a receipt and determines the amount of points a customer would receive based on a number of rules.</p>\n        <p>It can be run either as a standalone program or a web service.</p>\n\n        <h4>Technologies</h4>\n        <p>Go</p>\n\n        <a class=\"btn btn-danger\" href=\"https://github.com/Vacuda/Receipts\">-Github-</a>\n\n    <!-- Switch For Regular Or Web Version -->\n    <div *ngIf=\"bIsWeb==true\">\n        <button class=\"btn btn-success\" [routerLink]=\"['/web']\" (click)=\"toTop()\">-Back-</button>\n    </div>\n    <div *ngIf=\"bIsWeb==false\">\n        <button class=\"btn btn-success\" [routerLink]=\"['/']\" (click)=\"toTop()\">-Back-</button>\n    </div>\n\n</div>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/sacred/sacred.component.html":
 /*!************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/sacred/sacred.component.html ***!
@@ -305,7 +318,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<p class=\"elevator\">\n    Focused developer looking to become a vital part of a software development \n    team.  Great balance between technical skills and soft skills.  Effective communicator \n    as a leader and a colleague.  Highly adept at seeing how smaller details and components \n    integrate with the larger whole.  Background in filmmaking, visual arts, and management.</p>\n\n<div class=\"division\"></div>\n<div class=\"division2\"></div>\n\n<div class=\"inner\">\n\n    <div class=\"card\" [routerLink]=\"['/web/fetch_friend']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Fetch A Friend</div>  \n        <img src=\"assets/images/fetch_friend/faf_screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Javascript / React -</p>\n            <p class=\"card-text\">Dog Adoption App</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/inventory']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Inventory Shelf</div>  \n        <img src=\"assets/images/inventory_shelf/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Typescript / Angular -</p>\n            <p class=\"card-text\">Manage Inventory, Make Purchases</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/coin_machine']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Coin Machine API</div>  \n        <img src=\"assets/images/coin_machine/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Ruby On Rails -</p>\n            <p class=\"card-text\">Basic CRUD for Coin Management</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/crop_tool']\" (click)=\"toTop()\">\n        <div class=\"card-header\">BMP Image Cropper</div>  \n        <img src=\"assets/images/crop_tool/screenshot_crop_tool.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C++ -</p>\n            <p class=\"card-text\">Commandline Tool To Crop Images</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/diabetes']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Diabetes Treatment App</div>  \n        <img src=\"assets/images/diabetes_treatment/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Typescript / Angular -</p>\n            <p class=\"card-text\">Medical Diagnosis Aid</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/wedding_planner']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Wedding Planner</div>  \n        <img src=\"assets/images/wedding_planner/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C# / .NET Core -</p>\n            <p class=\"card-text\">Login and Registration Exercise</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/jigsaw']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Jigsaw Registry</div>  \n        <img src=\"assets/images/jigsaw_registry/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Python / Django -</p>\n            <p class=\"card-text\">Jigsaw Puzzle Hobby Organizer</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/hostility']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Hostility Skirmish</div>  \n        <img src=\"assets/images/hostility_skirmish/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C# / .NET Core -</p>\n            <p class=\"card-text\">Online Multiplayer Battle Game</p>\n        </div>\n    </div>\n\n    <div class=\"division\"></div>\n    <div class=\"division2\"></div>\n\n    <div class=\"videogame\">Video Game Development</div>\n\n    <div class=\"card\" [routerLink]=\"['/web/talismans']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Talismans Of Genyatium</div>  \n        <img src=\"assets/images/talismans/screenshot_talismans.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C++ / Unreal -</p>\n            <p class=\"card-text\">Procedurally-Generated Jigsaw Game</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/honey_hives']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Honey Hives</div>  \n        <img src=\"assets/images/honey_hives/screenshot_honeyhives.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C# / Unity -</p>\n            <p class=\"card-text\">Procedurally-Generated Logic Game</p>\n        </div>\n    </div>\n\n\n</div>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<p class=\"elevator\">\n    Focused developer looking to become a vital part of a software development \n    team.  Great balance between technical skills and soft skills.  Effective communicator \n    as a leader and a colleague.  Highly adept at seeing how smaller details and components \n    integrate with the larger whole.  Background in filmmaking, visual arts, and management.</p>\n\n<div class=\"division\"></div>\n<div class=\"division2\"></div>\n\n<div class=\"inner\">\n\n    <div class=\"card\" [routerLink]=\"['/web/fetch_friend']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Fetch A Friend</div>  \n        <img src=\"assets/images/fetch_friend/faf_screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Javascript / React -</p>\n            <p class=\"card-text\">Dog Adoption App</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/inventory']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Inventory Shelf</div>  \n        <img src=\"assets/images/inventory_shelf/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Typescript / Angular -</p>\n            <p class=\"card-text\">Manage Inventory, Make Purchases</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/coin_machine']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Coin Machine API</div>  \n        <img src=\"assets/images/coin_machine/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Ruby On Rails -</p>\n            <p class=\"card-text\">Basic CRUD for Coin Management</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/crop_tool']\" (click)=\"toTop()\">\n        <div class=\"card-header\">BMP Image Cropper</div>  \n        <img src=\"assets/images/crop_tool/screenshot_crop_tool.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C++ -</p>\n            <p class=\"card-text\">Commandline Tool To Crop Images</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/receipts']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Receipt Processor</div>  \n        <img src=\"assets/images/receipts/screenshot_receipts.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Go -</p>\n            <p class=\"card-text\">Web Service For Receipt Processing</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/diabetes']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Diabetes Treatment App</div>  \n        <img src=\"assets/images/diabetes_treatment/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Typescript / Angular -</p>\n            <p class=\"card-text\">Medical Diagnosis Aid</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/wedding_planner']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Wedding Planner</div>  \n        <img src=\"assets/images/wedding_planner/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C# / .NET Core -</p>\n            <p class=\"card-text\">Login and Registration Exercise</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/jigsaw']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Jigsaw Registry</div>  \n        <img src=\"assets/images/jigsaw_registry/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- Python / Django -</p>\n            <p class=\"card-text\">Jigsaw Puzzle Hobby Organizer</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/hostility']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Hostility Skirmish</div>  \n        <img src=\"assets/images/hostility_skirmish/screenshot.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C# / .NET Core -</p>\n            <p class=\"card-text\">Online Multiplayer Battle Game</p>\n        </div>\n    </div>\n\n    <div class=\"division\"></div>\n    <div class=\"division2\"></div>\n\n    <div class=\"videogame\">Video Game Development</div>\n\n    <div class=\"card\" [routerLink]=\"['/web/talismans']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Talismans Of Genyatium</div>  \n        <img src=\"assets/images/talismans/screenshot_talismans.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C++ / Unreal -</p>\n            <p class=\"card-text\">Procedurally-Generated Jigsaw Game</p>\n        </div>\n    </div>\n\n    <div class=\"card\" [routerLink]=\"['/web/honey_hives']\" (click)=\"toTop()\">\n        <div class=\"card-header\">Honey Hives</div>  \n        <img src=\"assets/images/honey_hives/screenshot_honeyhives.png\" class=\"card-img-top\" alt=\"Screenshot\">\n        <div class=\"card-body\">\n            <p class=\"card-text-tech\">- C# / Unity -</p>\n            <p class=\"card-text\">Procedurally-Generated Logic Game</p>\n        </div>\n    </div>\n\n\n</div>\n\n");
 
 /***/ }),
 
@@ -584,8 +597,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _crop_tool_crop_tool_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./crop-tool/crop-tool.component */ "./src/app/crop-tool/crop-tool.component.ts");
 /* harmony import */ var _fetch_friend_fetch_friend_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./fetch-friend/fetch-friend.component */ "./src/app/fetch-friend/fetch-friend.component.ts");
 /* harmony import */ var _fantastic_knock_about_fantastic_knock_about_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./fantastic-knock-about/fantastic-knock-about.component */ "./src/app/fantastic-knock-about/fantastic-knock-about.component.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _receipts_receipts_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./receipts/receipts.component */ "./src/app/receipts/receipts.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
 
 
 
@@ -648,6 +663,7 @@ const routes = [
             { path: 'honey_hives', component: _honey_hives_honey_hives_component__WEBPACK_IMPORTED_MODULE_19__["HoneyHivesComponent"] },
             { path: 'crop_tool', component: _crop_tool_crop_tool_component__WEBPACK_IMPORTED_MODULE_20__["CropToolComponent"] },
             { path: 'fetch_friend', component: _fetch_friend_fetch_friend_component__WEBPACK_IMPORTED_MODULE_21__["FetchFriendComponent"] },
+            { path: 'receipts', component: _receipts_receipts_component__WEBPACK_IMPORTED_MODULE_23__["ReceiptsComponent"] },
         ]
     },
     // { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,
@@ -664,9 +680,9 @@ const routes = [
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_23__["NgModule"])({
-        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_24__["RouterModule"].forRoot(routes)],
-        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_24__["RouterModule"]]
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_24__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_25__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_25__["RouterModule"]]
     })
 ], AppRoutingModule);
 
@@ -768,6 +784,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _crop_tool_crop_tool_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./crop-tool/crop-tool.component */ "./src/app/crop-tool/crop-tool.component.ts");
 /* harmony import */ var _fetch_friend_fetch_friend_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./fetch-friend/fetch-friend.component */ "./src/app/fetch-friend/fetch-friend.component.ts");
 /* harmony import */ var _fantastic_knock_about_fantastic_knock_about_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./fantastic-knock-about/fantastic-knock-about.component */ "./src/app/fantastic-knock-about/fantastic-knock-about.component.ts");
+/* harmony import */ var _receipts_receipts_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./receipts/receipts.component */ "./src/app/receipts/receipts.component.ts");
 
 
 
@@ -792,6 +809,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 //import { CaterIronGalaxyComponent } from './cater-iron-galaxy/cater-iron-galaxy.component';
+
 
 
 
@@ -826,7 +844,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _honey_hives_honey_hives_component__WEBPACK_IMPORTED_MODULE_25__["HoneyHivesComponent"],
             _crop_tool_crop_tool_component__WEBPACK_IMPORTED_MODULE_26__["CropToolComponent"],
             _fetch_friend_fetch_friend_component__WEBPACK_IMPORTED_MODULE_27__["FetchFriendComponent"],
-            _fantastic_knock_about_fantastic_knock_about_component__WEBPACK_IMPORTED_MODULE_28__["FantasticKnockAboutComponent"]
+            _fantastic_knock_about_fantastic_knock_about_component__WEBPACK_IMPORTED_MODULE_28__["FantasticKnockAboutComponent"],
+            _receipts_receipts_component__WEBPACK_IMPORTED_MODULE_29__["ReceiptsComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -1406,6 +1425,50 @@ ProjectsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./projects.component.css */ "./src/app/projects/projects.component.css")).default]
     })
 ], ProjectsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/receipts/receipts.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/receipts/receipts.component.css ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".inner {\r\n    margin: 0 auto;\r\n    display: block;\r\n    text-align: center;\r\n}\r\n\r\nimg {\r\n    width: 80%;\r\n    height: auto;\r\n    /* max-width: 90%; */\r\n    box-shadow: 0px 0px 3px 2px black;\r\n\r\n}\r\n\r\nh5 {\r\n    margin-top: 20px;\r\n}\r\n\r\nh1 {\r\n    text-decoration: underline;\r\n}\r\n\r\n.top {\r\n    width: 20%;\r\n    height: auto;\r\n}\r\n\r\n.btn-success {\r\n    margin-top: 20px;\r\n    margin-bottom: 20px;\r\n    width: 30%;\r\n    height: 24px;\r\n    line-height: 10px;\r\n    box-shadow: 0px 0px 1px 2px black;\r\n}\r\n\r\n.btn-danger {\r\n    width: 30%;\r\n    margin-bottom: 20px;\r\n    height: 24px;\r\n    line-height: 10px;\r\n    box-shadow: 0px 0px 1px 2px black;\r\n}\r\n\r\n.division {\r\n    background-color: rgb(209, 168, 31);\r\n    border-color: rgb(95, 61, 29);\r\n    height: 5px;\r\n    width: 60%;\r\n    margin: 20px auto 20px auto;\r\n    box-shadow: 0px 0px 2px rgb(95, 61, 29);\r\n    display: block;\r\n    border-radius: 10px;\r\n}\r\n\r\n.division2 {\r\n    background-color: rgb(209, 168, 31);\r\n    border-color: rgb(95, 61, 29);\r\n    height: 5px;\r\n    width: 50%;\r\n    margin: -14px auto 20px auto;\r\n    box-shadow: 0px 0px 2px rgb(95, 61, 29);\r\n    display: block;\r\n    border-radius: 10px;\r\n}\r\n\r\n@media only screen and (max-width: 480px) {\r\n\r\n    h5 {\r\n        font-size: 30px;\r\n    }\r\n\r\n    p {\r\n        font-size: 20px;\r\n    }\r\n    \r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVjZWlwdHMvcmVjZWlwdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxjQUFjO0lBQ2Qsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksVUFBVTtJQUNWLFlBQVk7SUFDWixvQkFBb0I7SUFDcEIsaUNBQWlDOztBQUVyQzs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJLFVBQVU7SUFDVixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixVQUFVO0lBQ1YsWUFBWTtJQUNaLGlCQUFpQjtJQUNqQixpQ0FBaUM7QUFDckM7O0FBRUE7SUFDSSxVQUFVO0lBQ1YsbUJBQW1CO0lBQ25CLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsaUNBQWlDO0FBQ3JDOztBQUVBO0lBQ0ksbUNBQW1DO0lBQ25DLDZCQUE2QjtJQUM3QixXQUFXO0lBQ1gsVUFBVTtJQUNWLDJCQUEyQjtJQUMzQix1Q0FBdUM7SUFDdkMsY0FBYztJQUNkLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLG1DQUFtQztJQUNuQyw2QkFBNkI7SUFDN0IsV0FBVztJQUNYLFVBQVU7SUFDViw0QkFBNEI7SUFDNUIsdUNBQXVDO0lBQ3ZDLGNBQWM7SUFDZCxtQkFBbUI7QUFDdkI7O0FBRUE7O0lBRUk7UUFDSSxlQUFlO0lBQ25COztJQUVBO1FBQ0ksZUFBZTtJQUNuQjs7QUFFSiIsImZpbGUiOiJzcmMvYXBwL3JlY2VpcHRzL3JlY2VpcHRzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaW5uZXIge1xyXG4gICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuaW1nIHtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAvKiBtYXgtd2lkdGg6IDkwJTsgKi9cclxuICAgIGJveC1zaGFkb3c6IDBweCAwcHggM3B4IDJweCBibGFjaztcclxuXHJcbn1cclxuXHJcbmg1IHtcclxuICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbn1cclxuXHJcbmgxIHtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcblxyXG4udG9wIHtcclxuICAgIHdpZHRoOiAyMCU7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuXHJcbi5idG4tc3VjY2VzcyB7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxuICAgIHdpZHRoOiAzMCU7XHJcbiAgICBoZWlnaHQ6IDI0cHg7XHJcbiAgICBsaW5lLWhlaWdodDogMTBweDtcclxuICAgIGJveC1zaGFkb3c6IDBweCAwcHggMXB4IDJweCBibGFjaztcclxufVxyXG5cclxuLmJ0bi1kYW5nZXIge1xyXG4gICAgd2lkdGg6IDMwJTtcclxuICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbiAgICBoZWlnaHQ6IDI0cHg7XHJcbiAgICBsaW5lLWhlaWdodDogMTBweDtcclxuICAgIGJveC1zaGFkb3c6IDBweCAwcHggMXB4IDJweCBibGFjaztcclxufVxyXG5cclxuLmRpdmlzaW9uIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyMDksIDE2OCwgMzEpO1xyXG4gICAgYm9yZGVyLWNvbG9yOiByZ2IoOTUsIDYxLCAyOSk7XHJcbiAgICBoZWlnaHQ6IDVweDtcclxuICAgIHdpZHRoOiA2MCU7XHJcbiAgICBtYXJnaW46IDIwcHggYXV0byAyMHB4IGF1dG87XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDJweCByZ2IoOTUsIDYxLCAyOSk7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbn1cclxuXHJcbi5kaXZpc2lvbjIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIwOSwgMTY4LCAzMSk7XHJcbiAgICBib3JkZXItY29sb3I6IHJnYig5NSwgNjEsIDI5KTtcclxuICAgIGhlaWdodDogNXB4O1xyXG4gICAgd2lkdGg6IDUwJTtcclxuICAgIG1hcmdpbjogLTE0cHggYXV0byAyMHB4IGF1dG87XHJcbiAgICBib3gtc2hhZG93OiAwcHggMHB4IDJweCByZ2IoOTUsIDYxLCAyOSk7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbn1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDgwcHgpIHtcclxuXHJcbiAgICBoNSB7XHJcbiAgICAgICAgZm9udC1zaXplOiAzMHB4O1xyXG4gICAgfVxyXG5cclxuICAgIHAge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIH1cclxuICAgIFxyXG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/receipts/receipts.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/receipts/receipts.component.ts ***!
+  \************************************************/
+/*! exports provided: ReceiptsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReceiptsComponent", function() { return ReceiptsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ReceiptsComponent = class ReceiptsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ReceiptsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-receipts',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./receipts.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/receipts/receipts.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./receipts.component.css */ "./src/app/receipts/receipts.component.css")).default]
+    })
+], ReceiptsComponent);
 
 
 

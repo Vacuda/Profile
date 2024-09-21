@@ -22,6 +22,7 @@ import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { CropToolComponent } from './crop-tool/crop-tool.component';
 import { FetchFriendComponent } from './fetch-friend/fetch-friend.component';
 import { FantasticKnockAboutComponent } from './fantastic-knock-about/fantastic-knock-about.component';
+import { ReceiptsComponent } from './receipts/receipts.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -62,6 +63,7 @@ const routes: Routes = [
             { path: 'honey_hives',component: HoneyHivesComponent },
             { path: 'crop_tool',component: CropToolComponent },
             { path: 'fetch_friend',component: FetchFriendComponent },
+            { path: 'receipts',component: ReceiptsComponent },
         ]
     },
     // { path: 'i_want_to_work_for_iron_galaxy',component: CaterIronGalaxyComponent,

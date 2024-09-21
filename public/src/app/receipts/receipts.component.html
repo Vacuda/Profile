@@ -1,0 +1,32 @@
+<div class="inner">
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']">-Back-</button>
+    </div>
+
+    <div class="division"></div>
+    <div class="division2"></div>
+
+        <h1>Receipt Processor</h1>
+
+        <p>This program analyzes information gathered from a receipt and determines the amount of points a customer would receive based on a number of rules.</p>
+        <p>It can be run either as a standalone program or a web service.</p>
+
+        <h4>Technologies</h4>
+        <p>Go</p>
+
+        <a class="btn btn-danger" href="https://github.com/Vacuda/Receipts">-Github-</a>
+
+    <!-- Switch For Regular Or Web Version -->
+    <div *ngIf="bIsWeb==true">
+        <button class="btn btn-success" [routerLink]="['/web']" (click)="toTop()">-Back-</button>
+    </div>
+    <div *ngIf="bIsWeb==false">
+        <button class="btn btn-success" [routerLink]="['/']" (click)="toTop()">-Back-</button>
+    </div>
+
+</div>

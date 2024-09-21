@@ -29,6 +29,7 @@ import { HoneyHivesComponent } from './honey-hives/honey-hives.component';
 import { CropToolComponent } from './crop-tool/crop-tool.component';
 import { FetchFriendComponent } from './fetch-friend/fetch-friend.component';
 import { FantasticKnockAboutComponent } from './fantastic-knock-about/fantastic-knock-about.component';
+import { ReceiptsComponent } from './receipts/receipts.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { FantasticKnockAboutComponent } from './fantastic-knock-about/fantastic-
     HoneyHivesComponent,
     CropToolComponent,
     FetchFriendComponent,
-    FantasticKnockAboutComponent
+    FantasticKnockAboutComponent,
+    ReceiptsComponent
   ],
   imports: [
     BrowserModule,
